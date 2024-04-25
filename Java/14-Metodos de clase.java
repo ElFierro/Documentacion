@@ -1,7 +1,7 @@
 /Estático versus público
 //A menudo verá programas Java que tienen atributos y métodos staticos o publicos.
 //A un método static se puede acceder a él sin crear un objeto de la clase, a diferencia de public, 
-        //al que solo se puede acceder mediante objetos:
+//al que solo se puede acceder mediante objetos:
 
 public class Main {
   // Static method
