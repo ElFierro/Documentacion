@@ -25,7 +25,6 @@
      }
    }
  
-  
   class Main {
    public static void main(String[] args) {
       Animal myAnimal = new Animal();  // Create a Animal object
