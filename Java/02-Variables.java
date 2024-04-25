@@ -1,18 +1,18 @@
-VARIABLES
-//Declaracion de variables:
+//VARIABLES
+//DECLARACION DE VARIABLES:
 int a,b,c;
 float pi;
 
-//Variables finales
+//VARIABLES FINALES
 final int PI = 3,1416;
 
-//Inicializacion de variables:
+//INICIALIZACION DE VARIABLES:
 int a=2,b=4,c=6;
 float pi=3.14f;
 double do=20.22d;
  char a=’v’;
 
-//Tipos de variables
+//TIPOS DE VARIABLES
 class Guru99 {
   static int a = 1; //static variable  
   int data = 99; //instance variable  
