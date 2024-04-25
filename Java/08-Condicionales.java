@@ -1,37 +1,39 @@
-//if statement
-if (day == " Monday") // Condition
-  {
-    // Decision
-    System.out.println("Go to School");
-  }
+//CONDICIONALES
 
-//else if statement
-if (myDay == " Sunny")
-  {
-    // Decision
-    System.out.println("Read in the Library");
-  }
-  // 2nd condition
-else if (myday == "Raining")
-  {
-    //decision
-    System.out.println("Read at Home")
-  }
+ //IF
+ if (day == " Monday") // Condition
+   {
+     // Decision
+     System.out.println("Go to School");
+   }
 
-//else statement
-if (myDay == " Sunny")//condition
-  {
-    // Decision
-    System.out.println("Read in the Library");
-  }
-else
-  {
-    System.out.println("Get some Sleep")// Default Decision
-  }
+ //ELSE IF
+  if (myDay == " Sunny")
+   {
+     // Decision
+     System.out.println("Read in the Library");
+   }
+   // 2nd condition
+  else if (myday == "Raining")
+   {
+     //decision
+     System.out.println("Read at Home")
+   }
 
-//switch
-int myDay = 4; // setting the value to test
-switch (myDay)
+ //ELSE
+  if (myDay == " Sunny")//condition
+   {
+     // Decision
+     System.out.println("Read in the Library");
+   }
+  else
+   {
+     System.out.println("Get some Sleep")// Default Decision
+   }
+
+ //SWITCH
+  int myDay = 4; // setting the value to test
+  switch (myDay)
   {
     case 1:
       System.out.println("Read in the Library");
@@ -44,5 +46,5 @@ switch (myDay)
       break;
     }
 
-//Ternary
-res=(num1>num2) ? (num1+num2):(num1-num2)
+ //TERMARIO
+  res=(num1>num2) ? (num1+num2):(num1-num2)
