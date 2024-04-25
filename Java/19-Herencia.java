@@ -1,6 +1,6 @@
 //Herencia
-		//En Java es posible heredar atributos y métodos de una clase a otra.
-        //Agrupamos el “concepto de herencia” en dos categorías:
+	//En Java es posible heredar atributos y métodos de una clase a otra.
+	//Agrupamos el “concepto de herencia” en dos categorías:
 
 		subclase (secundaria): la clase que hereda de otra clase
 		superclase (padre): la clase de la que se hereda
