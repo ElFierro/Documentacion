@@ -46,7 +46,7 @@ Muy a menudo, en programación, necesitará un tipo de datos que solo pueda tene
 - ENCENDIDO APAGADO
 - VERDADERO FALSO
 
-Para esto, Java tiene un booleantipo de datos, que solo puede tomar los valores true o false:
+Para esto, Java tiene un tipo de dato boolean, que solo puede tomar los valores true o false:
 
 ```ssh
 boolean isJavaFun = true;

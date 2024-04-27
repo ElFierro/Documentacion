@@ -11,26 +11,28 @@ En Java existen diferentes tipos de variables, por ejemplo:
 ## Declaracion de variables:
 
 Sintaxis:
+
 ```ssh
 type variableName = value;
 ```
 Ejemplos:
-```ssh
+```java
 int a,b,c;
 float pi;
 ```
 
 ## Variables finales:
 
- Si no desea que otros (o usted mismo) sobrescriban los valores existentes, use la finalpalabra clave (esto declarará la variable como "final" o "constante", lo que significa que no se puede cambiar y es de solo lectura):
-  final int PI = 3,1416;
-```ssh
-final int myNum = 15;
+Si no desea que otros (o usted mismo) sobrescriban los valores existentes, use la finalpalabra clave (esto declarará la variable como "final" o "constante", lo que significa que no se puede cambiar y es de solo lectura):
+
+
+```java
+final int PI = 3,1416;
 ```
 
 ## Inicializacion de variables:
 
-```ssh
+```java
 int a=2,b=4,c=6;
 float pi=3.14f;
 double do=20.22d;
@@ -38,7 +40,7 @@ char a=’v’;
 ```
 ## Tipos de variables:
 
- ```ssh
+ ```java
 class Guru99 {
   static int a = 1; //static variable  
   int data = 99; //instance variable  
