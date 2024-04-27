@@ -55,7 +55,7 @@ public class Main {
 }
 ```
 
-#### Sobrecarga de metodos
+## Sobrecarga de metodos
 Con la sobrecarga de métodos, varios métodos pueden tener el mismo nombre con diferentes parámetros:
 ```java
 int myMethod(int x)
@@ -63,7 +63,7 @@ float myMethod(float x)
 double myMethod(double x, double y)
 ```
 
-#### Recursividad
+## Recursividad
 La recursión es la técnica de hacer que una función se llame a sí misma. 
 ```java   
 public static int sum(int k) {
