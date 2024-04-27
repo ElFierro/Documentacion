@@ -5,15 +5,28 @@
  //WHILE
   //El whilebucle recorre un bloque de código siempre que una condición especificada sea true:
 
-   while (i < 5) {
+  //Sintaxis
+  while (condition) {
+    // code block to be executed
+  }
+
+  //Ejemplo
+  while (i < 5) {
 	  System.out.println(i);
 	  i++;
-   }
+  }
 
  //DO WHILE
   //Este bucle ejecutará el bloque de código una vez, antes de verificar
   //si la condición es verdadera, luego repetirá 
 
+  //Sintaxis
+  do {
+    // code block to be executed
+  }
+  while (condition);
+
+  //Ejemplo
   do {
    System.out.println(i);
    i++;
@@ -24,6 +37,12 @@
   //Cuando sepa exactamente cuántas veces desea recorrer un bloque de código,
   //use el bucle for en lugar de un bucle while:
 
+  //Sintaxis
+  for (statement 1; statement 2; statement 3) {
+    // code block to be executed
+  }
+
+  //Ejemplo
   for (int i = 0; i < 5; i++) {
    System.out.println(i);
   }
@@ -39,8 +58,13 @@
   }  
 
  //FOR-EACH
-  //que se utiliza exclusivamente para recorrer los elementos de una matriz :
+  //Sintaxis
+  for (type variableName : arrayName) {
+    // code block to be executed
+  }
 
+  //Ejemplo
+  //que se utiliza exclusivamente para recorrer los elementos de una matriz :
    String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
    for (String i : cars) {
     System.out.println(i);
@@ -48,6 +72,7 @@
 
  //BREAK
   //La declaración break también se puede utilizar para salir de un bucle.
+  //Ejemplo
    for (int i = 0; i < 10; i++) {
    if (i == 4) {
      break;
@@ -58,6 +83,7 @@
  //CONTINUE
   //interrumpe una iteración, si se produce una condición específica, 
   //y continúa con la siguiente iteración en el bucle.
+  //Ejemplo
    for (int i = 0; i < 10; i++) {
     if (i == 4) {
      continue;
