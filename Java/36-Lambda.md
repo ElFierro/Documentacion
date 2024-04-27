@@ -4,13 +4,19 @@ Una expresión lambda es un bloque corto de código que toma parámetros y devue
 La expresión lambda más simple contiene un único parámetro y una expresión:
 
 ```ssh
-  parameter -> expression
+parameter -> expression
 ```
 
 Para utilizar más de un parámetro, envuélvalos entre paréntesis:
 
 ```ssh
-  (parameter1, parameter2) -> expression
+(parameter1, parameter2) -> expression
+```
+
+Las expresiones son limitadas. Deben devolver inmediatamente un valor y no pueden contener variables, asignaciones o declaraciones como ifo for. Para realizar operaciones más complejas, se puede utilizar un bloque de código con llaves. Si la expresión lambda necesita devolver un valor, entonces el bloque de código debe tener una declaración return.
+
+```ssh
+(parameter1, parameter2) -> { code block }
 ```
 
 #### Uso de expresiones lambda
