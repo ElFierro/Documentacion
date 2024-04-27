@@ -2,12 +2,12 @@
 
 Ya sabes que Java soporta las condiciones lógicas habituales de las matemáticas:
 
-- Menos que: a < b
-- Menor o igual a: a <= b
-- Mayor que: a > b
+- Menos que:       a < b
+- Menor o igual:   a: a <= b
+- Mayor que:       a > b
 - Mayor o igual a: a >= b
-- Igual a a == b
-- No es igual a: a != b
+- Igual a:         a == b
+- No es igual a:   a != b
 
 Puede utilizar estas condiciones para realizar diferentes acciones para diferentes decisiones.
 
