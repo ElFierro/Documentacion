@@ -48,23 +48,23 @@ for (String i : cars) {
 
 ## Matrices multidimensionales
 Una matriz multidimensional es una matriz de matrices.
-## Declarar
+#### Declarar
 ```java  
 int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };
 ```
-## Acceder
+#### Acceder
 Especifique dos índices: uno para la matriz y otro para el elemento dentro de esa matriz.
 
 ```java
   myNumbers[1][2]; // Outputs 7
 ```
 
-## Cambiar valores
+#### Cambiar valores
 ```java
 myNumbers[1][2] = 9;
 ```
 
-## Recorrer
+#### Recorrer
 ```java
 for (int i = 0; i < myNumbers.length; ++i) {
   for(int j = 0; j < myNumbers[i].length; ++j) {
