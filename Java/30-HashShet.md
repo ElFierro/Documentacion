@@ -59,9 +59,12 @@ cars.size();
 
 #### Recorrer
 Recorre los elementos de un HashSetcon un bucle for-each :
+
+```java  
 for (String i : cars) {
   System.out.println(i);
 }
+```
 
 #### Otros tipos
 Los elementos de un HashSet son en realidad objetos. 
