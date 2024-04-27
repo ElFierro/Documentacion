@@ -10,14 +10,14 @@ En Java existen diferentes tipos de variables, por ejemplo:
 
 ## Declaracion de variables:
 
-Sintaxis
+Sintaxis:
 ```ssh
 type variableName = value;
 ```
-Ejemplos
+Ejemplos:
 ```ssh
-  int a,b,c;
-  float pi;
+int a,b,c;
+float pi;
 ```
 
 ## Variables finales:
@@ -25,25 +25,25 @@ Ejemplos
  Si no desea que otros (o usted mismo) sobrescriban los valores existentes, use la finalpalabra clave (esto declarará la variable como "final" o "constante", lo que significa que no se puede cambiar y es de solo lectura):
   final int PI = 3,1416;
 ```ssh
-  final int myNum = 15;
+final int myNum = 15;
 ```
 
 ## Inicializacion de variables:
 
 ```ssh
-  int a=2,b=4,c=6;
-  float pi=3.14f;
-  double do=20.22d;
-  char a=’v’;
+int a=2,b=4,c=6;
+float pi=3.14f;
+double do=20.22d;
+char a=’v’;
 ```
 ## Tipos de variables:
 
  ```ssh
 class Guru99 {
-   static int a = 1; //static variable  
-   int data = 99; //instance variable  
-   void method() {
-      int b = 90; //local variable  
-   }
+  static int a = 1; //static variable  
+  int data = 99; //instance variable  
+  void method() {
+    int b = 90; //local variable  
+  }
 }
 ```
