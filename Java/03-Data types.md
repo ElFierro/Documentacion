@@ -24,7 +24,7 @@ double myNum = 19.99d;
 #### Decimales:
 Debe utilizar un tipo de coma flotante siempre que necesite un número con un decimal, como 9,99 o 3,14515.
 
-Los tipos de datos floaty doublepueden almacenar números fraccionarios. Tenga en cuenta que debe finalizar el valor con una "f" para flotantes y una "d" para dobles:
+Los tipos de datos floa ty double pueden almacenar números fraccionarios. Tenga en cuenta que debe finalizar el valor con una "f" para flotantes y una "d" para dobles:
 
 ```ssh
 float f1 = 35e3f;		//35000.0
@@ -33,7 +33,9 @@ double d1 = 12E4d;		//120000.0
 
 ###### Nota:
 ```ssh
-La precisión de floates de sólo seis o siete dígitos decimales, mientras que doublelas variables tienen una precisión de unos 15 dígitos. Por lo tanto, es más seguro utilizarlo double para la mayoría de los cálculos.
+La precisión de floates de sólo seis o siete dígitos decimales, mientras que las variables double 
+tienen una precisión de unos 15 dígitos. Por lo tanto, es más seguro utilizar double para la mayoría 
+de los cálculos.
 ```
 
 #### Booleanos:
