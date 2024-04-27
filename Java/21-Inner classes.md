@@ -40,7 +40,8 @@ public class Main {
 }
 ```
 
-//Clase interna estatica
+#### Clase interna estatica
+
 Una clase interna también puede ser static, lo que significa que puedes acceder a ella sin crear un objeto de la clase externa:
 ```java
 class OuterClass {

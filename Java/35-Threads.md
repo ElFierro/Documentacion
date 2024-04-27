@@ -10,7 +10,7 @@ Hay dos formas de crear un hilo.
 ```java
 public class Main extends Thread {
   public void run() {
- System.out.println("This code is running in a thread");
+    System.out.println("This code is running in a thread");
   } 
 }
 ```
@@ -20,7 +20,7 @@ public class Main extends Thread {
 ```java
 public class Main implements Runnable {
   public void run() {
- System.out.println("This code is running in a thread");
+    System.out.println("This code is running in a thread");
   }
 }
 ```
@@ -96,15 +96,16 @@ public class Main extends Thread {
     thread.start();
     // Wait for the thread to finish
     while(thread.isAlive()) {
-    System.out.println("Waiting...");
-  }
+      System.out.println("Waiting...");
+    }
     // Update amount and print its value
     System.out.println("Main: " + amount);
     amount++;
     System.out.println("Main: " + amount);
-    }
-    public void run() {
-      amount++;
-    }
   }
+
+  public void run() {
+      amount++;
+  }
+}
 ```

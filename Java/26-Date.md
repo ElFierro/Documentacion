@@ -1,10 +1,21 @@
 ## Fecha y hora
 Java no tiene una clase de fecha incorporada, pero podemos importar el java.time paquete para que funcione con la API de fecha y hora
 
-- LocalDate            //Representa una fecha (año, mes, día (aaaa-MM-dd))
-- LocalTime            //Representa un tiempo (hora, minuto, segundo y nanosegundos (HH-mm-ss-ns))
-- LocalDateTime        //Representa tanto una fecha como una hora (aaaa-MM-dd-HH-mm-ss-ns)
-- DateTimeFormatter    //Formateador para mostrar y analizar objetos de fecha y hora
+- LocalDate            
+
+  Representa una fecha (año, mes, día (aaaa-MM-dd))
+
+- LocalTime            
+
+  Representa un tiempo (hora, minuto, segundo y nanosegundos (HH-mm-ss-ns))
+
+- LocalDateTime        
+
+  Representa tanto una fecha como una hora (aaaa-MM-dd-HH-mm-ss-ns)
+
+- DateTimeFormatter    
+
+  Formateador para mostrar y analizar objetos de fecha y hora
   
 ## Mostrar fecha actual
 

@@ -2,11 +2,11 @@
 Las variables son contenedores para almacenar valores de datos.
 En Java existen diferentes tipos de variables, por ejemplo:
 
-- String- almacena texto, como "Hola". Los valores de cadena están entre comillas dobles.
-- int- almacena números enteros (números enteros), sin decimales, como 123 o -123
-- float- almacena números de coma flotante, con decimales, como 19,99 o -19,99
-- char- almacena caracteres individuales, como 'a' o 'B'. Los valores de caracteres están entre comillas simples.
-- boolean- almacena valores con dos estados: verdadero o falso
+- **String** : almacena texto, como "Hola". Los valores de cadena están entre comillas dobles.
+- **int** : almacena números enteros (números enteros), sin decimales, como 123 o -123
+- **float** : almacena números de coma flotante, con decimales, como 19,99 o -19,99
+- **char** : almacena caracteres individuales, como 'a' o 'B'. Los valores de caracteres están entre comillas simples.
+- **boolean** : almacena valores con dos estados: verdadero o falso
 
 ## Declaracion de variables:
 

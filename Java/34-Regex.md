@@ -9,9 +9,17 @@ Las expresiones regulares se pueden utilizar para realizar todo tipo de operacio
  EL paquete java.util.regex para que funcione con expresiones regulares. 
  El paquete incluye las siguientes clases:
 
-- Clase Pattern                 //define un patrón (que se utilizará en una búsqueda)
-- Clase Matcher                 //se utiliza para buscar el patrón.
-- Clase PatternSyntaxException  //indica un error de sintaxis en un patrón de expresión regular
+- Clase Pattern                 
+
+  define un patrón (que se utilizará en una búsqueda)
+
+- Clase Matcher            
+
+  se utiliza para buscar el patrón.
+
+- Clase PatternSyntaxException  
+  
+  indica un error de sintaxis en un patrón de expresión regular
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -41,7 +49,7 @@ Las banderas en el método compile() cambian la forma en que se realiza la búsq
 - Pattern.LITERAL           
   
   Los caracteres especiales del patrón se tratarán como caracteres normales al realizar una búsqueda.
-  
+
 - Pattern.UNICODE_CASE      
 
   Úselo junto con la bandera CASE_INSENSITIVE para ignorar también el caso de letras fuera del alfabeto inglés.
