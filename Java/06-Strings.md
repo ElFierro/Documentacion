@@ -36,18 +36,18 @@ System.out.println(firstName + " " + lastName);
 ```
 También puedes usar el concat()método para concatenar dos cadenas:
 ```java
-  String firstName = "John", lastName = "Doe";
+String firstName = "John", lastName = "Doe";
 
-  firstName + " " + lastName		//John Doe
-  firstName.concat(lastName)
+firstName + " " + lastName		//John Doe
+firstName.concat(lastName)
 ```
 #### Caracteres especiales
 El carácter de escape de barra invertida (\) convierte los caracteres especiales en caracteres de cadena:
 ```java
-  "It\'s alright."		//It\'s alright.
-  "one \\ (backslash)."	//one \ (backslash).
-  "Hello\nWorld!"			//Hello
-  							//World
-  "Hello\tWorld!"			//Hello 	World!
-  "Hello \bWorld!"		//HelloWorld!
+"It\'s alright."		//It\'s alright.
+"one \\ (backslash)."   //one \ (backslash).
+"Hello\nWorld!"			//Hello
+  						//World
+"Hello\tWorld!"			//Hello 	World!
+"Hello \bWorld!"		//HelloWorld!
 ```
