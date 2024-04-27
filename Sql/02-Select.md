@@ -14,6 +14,7 @@ Ejemplos:
 ```sql
 SELECT CustomerName, City FROM Customers;
 
---Si desea devolver todas las columnas, sin especificar cada nombre de columna, puede utilizar la sintaxis SELECT *:
+--Si desea devolver todas las columnas, sin especificar cada nombre de columna,
+-- puede utilizar la sintaxis SELECT *:
 SELECT * FROM Customers;
 ```

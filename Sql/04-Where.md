@@ -5,9 +5,9 @@ Se utiliza para extraer sólo aquellos registros que cumplen una condición espe
 Sintaxis:
 
 ```sql
-  SELECT column1, column2, ...
-  FROM table_name
-  WHERE condition;
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
 ```
 
 Ejemplo:
@@ -15,15 +15,15 @@ Ejemplo:
 Seleccione todos los clientes de México:
 
 ```sql
-   SELECT * FROM Customers
-   WHERE Country='Mexico';
+SELECT * FROM Customers
+WHERE Country='Mexico';
 ```
 
 Seleccione todos los clientes con un CustomerID superior a 80:
 
 ```sql
-   SELECT * FROM Customers
-   WHERE CustomerID > 80;
+SELECT * FROM Customers
+WHERE CustomerID > 80;
 ```
 
 La cláusula WHERE no solo se usa en sentencias SELECT, también se usa en UPDATE, DELETE, etc.
