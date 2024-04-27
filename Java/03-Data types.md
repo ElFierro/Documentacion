@@ -12,7 +12,7 @@ Los tipos de números primitivos se dividen en dos grupos:
 
 - Los tipos de coma flotante representan números con una parte fraccionaria que contienen uno o más decimales. Hay dos tipos: float y double.
 
-```ssh
+```java
 byte myNum = 100;
 short myNum = 5000;
 int myNum = 100000;
@@ -26,7 +26,7 @@ Debe utilizar un tipo de coma flotante siempre que necesite un número con un de
 
 Los tipos de datos floa ty double pueden almacenar números fraccionarios. Tenga en cuenta que debe finalizar el valor con una "f" para flotantes y una "d" para dobles:
 
-```ssh
+```java
 float f1 = 35e3f;		//35000.0
 double d1 = 12E4d;		//120000.0
 ```
@@ -48,7 +48,7 @@ Muy a menudo, en programación, necesitará un tipo de datos que solo pueda tene
 
 Para esto, Java tiene un tipo de dato boolean, que solo puede tomar los valores true o false:
 
-```ssh
+```java
 boolean isJavaFun = true;
 boolean isFishTasty = false;
 ```
@@ -56,7 +56,8 @@ boolean isFishTasty = false;
 #### Caracteres:
 
 El tipo de datos char se utiliza para almacenar un solo carácter. El carácter debe estar entre comillas simples, como 'A' o 'c':
-```ssh
+
+```java
 char myGrade = 'B';		
 char myVar1 = 65, myVar2 = 66, myVar3 = 67;	
 ```
@@ -65,7 +66,7 @@ char myVar1 = 65, myVar2 = 66, myVar3 = 67;
 
 El tipo de datos String se utiliza para almacenar una secuencia de caracteres (texto). Los valores de cadena deben estar entre comillas dobles:
 
-```ssh
+```java
 String greeting = "Hello World";
 System.out.println(greeting);
 ```

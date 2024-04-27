@@ -16,6 +16,7 @@ Sintaxis:
 type variableName = value;
 ```
 Ejemplos:
+
 ```java
 int a,b,c;
 float pi;
@@ -25,11 +26,9 @@ float pi;
 
 Si no desea que otros (o usted mismo) sobrescriban los valores existentes, use la finalpalabra clave (esto declarará la variable como "final" o "constante", lo que significa que no se puede cambiar y es de solo lectura):
 
-
 ```java
 final int PI = 3,1416;
 ```
-
 ## Inicializacion de variables:
 
 ```java
@@ -38,6 +37,7 @@ float pi=3.14f;
 double do=20.22d;
 char a=’v’;
 ```
+
 ## Tipos de variables:
 
  ```java
