@@ -22,7 +22,7 @@ txt.toLowerCase();   	//"hello world"
 ```
 
 #### Encontrar palabras
-El indexOf()método devuelve el índice (la posición) de la primera aparición de un texto específico en una cadena (incluidos los espacios en blanco):
+El método indexOf() devuelve el índice (la posición) de la primera aparición de un texto específico en una cadena (incluidos los espacios en blanco):
 ```java
 txt.indexOf("world")	//6
 ```
@@ -44,7 +44,7 @@ firstName + " " + lastName		//John Doe
 firstName.concat(lastName)
 ```
 #### Caracteres especiales
-El carácter de escape de barra invertida (\) convierte los caracteres especiales en caracteres de cadena:
+El carácter de escape de barra invertida ( \ ) convierte los caracteres especiales en caracteres de cadena:
 
 ```java
 \n	New Line	
