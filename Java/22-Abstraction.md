@@ -54,4 +54,5 @@ class Main {
 ```
 #### ¿Por qué y cuándo utilizar clases y métodos abstractos?
 Para lograr seguridad, oculte ciertos detalles y muestre solo los detalles importantes de un objeto.
+
 **Nota:** La abstracción también se puede lograr con Interfaces
