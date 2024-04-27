@@ -28,14 +28,14 @@ txt.indexOf("world")	//6
 ```
 #### Concatenacion
 
-El +operador se puede utilizar entre cadenas para combinarlas. Esto se llama concatenación :
+El operador + se puede utilizar entre cadenas para combinarlas. Esto se llama concatenación :
 ```java
 String firstName = "John";
 String lastName = "Doe";
 System.out.println(firstName + " " + lastName);
 ```
 
-También puedes usar el concat()método para concatenar dos cadenas:
+También puedes usar el método **concat()** para concatenar dos cadenas:
 
 ```java
 String firstName = "John", lastName = "Doe";

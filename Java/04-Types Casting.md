@@ -4,7 +4,7 @@ La conversión de tipos es cuando asigna un valor de un tipo de datos primitivo 
 
 En Java, existen dos tipos de conversión:
 
-Ampliación de conversión (automáticamente): conversión de un tipo más pequeño a un tamaño de tipo más grande
+- **Ampliación de conversión (automáticamente)**: conversión de un tipo más pequeño a un tamaño de tipo más grande
 byte-> short-> char-> int-> long-> float->double
 
 ```java
@@ -13,7 +13,7 @@ int myInt = 9;
 double myDouble = myInt;
 ```
 
-Reducción de conversión (manualmente): conversión de un tipo más grande a un tipo de tamaño más pequeño
+- **Reducción de conversión (manualmente)**: conversión de un tipo más grande a un tipo de tamaño más pequeño
 double-> float-> long-> int-> char-> short->byte
 
 ```java
