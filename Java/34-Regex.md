@@ -34,6 +34,14 @@ public class Main {
 #### Banderas
 Las banderas en el método compile() cambian la forma en que se realiza la búsqueda. Éstos son algunos de ellos:
 
-- Pattern.CASE_INSENSITIVE  //Se ignorarán las mayúsculas y minúsculas de las letras al realizar una búsqueda.
-- Pattern.LITERAL           //Los caracteres especiales del patrón se tratarán como caracteres normales al realizar una búsqueda.
-- Pattern.UNICODE_CASE      //Úselo junto con la bandera CASE_INSENSITIVE para ignorar también el caso de letras fuera del alfabeto inglés.
+- Pattern.CASE_INSENSITIVE  
+
+  Se ignorarán las mayúsculas y minúsculas de las letras al realizar una búsqueda.
+
+- Pattern.LITERAL           
+  
+  Los caracteres especiales del patrón se tratarán como caracteres normales al realizar una búsqueda.
+  
+- Pattern.UNICODE_CASE      
+
+  Úselo junto con la bandera CASE_INSENSITIVE para ignorar también el caso de letras fuera del alfabeto inglés.

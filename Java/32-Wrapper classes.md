@@ -15,7 +15,7 @@ char    Character
 A veces debes usar clases contenedoras, por ejemplo cuando trabajas con objetos de Colección, como ArrayList, donde no se pueden usar tipos primitivos
 
 ```java
-   ArrayList<Integer> myNumbers = new ArrayList<Integer>(); // Valid
+ArrayList<Integer> myNumbers = new ArrayList<Integer>(); // Valid
 ```
 
 #### Crear objetos envolventes
