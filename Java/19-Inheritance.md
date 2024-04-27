@@ -24,7 +24,8 @@ class Car extends Vehicle {
     // Call the honk() method (from the Vehicle class) on the myCar object
     myCar.honk();
 
-    // Display the value of the brand attribute (from the Vehicle class) and the value of the modelName from the Car class
+    // Display the value of the brand attribute (from the Vehicle class) 
+    //and the value of the modelName from the Car class
     System.out.println(myCar.brand + " " + myCar.modelName);
   }
 }
@@ -33,6 +34,8 @@ class Car extends Vehicle {
 #### La palabra clave final
 Si no desea que otras clases hereden de una clase, utilice la finalpalabra clave:
 
+```java
 final class Vehicle {
   ...
 }
+```
