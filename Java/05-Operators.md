@@ -1,6 +1,7 @@
 ## Operadores
+Los operadores se utilizan para realizar operaciones con variables y valores.
 
- int x = 5, y = 3;
+int x = 5, y = 3;
    	
 #### Aritmeticos
 Los operadores aritméticos se utilizan para realizar operaciones matemáticas comunes.
@@ -29,7 +30,7 @@ x &= y      //1
 x |= y      //7
 x ^= y      //6
 x >>= y     //0
-x <<= y 	//40
+x <<= y 	  //40
 
 ```
 
@@ -51,7 +52,7 @@ También puede probar valores true o false con operadores lógicos.
 
 ```java
 X=5
-x < 3 && x < 10 	//AND  
+x < 3 && x < 10 	  //AND  
 x < 3 || x < 4      //OR
 !(x < 3 && x < 10)  //NOT 
 ```
