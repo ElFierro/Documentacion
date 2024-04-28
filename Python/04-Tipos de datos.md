@@ -8,21 +8,28 @@ Python tiene los siguientes tipos de datos integrados de forma predeterminada, e
 
 
 - Tipo de texto:	      
-  str
+    str
+
 - Tipos numéricos:	  
-  int, float, complex
+    int, float, complex
+
 - Tipos de secuencia:	  
-  list, tuple, range
+    list, tuple, range
+
 - Tipo de mapeo:	      
-  dict
+    dict
+
 - Tipos de conjuntos:	  
-  set,frozenset
+    set,frozenset
+
 - Tipo booleano:	      
-  bool
+    bool
+
 - Tipos binarios:	      
-  bytes, bytearray, memoryview
+    bytes, bytearray, memoryview
+
 - Ninguno Tipo:	      
-  NoneType
+    NoneType
 
 #### Configuración del tipo de datos
 
