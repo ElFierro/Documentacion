@@ -20,7 +20,7 @@ FROM Customers
 WHERE Country = 'Spain' AND CustomerName LIKE 'G%';
 ```
 
-#### Combinaciones:
+## Combinaciones:
 
 Ejemplo And y Or: 
 

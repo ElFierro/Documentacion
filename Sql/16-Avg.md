@@ -20,7 +20,7 @@ FROM Products
 WHERE CategoryID = 1;
 ```
 
-#### Mas alto que el promedio
+## Mas alto que el promedio
 
 Devolver todos los productos con un precio superior al precio medio:
 
@@ -36,7 +36,7 @@ SELECT AVG(Price) AS [average price]
 FROM Products;
 ```
 
-#### Avg con group by
+## Avg con group by
 
 ```sql
 SELECT AVG(Price) AS AveragePrice, CategoryID

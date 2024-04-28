@@ -15,7 +15,7 @@ BACKUP DATABASE testDB
 TO DISK = 'D:\backups\testDB.bak';
 ```
 
-#### Sentencia backup con diferencial:
+## Sentencia backup con diferencial:
 
 Una copia de seguridad diferencial solo respalda las partes de la base de datos que han cambiado desde la última copia de seguridad completa de la base de datos.
 

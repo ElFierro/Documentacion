@@ -19,7 +19,7 @@ SELECT * FROM Products
 RDER BY ProductName;
 ```
 
-#### DESC
+## DESC
 
 La palabra clave ORDER BY ordena los registros en orden ascendente de forma predeterminada. Para ordenar los registros en orden descendente, utilice la palabra clave DESC.
   
@@ -39,7 +39,7 @@ SELECT * FROM Customers
 ORDER BY Country, CustomerName;
 ```
 
-#### Combinaciones:
+## Combinaciones:
 
 Ejemplos Desc y Asc:
 

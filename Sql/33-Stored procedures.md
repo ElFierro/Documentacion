@@ -1,6 +1,6 @@
 ## Procedimientos almacenados
 
-#### Create procedures
+## Create procedures
 
 Un procedimiento almacenado es un código SQL preparado que puede guardar, de modo que el código pueda reutilizarse una y otra vez.
 También puede pasar parámetros a un procedimiento almacenado, de modo que el procedimiento almacenado pueda actuar en función de los valores de parámetro que se pasan.
@@ -35,7 +35,7 @@ Ejecutar:
 EXEC SelectAllCustomers;
 ```
 
-#### Con parametro:
+## Con parametro:
 
 ```sql
 CREATE PROCEDURE SelectAllCustomers @City nvarchar(30)
@@ -50,7 +50,7 @@ Ejecutar:
 EXEC SelectAllCustomers @City = 'London';
 ```
 
-#### Con multiples parametros:
+## Con multiples parametros:
 
 ```sql
 CREATE PROCEDURE SelectAllCustomers @City nvarchar(30), @PostalCode nvarchar(10)

@@ -27,7 +27,7 @@ FROM Products
 WHERE Price > 20;
 ```
 
-#### Distinct
+## Distinct
  
 Puede ignorar los duplicados utilizando la palabra clave DISTINCT en la función COUNT.
 

@@ -27,7 +27,7 @@ CREATE TABLE Persons (
 )
 ```
 
-#### Creando tabla de otra tabla:
+## Creando tabla de otra tabla:
 
 ```ssh
 CREATE TABLE new_table_name AS

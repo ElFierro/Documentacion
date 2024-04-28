@@ -27,7 +27,7 @@ CREATE TABLE Orders (
 );
 ```
 
-#### En varias columnas:
+## En varias columnas:
 
 ```sql
 CREATE TABLE Orders (
@@ -40,7 +40,7 @@ CREATE TABLE Orders (
 );
 ```
 
-#### Foreign key en alter table
+## Foreign key en alter table
   
 Para crear una restricción FOREIGN KEY en la columna "PersonID" cuando la tabla "Pedidos" ya está creada, utilice el siguiente SQL:
 
@@ -57,7 +57,7 @@ ADD CONSTRAINT FK_PersonOrder
 FOREIGN KEY (PersonID) REFERENCES Persons(PersonID);
 ```
 
-#### Eliminar restriccion extranjera
+## Eliminar restriccion extranjera
 
 Para eliminar una restricción FOREIGN KEY, utilice el siguiente SQL:
 

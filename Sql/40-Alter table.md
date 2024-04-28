@@ -3,7 +3,7 @@
 La sentencia ALTER TABLE se utiliza para agregar, eliminar o modificar columnas en una tabla existente.
 La sentencia ALTER TABLE también se utiliza para agregar y eliminar varias restricciones en una tabla existente.
 
-#### Añadir columna:
+## Añadir columna:
 
 Sintaxis:
 
@@ -19,7 +19,7 @@ ALTER TABLE Customers
 ADD Email varchar(255);
 ```
 
-#### Eliminar columna:
+## Eliminar columna:
 
 Sintaxis:
 
@@ -35,7 +35,7 @@ ALTER TABLE Customers
 DROP COLUMN Email;
 ```
 
-#### Renombrar columna:
+## Renombrar columna:
 
 Sintaxis:
 ```ssh
@@ -48,7 +48,7 @@ Servidor SQL:
 EXEC sp_rename 'table_name.old_name',  'new_name', 'COLUMN';
 ```
 
-#### Modificar datos:
+## Modificar datos:
 
 Servidor SQL/Acceso MS:
 

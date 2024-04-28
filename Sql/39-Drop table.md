@@ -16,7 +16,7 @@ La siguiente sentencia SQL elimina la tabla existente "Shippers":
 DROP TABLE Shippers;
 ```
 
-#### Truncate
+## Truncate
 
 La sentencia TRUNCATE TABLE se utiliza para eliminar los datos dentro de una tabla, pero no la tabla en sí.
 

@@ -29,7 +29,7 @@ CREATE TABLE Persons (
 );
 ```
 
-#### Varias columnas:
+## Varias columnas:
 
 ```sql
 CREATE TABLE Persons (
@@ -41,7 +41,7 @@ CREATE TABLE Persons (
 );
 ```
 
-#### Unique en un alter table:
+## Unique en un alter table:
 
 Para crear una restricción UNIQUE en la columna "ID" cuando la tabla ya está creada, use el siguiente SQL:
 
@@ -57,7 +57,7 @@ ALTER TABLE Persons
 ADD CONSTRAINT UC_Person UNIQUE (ID,LastName);
 ```
 
-#### Eliminar unique
+## Eliminar unique
 
 Para eliminar una restricción UNIQUE, utilice el siguiente SQL:
 

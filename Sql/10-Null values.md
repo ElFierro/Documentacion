@@ -2,7 +2,7 @@
  
 No es posible probar valores NULL con operadores de comparación, como =, < o <>.
    
-#### IS NULL
+## IS NULL
 
 El operador IS NULL se utiliza para probar valores vacíos (valores NULL).
 
@@ -24,7 +24,7 @@ FROM Customers
 WHERE Address IS NULL;
 ```
 
-#### IS NOT NULL
+## IS NOT NULL
 
 El operador IS NOT NULL se utiliza para probar valores que no estén vacíos (NO valores NULOS).
 

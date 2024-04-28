@@ -9,7 +9,7 @@
 - -Representa cualquier carácter dentro del rango especificado *
 - {} Representa cualquier carácter escapado **
 
-#### %
+## %
  
 El comodín % representa cualquier número de caracteres, incluso cero caracteres.
 
@@ -22,7 +22,7 @@ SELECT * FROM Customers
 WHERE CustomerName LIKE '%mer%';
 ```
 
-#### _
+## _
 
 El comodín _ representa un solo carácter.
 
@@ -35,7 +35,7 @@ SELECT * FROM Customers
 WHERE City LIKE 'L___on';
 ```
 
-#### []
+## []
 
 Ejemplo:
 
@@ -46,7 +46,7 @@ SELECT * FROM Customers
 WHERE CustomerName LIKE '[bsp]%';
 ```
 
-#### -
+## -
 
 El comodín - le permite especificar una variedad de caracteres dentro del comodín [].
 
@@ -59,7 +59,7 @@ SELECT * FROM Customers
 WHERE CustomerName LIKE '[a-f]%';
 ```
 
-#### Combinar
+## Combinar
 
 Cualquier comodín, como % y _ , se puede utilizar en combinación con otros comodines.
 
@@ -72,7 +72,7 @@ SELECT * FROM Customers
 WHERE CustomerName LIKE 'a__%';
 ```
 
-#### Sin comodin
+## Sin comodin
 
 Si no se especifica ningún comodín, la frase debe tener una coincidencia exacta para devolver un resultado.
 

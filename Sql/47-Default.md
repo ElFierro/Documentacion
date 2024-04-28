@@ -16,7 +16,7 @@ CREATE TABLE Persons (
 );
 ```
 
-#### Default en alter table
+## Default en alter table
 
 Para crear una DEFAULTrestricción en la columna "Ciudad" cuando la tabla ya está creada, use el siguiente SQL:
 
@@ -35,7 +35,7 @@ ADD CONSTRAINT df_City
 DEFAULT 'Sandnes' FOR City;
 ```
 
-#### Eliminar una restriccion default
+## Eliminar una restriccion default
 
 Para eliminar una restricción DEFAULT, utilice el siguiente SQL:
 

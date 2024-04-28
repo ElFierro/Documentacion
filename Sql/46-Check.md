@@ -29,7 +29,7 @@ CREATE TABLE Persons (
 );
 ```
 
-#### En varias columnas:
+## En varias columnas:
 
 ```sql
 CREATE TABLE Persons (
@@ -42,7 +42,7 @@ CREATE TABLE Persons (
 );
 ```
 
-#### Check en alter table
+## Check en alter table
 
 Para crear una restricción CHECK en la columna "Edad" cuando la tabla ya está creada, use el siguiente SQL:
 
@@ -58,7 +58,7 @@ ALTER TABLE Persons
 ADD CONSTRAINT CHK_PersonAge CHECK (Age>=18 AND City='Sandnes');
 ```
 
-#### Eliminar restricciones check
+## Eliminar restricciones check
 
 Para eliminar una restricción CHECK, utilice el siguiente SQL:
 

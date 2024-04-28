@@ -20,7 +20,7 @@ FROM table_name AS alias_name;
 
 Ejemplos:
 
-#### Alias para columnas:
+## Alias para columnas:
 
 La siguiente instrucción SQL crea dos alias, uno para la columna CustomerID y otro para la columna CustomerName:
 
@@ -29,7 +29,7 @@ SELECT CustomerID AS ID, CustomerName AS Customer
 FROM Customers;
 ```
 
-#### Alias con espacios:
+## Alias con espacios:
 
 Si desea que su alias contenga uno o más espacios, como "My Great Products", encierre su alias entre corchetes o comillas dobles.
     
@@ -47,7 +47,7 @@ SELECT ProductName AS "My Great Products"
 FROM Products;
 ```
 
-#### Concatenar alias:
+## Concatenar alias:
 
 La siguiente sentencia SQL crea un alias denominado "Dirección" que combina cuatro columnas (Dirección, Código postal, Ciudad y País):
 
@@ -56,21 +56,21 @@ SELECT CustomerName, Address + ', ' + PostalCode + ' ' + City + ', ' + Country A
 FROM Customers;
 ```
 
-#### MySQL
+## MySQL
 
 ```sql
 SELECT CustomerName, CONCAT(Address,', ',PostalCode,', ',City,', ',Country) AS Address
 FROM Customers;
 ```
 
-#### ORACLE
+## ORACLE
 
 ```sql
 SELECT CustomerName, (Address || ', ' || PostalCode || ' ' || City || ', ' || Country) AS Address
 FROM Customers;
 ```
 
-#### Alias para tablas:
+## Alias para tablas:
   
 Se aplican las mismas reglas cuando desea utilizar un alias para una tabla.
 

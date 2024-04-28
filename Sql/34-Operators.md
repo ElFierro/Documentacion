@@ -1,6 +1,6 @@
 ## Operadores
 
-#### Aritmeticos:
+## Aritmeticos:
 
 ```sql
 +  --Add 
@@ -10,7 +10,7 @@
 %  --Modulo
 ```
 
-#### Bit
+## Bit
 
 ```sql
 &  --Bitwise AND
@@ -18,7 +18,7 @@
 ^  --Bitwise exclusive OR
 ```
 
-#### Comparacion:
+## Comparacion:
 
 ```sql
 =  --Equal to 
@@ -29,7 +29,7 @@
 <> --Not equal to
 ```
 
-#### Compuestos: 
+## Compuestos: 
 
 ```sql
 +=  --Add equals
@@ -42,7 +42,7 @@
 |*= --Bitwise OR equals
 ```
 
-#### Logicos:
+## Logicos:
 
 ```sql
 ALL      --VERDADERO si todos los valores de la subconsulta cumplen la condición

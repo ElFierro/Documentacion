@@ -17,7 +17,7 @@ SELECT * FROM Customers
 WHERE NOT Country = 'Spain';
 ```
 
-#### Combinaciones:
+## Combinaciones:
 
 Ejemplo not like:
 

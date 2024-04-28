@@ -28,7 +28,7 @@ WHERE CustomerID > 80;
 
 La cláusula WHERE no solo se usa en sentencias SELECT, también se usa en UPDATE, DELETE, etc.
 
-#### Operadores:
+## Operadores:
 
 ```sql
 =         Igual                           WHERE Price = 18;

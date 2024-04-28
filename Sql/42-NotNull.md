@@ -15,7 +15,7 @@ Age int
 );
 ```
 
-#### Not null en un alter table:
+## Not null en un alter table:
 
 Para crear una restricción NOT NULL en la columna "Edad" cuando la tabla "Personas" ya está creada, use el siguiente SQL:
 

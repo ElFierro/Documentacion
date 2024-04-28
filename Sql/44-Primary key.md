@@ -1,4 +1,4 @@
-#### Primary key
+## Primary key
 
 La restricción PRIMARY KEY identifica de forma única cada registro de una tabla.
 
@@ -29,7 +29,7 @@ CREATE TABLE Persons (
 );
 ```
 
-#### Varias columnas:
+## Varias columnas:
  
 Para permitir la denominación de una restricción PRIMARY KEY y definir una restricción PRIMARY KEY en varias columnas
 
@@ -43,7 +43,7 @@ CREATE TABLE Persons (
 );
 ```
 
-#### clave primaria en alter table:
+## clave primaria en alter table:
 
 Para crear una restricción PRIMARY KEY en la columna "ID" cuando la tabla ya está creada, use el siguiente SQL:
 
@@ -59,7 +59,7 @@ ALTER TABLE Persons
 ADD CONSTRAINT PK_Person PRIMARY KEY (ID,LastName);
 ```
 
-#### Eliminar restriccion de clave primaria:
+## Eliminar restriccion de clave primaria:
 
 Para eliminar una restricción PRIMARY KEY, utilice el siguiente SQL:
 

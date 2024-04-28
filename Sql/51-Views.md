@@ -6,7 +6,7 @@ Los campos de una vista son campos de una o más tablas reales de la base de dat
 
 Sentencia:
 
-#### Crear vista
+## Crear vista
 
 Se crea una vista con la setencia CREATE VIEW.
 
@@ -51,7 +51,7 @@ Consultar:
 SELECT * FROM [Products Above Average Price];
 ```
 
-#### Crear o remplazar vistas
+## Crear o remplazar vistas
 
 Una vista se puede actualizar con la sentencia  CREATE OR REPLACE VIEW.
 
@@ -75,7 +75,7 @@ FROM Customers
 WHERE Country = 'Brazil';
 ```
 
-#### Eliminar vista
+## Eliminar vista
 
 Una vista se elimina con la sentencia DROP VIEW.
 

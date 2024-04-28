@@ -25,7 +25,7 @@ FROM Products
 INNER JOIN Categories ON Products.CategoryID = Categories.CategoryID;
 ```
 
-#### Nombrar columnas
+## Nombrar columnas
     
 Es una buena práctica incluir el nombre de la tabla al especificar columnas en la sentencia SQL.
 

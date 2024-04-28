@@ -135,7 +135,7 @@ a = " Hello, World! "
 print(a.strip())   #"Hello, World!"
 ```
 
-## Reemplazar cadena
+## Remplazar cadena
 Ejemplo
 El método replace() reemplaza una cadena con otra cadena:
 ```python

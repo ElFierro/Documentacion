@@ -11,7 +11,7 @@ CREATE INDEX index_name
 ON table_name (column1, column2, ...);
 ```
 
-#### Crear indice unico
+## Crear indice unico
 
 Crea un índice único en una tabla. No se permiten valores duplicados:
 
@@ -36,7 +36,7 @@ CREATE INDEX idx_pname
 ON Persons (LastName, FirstName);
 ```
 
-#### Eliminar indice:
+## Eliminar indice:
 
 Acceso MS:
 

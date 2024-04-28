@@ -39,7 +39,7 @@ SELECT MAX(Price)
 FROM Products;
 ```
 
-#### Alias
+## Alias
 Cuando usa MIN() o MAX(), la columna devuelta se llamará or de forma predeterminada. Para darle un nuevo nombre a la columna, use la palabra clave AS
 
 Ejemplo:

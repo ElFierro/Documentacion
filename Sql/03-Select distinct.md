@@ -16,7 +16,7 @@ Seleccione todos los diferentes países de la tabla "Clientes":
 SELECT DISTINCT Country FROM Customers;
 ```
 
-#### COUNT()
+## COUNT()
 
 Ejemplo:
 

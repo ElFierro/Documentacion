@@ -23,7 +23,7 @@ SELECT * FROM Customers
 WHERE CustomerName LIKE 'a%';
 ```
 
-#### Comodin:
+## Comodin:
 
 El comodín _ representa un solo carácter.
 
@@ -47,7 +47,7 @@ SELECT * FROM Customers
 WHERE city LIKE '%L%';
 ```
 
-#### Comienza con:
+## Comienza con:
  
 Para devolver registros que comiencen con una letra o frase específica, agregue % al final de la letra o frase.
 
@@ -60,7 +60,7 @@ SELECT * FROM Customers
 WHERE CustomerName LIKE 'La%';
 ```
 
-#### Termina con:
+## Termina con:
 
 Para devolver registros que terminan con una letra o frase específica, agregue % al principio de la letra o frase.
 
@@ -82,7 +82,7 @@ WHERE CustomerName LIKE 'b%s';
 
 ```
 
-#### Contiene:
+## Contiene:
 
 Para devolver registros que contengan una letra o frase específica, agregue % tanto antes como después de la letra o frase.
 
@@ -95,7 +95,7 @@ SELECT * FROM Customers
 WHERE CustomerName LIKE '%or%';
 ```
 
-#### Combinar comodines
+## Combinar comodines
 
 Cualquier comodín, como % y _ , se puede utilizar en combinación con otros comodines.
 
@@ -108,7 +108,7 @@ SELECT * FROM Customers
 WHERE CustomerName LIKE 'a__%';
 ```
 
-#### Sin comodin:
+## Sin comodin:
 
 Si no se especifica ningún comodín, la frase debe tener una coincidencia exacta para devolver un resultado.
 
