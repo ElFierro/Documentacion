@@ -1,35 +1,35 @@
 ## Math
 La clase Java Math tiene muchos métodos que le permiten realizar tareas matemáticas con números.
 
-#### Math.max(x,y)
+## Math.max(x,y)
 El método Math.max(x,y) se puede utilizar para encontrar el valor más alto entre x,y:
 
 ```java   
 Math.max(5, 10);		//10
 ```
 
-#### Math.min(x,y)
+## Math.min(x,y)
 El método Math.min(x,y) se puede utilizar para encontrar el valor más bajo de x,y:
    
 ```java
 Math.min(5, 10);		//5
 ```
 
-#### Math.sqrt(x)
+## Math.sqrt(x)
 El método Math.sqrt(x) devuelve la raíz cuadrada de x:
 
 ```java
 Math.sqrt(64);		//8.0
 ```
 
-#### Math.abs(x)
+## Math.abs(x)
 El método Math.abs(x) devuelve el valor absoluto (positivo) de x:
 
 ```java
 Math.abs(-4.7);		//4.7
 ```
 
-#### Math.random()
+## Math.random()
 ath.random() devuelve un número aleatorio entre 0 y 1,0:
 
 ```java

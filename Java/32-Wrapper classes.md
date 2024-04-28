@@ -18,7 +18,7 @@ A veces debes usar clases contenedoras, por ejemplo cuando trabajas con objetos 
 ArrayList<Integer> myNumbers = new ArrayList<Integer>(); // Valid
 ```
 
-#### Crear objetos envolventes
+## Crear objetos envolventes
 ```java
 public class Main {
   public static void main(String[] args) {

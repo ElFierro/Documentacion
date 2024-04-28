@@ -19,7 +19,7 @@ public class Main {
 }
 ```
 
-#### Clase interna privada
+## Clase interna privada
 A diferencia de una clase "normal", una clase interna puede ser private o protected. Si no desea que los objetos externos accedan a la clase interna, declare la clase como private:
 
 ```java
@@ -40,7 +40,7 @@ public class Main {
 }
 ```
 
-#### Clase interna estatica
+## Clase interna estatica
 
 Una clase interna también puede ser static, lo que significa que puedes acceder a ella sin crear un objeto de la clase externa:
 ```java
@@ -60,7 +60,7 @@ public class Main {
 }
 ```
 
-#### Acceder a la clase exterior desde la clase interior
+## Acceder a la clase exterior desde la clase interior
 Una ventaja de las clases internas es que pueden acceder a atributos y métodos de la clase externa:
 
 ```java

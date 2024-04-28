@@ -18,10 +18,10 @@ Java tiene las siguientes declaraciones condicionales:
 - Úselo else ifpara especificar una nueva condición para probar, si la primera condición es falsa
 - Se utiliza switchpara especificar muchos bloques alternativos de código que se ejecutarán.
 
-#### If
+## If
 Utilice la declaración if para especificar un bloque de código Java que se ejecutará si una condición es true.
 
-Sintaxis
+#### Sintaxis
 
 ```ssh
 if (condition) {
@@ -29,7 +29,7 @@ if (condition) {
 }
 ```
 
-Ejemplo
+#### Ejemplo
 
 ```java
 if (day == " Monday") // Condition
@@ -38,10 +38,10 @@ if (day == " Monday") // Condition
   System.out.println("Go to School");
 }
 ```
-#### Else if
+## Else if
 Utilice la declaración else if para especificar una nueva condición si la primera condición es false.
 
-Sintaxis
+#### Sintaxis
 ```ssh
 if (condition1) {
   // block of code to be executed if condition1 is true
@@ -52,7 +52,7 @@ if (condition1) {
 }
 ```
 
-Ejemplo
+#### Ejemplo
 ```java
 if (myDay == " Sunny"){
 // Decision
@@ -63,11 +63,11 @@ if (myDay == " Sunny"){
 }
 ```
 
-#### Else
+## Else
 Utilice la declaración else para especificar un bloque de código que se ejecutará si la condición es false.
 
 ```shh
-Sintaxis
+#### Sintaxis
 if (condition) {
   // block of code to be executed if the condition is true
 } else {
@@ -75,7 +75,7 @@ if (condition) {
 }
 ```
 
-Ejemplo  
+#### Ejemplo  
 ```java
 if (myDay == " Sunny")//condition{
   System.out.println("Read in the Library");// Decision
@@ -84,10 +84,10 @@ if (myDay == " Sunny")//condition{
 }
 ```
 
-#### Switch
+## Switch
 En lugar de escribir muchas declaraciones if..else , puede utilizar la switchdeclaración.
 
-Sintaxis
+#### Sintaxis
 ```shh
 switch(expression) {
   case x:
@@ -101,7 +101,7 @@ switch(expression) {
 }
 ```
 
-Ejemplo
+#### Ejemplo
 ```java
 int myDay = 4; // setting the value to test
 switch (myDay)
@@ -118,19 +118,19 @@ default:
 }
 ```
 
-#### Con operador ternario
+## Con operador ternario
 
 También existe una abreviatura if else , que se conoce como operador ternario porque consta de tres operandos.
 
 Se puede usar para reemplazar varias líneas de código con una sola línea y se usa con mayor frecuencia para reemplazar declaraciones if else simples:
 
-Sintaxis
+#### Sintaxis
 
 ```shh
 variable = (condition) ? expressionTrue :  expressionFalse;
 ```
 
-Ejemplo  
+#### Ejemplo  
 ```java
 int time = 20;
 String result = (time < 18) ? "Good day." : "Good evening.";

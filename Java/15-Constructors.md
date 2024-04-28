@@ -1,6 +1,6 @@
 ## Constructor
 
-#### Crear 
+## Crear 
 Un constructor en Java es un método especial que se utiliza para inicializar objetos. 
 Se llama al constructor cuando se crea un objeto de una clase.
 Se puede utilizar para establecer valores iniciales para los atributos del objeto:
@@ -22,7 +22,7 @@ public class Main {
 }
 ```
   
-#### Parámetros del constructor
+## Parámetros del constructor
 Los constructores también pueden tomar parámetros, que se utilizan para inicializar atributos.
 ```java
 public class Main {

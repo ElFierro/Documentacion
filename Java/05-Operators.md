@@ -3,7 +3,7 @@ Los operadores se utilizan para realizar operaciones con variables y valores.
 
 int x = 5, y = 3;
    	
-#### Aritmeticos
+## Aritmeticos
 Los operadores aritméticos se utilizan para realizar operaciones matemáticas comunes.
 
 ```java
@@ -16,7 +16,7 @@ x % y  	//2
 --x  	//4
 ```
 
-#### Asignacion
+## Asignacion
 se utilizan para asignar valores a variables.
 
 ```java
@@ -34,7 +34,7 @@ x <<= y 	  //40
 
 ```
 
-#### Comparacion
+## Comparacion
 Los operadores de comparación se utilizan para comparar dos valores (o variables). 
 El valor de retorno de una comparación es trueo false.
 
@@ -47,7 +47,7 @@ x >= y 	//Mayor o igual que
 x <= y 	//Menor o igual que 
 ```
 
-#### Logicos
+## Logicos
 También puede probar valores true o false con operadores lógicos.
 
 ```java

@@ -3,7 +3,7 @@ Un método es un bloque de código que sólo se ejecuta cuando se llama.
 Puede pasar datos, conocidos como parámetros, a un método.
 Los métodos se utilizan para realizar determinadas acciones y también se conocen como funciones.
 
-#### Crear metodo
+## Crear metodo
 Se debe declarar un método dentro de una clase. 
 Se define con el nombre del método, seguido de paréntesis () 
 ```java
@@ -12,13 +12,13 @@ static void myMethod() {
 }
 ```
 
-#### Llamar metodo
+## Llamar metodo
 Para llamar a un método en Java, escriba el nombre del método seguido de dos paréntesis () y un punto y coma;
 ```java
 myMethod();
 ```
 
-#### Parametros
+## Parametros
 La información se puede pasar a métodos como parámetro. 
 Los parámetros actúan como variables dentro del método.
 
@@ -30,7 +30,7 @@ public class Main {
 }
 ```
 
-#### Multiples parametros
+## Multiples parametros
 Puedes tener tantos parámetros como quieras:
 ```java
 public class Main {
@@ -40,7 +40,7 @@ public class Main {
 }
 ```
 
-#### Valores de retorno
+## Valores de retorno
 Si desea que el método devuelva un valor, puede usar un tipo dedatos primitivo (como int, char, etc.) 
 ```java
 public class Main {

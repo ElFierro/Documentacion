@@ -1,7 +1,7 @@
 ## Clases y objetos
 Todo en Java está asociado con clases y objetos, junto con sus atributos y métodos.
 
-#### Crear una clase
+## Crear una clase
 ```java
 //Para crear una clase, use la palabra clave class:
   public class Main {
@@ -9,7 +9,7 @@ Todo en Java está asociado con clases y objetos, junto con sus atributos y mét
 }
 ```
 
-#### Crear un objeto
+## Crear un objeto
 En Java, un objeto se crea a partir de una clase.
 Para crear un objeto de Main, especifique el nombre de la clase, seguido del nombre del objeto y utilice la palabra clave new:
 
@@ -23,7 +23,7 @@ public class Main {
   }
 }
 ```
-#### Multiples objetos
+## Multiples objetos
 Puedes crear múltiples objetos de una clase:
 
 ```java
@@ -39,7 +39,7 @@ public class Main {
 }
 ```
 
-#### Multiples clases
+## Multiples clases
 
 ```java
 //principal.java

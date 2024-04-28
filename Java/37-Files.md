@@ -22,7 +22,7 @@ list()            String[] //Devuelve una matriz de los archivos en el directori
 mkdir()           Boolean  //Crea un directorio
 ```
 
-#### Crear archivos
+## Crear archivos
 
 Para crear un archivo, puede utilizar el método createNewFile(). Este método devuelve un valor booleano: 
 true si el archivo se creó correctamente y false si el archivo ya existe.
@@ -53,7 +53,7 @@ especifique la ruta del archivo y utilice barras invertidas dobles
 File myObj = new File("C:\\Users\\MyName\\filename.txt");
 ```
 
-#### Escribir un archivo
+## Escribir un archivo
 
 usamos la clase FileWriter junto con su método write(). Tenga en cuenta que cuando haya terminado de escribir en el archivo, debe cerrarlo con el método close():
 
@@ -75,7 +75,7 @@ public class WriteToFile {
   }
 }
 ```
-#### Leer un archivo
+## Leer un archivo
 
 usamos la clase Scanner para leer el contenido del archivo de texto
 
@@ -102,7 +102,7 @@ public class ReadFile {
 }
 ```
 
-#### Obtener informacion del archivo
+## Obtener informacion del archivo
 
 Para obtener más información sobre un archivo, utilice cualquiera de los métodos File:
 
@@ -125,7 +125,7 @@ public class GetFileInfo {
 }
 ```
 
-#### Eliminar un archivo
+## Eliminar un archivo
 
 ```java
 Para eliminar un archivo en Java, utilice el método delete():
@@ -143,7 +143,7 @@ public class DeleteFile {
 }
 ```
 
-#### Eliminar una carpeta
+## Eliminar una carpeta
 También puede eliminar una carpeta. Sin embargo, debe estar vacío:
 
 ```java

@@ -36,10 +36,10 @@ Salida
 2024-04-27
 ```
 
-#### Mostrar hora actual
+## Mostrar hora actual
 Para mostrar la hora actual (hora, minuto, segundo y nanosegundos), importe la clase java.time.LocalTime y utilice su método now():
 
-Ejemplo
+#### Ejemplo
 ```java
 import java.time.LocalTime; // import the LocalTime class
 
@@ -55,7 +55,7 @@ Salida
 11:56:35.662134
 ```
 
-#### Mostrar fecha y hora actuales
+## Mostrar fecha y hora actuales
 
 Para mostrar la fecha y hora actuales, importe la clase java.time.LocalDateTime y utilice su método now():
 
@@ -75,7 +75,7 @@ Salida
 2024-04-27T11:56:35.663133
 ```
 
-#### Formatear fecha y hora
+## Formatear fecha y hora
 
 La "T" en el ejemplo anterior se utiliza para separar la fecha de la hora. Puede usar la clase DateTimeFormatter con el método ofPattern() en el mismo paquete para formatear o analizar objetos de fecha y hora.
 

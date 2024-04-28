@@ -31,7 +31,7 @@ class Car extends Vehicle {
 }
 ```
 
-#### La palabra clave final
+## La palabra clave final
 Si no desea que otras clases hereden de una clase, utilice la finalpalabra clave:
 
 ```java

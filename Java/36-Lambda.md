@@ -19,7 +19,7 @@ Las expresiones son limitadas. Deben devolver inmediatamente un valor y no puede
 (parameter1, parameter2) -> { code block }
 ```
 
-#### Uso de expresiones lambda
+## Uso de expresiones lambda
 
 Las expresiones lambda normalmente se pasan como parámetros a una función:
 

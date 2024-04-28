@@ -3,7 +3,7 @@ Al ejecutar código Java pueden ocurrir diferentes errores: errores de codificac
 Cuando ocurre un error, Java normalmente se detendrá y generará un mensaje de error.
 El término técnico para esto es: Java generará una excepción (arrojará un error).
 
-#### Try catch
+## Try catch
 La declaración try le permite definir un bloque de código que se probará en busca de errores mientras se ejecuta.
 La declaración catch le permite definir un bloque de código que se ejecutará si ocurre un error en el bloque de prueba.
 
@@ -20,7 +20,7 @@ public class Main {
 }
 ```
 
-#### Finally
+## Finally
 La declaración finally le permite ejecutar código, después de try...catch, independientemente del resultado:
 ```java
 public class Main {
@@ -37,7 +37,7 @@ public class Main {
 }
 ```
 
-#### Throw
+## Throw
 La declaración throw le permite crear un error personalizado.
 La declaración throw se utiliza junto con un tipo de excepción. 
 Hay muchos tipos de excepciones disponibles en Java:

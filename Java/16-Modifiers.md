@@ -4,7 +4,7 @@ Dividimos los modificadores en dos grupos:
 - **Modificadores de acceso**: controla el nivel de acceso
 - **Modificadores sin acceso**: no controlan el nivel de acceso, pero proporcionan otras funciones
 
-#### Modificadores de acceso: controla el nivel de acceso
+## Modificadores de acceso: controla el nivel de acceso
 
 Para las clases , puede utilizar:
 ```shh
@@ -19,7 +19,7 @@ private: Solo se puede acceder al código dentro de la clase declarada.
 default: Solo se puede acceder al código en el mismo paquete. 
 protect: edSe puede acceder al código en el mismo paquete y subclases.
 ```
-#### Modificadores sin accero: no controlan el nivel de acceso, pero proporcionan otras funciones
+## Modificadores sin accero: no controlan el nivel de acceso, pero proporcionan otras funciones
 Para las clases, puedes usar:
 
 ```ssh
@@ -38,7 +38,7 @@ synchronized: Solo un hilo puede acceder a los métodos a la vez.
 volatile: El valor de un atributo no se almacena en caché localmente y siempre se lee desde la "memoria principal"
 ```
 
-#### Final
+## Final
 Si no desea tener la capacidad de anular los valores de atributos existentes, declare los atributos como final:
 ```java
 public class Main {
@@ -54,7 +54,7 @@ public class Main {
 }
 ```
 
-#### Estatico
+## Estatico
 Un método static significa que se puede acceder a él sin crear un objeto de la clase, a diferencia de public:
 ```java
 public class Main {
@@ -79,7 +79,7 @@ public class Main {
 }
 ```
 
-#### Abstracto
+## Abstracto
 Un método abstract pertenece a una clase abstract y no tiene cuerpo. El cuerpo lo proporciona la subclase:
 
 ```java

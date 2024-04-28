@@ -39,7 +39,7 @@ public class Main {
 }
 ```
 
-#### Banderas
+## Banderas
 Las banderas en el método compile() cambian la forma en que se realiza la búsqueda. Éstos son algunos de ellos:
 
 - Pattern.CASE_INSENSITIVE  

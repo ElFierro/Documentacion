@@ -10,12 +10,12 @@ En Java existen diferentes tipos de variables, por ejemplo:
 
 ## Declaracion de variables:
 
-Sintaxis:
+#### Sintaxis:
 
 ```ssh
 type variableName = value;
 ```
-Ejemplos:
+#### Ejemplos:
 
 ```java
 int a,b,c;

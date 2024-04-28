@@ -2,7 +2,7 @@
 Threads permite que un programa funcione de manera más eficiente al hacer varias cosas al mismo tiempo.
 Los subprocesos se pueden utilizar para realizar tareas complicadas en segundo plano sin interrumpir el programa principal.
 
-#### Crear
+## Crear
 Hay dos formas de crear un hilo.
 
 - Se puede crear extendiendo la clase Thread y anulando su método run():
@@ -25,7 +25,7 @@ public class Main implements Runnable {
 }
 ```
 
-#### Hilos de ejecucion
+## Hilos de ejecucion
 
 Si la clase extiende la clase Thread, el hilo se puede ejecutar creando una instancia de la clase y llamando a su método start():
 
@@ -59,11 +59,11 @@ public class Main implements Runnable {
 }
 ```
 
-#### Diferencias entre "extender" e "implementar" hilos
+## Diferencias entre "extender" e "implementar" hilos
 
 La principal diferencia es que cuando una clase extiende la clase Thread, no puede extender ninguna otra clase, pero al implementar la interfaz Runnable, también es posible extender desde otra clase, como: clase MyClass extends OtherClass implements Runnable.
   
-#### Problemas de concurrencia
+## Problemas de concurrencia
 
 Debido a que los subprocesos se ejecutan al mismo tiempo que otras partes del programa, no hay forma de saber en qué orden se ejecutará el código. Cuando los subprocesos y el programa principal leen y escriben las mismas variables, los valores son impredecibles. Los problemas que resultan de esto se denominan problemas de concurrencia.
 

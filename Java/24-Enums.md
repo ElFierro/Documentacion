@@ -17,7 +17,7 @@ Puede acceder a constantes enum con la sintaxis de puntos:
 ```java 
 Level myVar = Level.MEDIUM;
 ```
-#### Enum dentro de una clase
+## Enum dentro de una clase
 
 También puedes tener un enum dentro de una clase:
 
@@ -36,7 +36,7 @@ public class Main {
 }
 ```
 
-#### Enum em switch 
+## Enum em switch 
 Las enumeraciones se utilizan a menudo en declaraciones switch para comprobar los valores correspondientes:
 ```java 
 enum Level {
@@ -64,7 +64,7 @@ public class Main {
 }
 ```
 
-#### Recorrer una enumeración
+## Recorrer una enumeración
 
 El tipo de enumeración tiene un método values() que devuelve una matriz de todas las constantes de enumeración.  Este método es útil cuando desea recorrer las constantes de una enumeración:
 
@@ -74,10 +74,10 @@ for (Level myVar : Level.values()) {
 }
 ```
 
-#### Diferencia entre enumeraciones y clases
+## Diferencia entre enumeraciones y clases
 Un enum puede, al igual que un class, tener atributos y métodos. La única diferencia es que las constantes de enumeración son publicy static( final inmutables, no se pueden anular).
 
 Un enum no se puede utilizar para crear objetos y no puede extender otras clases (pero puede implementar interfaces).
 
-#### ¿Por qué y cuándo utilizar enumeraciones?
+## ¿Por qué y cuándo utilizar enumeraciones?
 Utilice enumeraciones cuando tenga valores que sepa que no van a cambiar, como los días del mes, los días, los colores, la baraja de cartas, etc.

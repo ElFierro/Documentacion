@@ -15,7 +15,7 @@ class Main {
 }
 ```
 
-#### Tipos de entrada
+## Tipos de entrada
 ```java 
   nextBoolean()   //Lee un valor boolean del usuario
   nextByte()      //Lee un valor de byte del usuario
@@ -27,7 +27,7 @@ class Main {
   nextShort()     //Lee un valor short del usuario
 ```
 
-Ejemplo:
+#### Ejemplo:
 ```java 
 import java.util.Scanner;
 

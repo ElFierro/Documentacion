@@ -1,6 +1,6 @@
 ## Atributos
 
-#### Atributos de una clase
+## Atributos de una clase
 se podría decir que los atributos de clase son variables dentro de una clase:
 ```java
 public class Main {
@@ -9,7 +9,7 @@ public class Main {
 }
 ```
 
-#### Accediendo a los atributos
+## Accediendo a los atributos
 Puede acceder a los atributos creando un objeto de la clase y utilizando la sintaxis de puntos (.):
 ```java
 public class Main {
@@ -22,7 +22,7 @@ public class Main {
 }
 ```
 
-#### Modificar atributos
+## Modificar atributos
 También puede modificar los valores de los atributos:
 ```java
 public class Main {
@@ -36,7 +36,7 @@ public class Main {
 }
 ```
 
-#### Multiples objetos
+## Multiples objetos
 Si crea varios objetos de una clase, puede cambiar los valores de los atributos en un objeto, sin afectar los valores de los atributos en el otro:
 ```java
 public class Main {
@@ -52,7 +52,7 @@ public static void main(String[] args) {
 }
 ```
 
-#### Múltiples atributos
+## Múltiples atributos
 Puede especificar tantos atributos como desee:
 ```java
 public class Main {

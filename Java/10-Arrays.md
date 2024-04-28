@@ -1,6 +1,6 @@
 ## Matrices
 
-#### Declarar
+## Declarar
 Las matrices se utilizan para almacenar múltiples valores en una sola variable, en lugar de declarar variables separadas para cada valor.
   
 ```java
@@ -9,7 +9,7 @@ Las matrices se utilizan para almacenar múltiples valores en una sola variable,
    int[] myNum = {10, 20, 30, 40};
 ```
 
-#### Acceder 
+## Acceder 
 Puede acceder a un elemento de matriz consultando el número de índice.
 
 ```java
@@ -17,18 +17,18 @@ String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
 System.out.println(cars[0]);// Outputs Volvo
 ```
 
-#### Cambiar elemento
+## Cambiar elemento
 ```java
 cars[0] = "Opel";
 ```
 
-#### Longitud
+## Longitud
 ```java
 String[] cars = {"Volvo", "BMW", "Ford"};
 cars.length;//3
 ```
 
-#### Recorrer
+## Recorrer
 puede usar la propiedad length para especificar cuántas veces debe ejecutarse el bucle
 
 ```java
@@ -48,23 +48,23 @@ for (String i : cars) {
 
 ## Matrices multidimensionales
 Una matriz multidimensional es una matriz de matrices.
-#### Declarar
+## Declarar
 ```java  
 int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };
 ```
-#### Acceder
+## Acceder
 Especifique dos índices: uno para la matriz y otro para el elemento dentro de esa matriz.
 
 ```java
   myNumbers[1][2]; // Outputs 7
 ```
 
-#### Cambiar valores
+## Cambiar valores
 ```java
 myNumbers[1][2] = 9;
 ```
 
-#### Recorrer
+## Recorrer
 ```java
 for (int i = 0; i < myNumbers.length; ++i) {
   for(int j = 0; j < myNumbers[i].length; ++j) {

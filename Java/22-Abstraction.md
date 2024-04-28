@@ -1,6 +1,6 @@
 ## Abstraccion
 
-#### Clases y métodos abstractos
+## Clases y métodos abstractos
 
 La abstracción de datos es el proceso de ocultar ciertos detalles y mostrar solo información esencial al usuario.La abstracción se puede lograr con clases abstractas o interfaces
 
@@ -52,7 +52,7 @@ class Main {
   }
 }
 ```
-#### ¿Por qué y cuándo utilizar clases y métodos abstractos?
+## ¿Por qué y cuándo utilizar clases y métodos abstractos?
 Para lograr seguridad, oculte ciertos detalles y muestre solo los detalles importantes de un objeto.
 
 **Nota:** La abstracción también se puede lograr con Interfaces

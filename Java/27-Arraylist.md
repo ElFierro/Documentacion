@@ -8,7 +8,7 @@ import java.util.ArrayList; // import the ArrayList class
 ArrayList<String> cars = new ArrayList<String>(); // Create an ArrayList object
 ```
 
-#### Agregar elementos
+## Agregar elementos
 La clase ArrayList tiene muchos métodos útiles. Por ejemplo, para agregar elementos al ArrayList, use el método add():
 
 ```java
@@ -26,21 +26,21 @@ public class Main {
 }
 ```
 
-#### Acceder a un a elemento
+## Acceder a un a elemento
 Para acceder a un elemento en ArrayList, utilice el método get() y consulte el número de índice:
 
 ```java
 cars.get(0); //volvo
 ```
 
-#### Cambiar un articulo
+## Cambiar un articulo
 Para modificar un elemento, utilice el método set() y consulte el número de índice:
 
 ```java
 cars.set(0, "Opel");
 ```
 
-#### Eliminar articulo
+## Eliminar articulo
 Para eliminar un elemento, utilice el método remove() y consulte el número de índice:
 
 ```java
@@ -53,17 +53,17 @@ Para eliminar todos los elementos del ArrayList, utilice el método clear():
 cars.clear();
 ```
 
-#### Tamaño de la lista
+## Tamaño de la lista
 Para saber cuántos elementos tiene un ArrayList, use el método size:
 
 ```java
 cars.size();
 ```
 
-#### Recorrer una lista
+## Recorrer una lista
 Recorra los elementos de un ArrayList con unn bucle for y utilice el método size() para especificar cuántas veces debe ejecutarse el bucle:
 
-Ejemplo
+#### Ejemplo
 ```java
 public class Main {
   public static void main(String[] args) {
@@ -116,7 +116,7 @@ public class Main {
 }
 ```
 
-#### Ordenar una lista
+## Ordenar una lista
 Otra clase útil en el paquete java.util es la clase Collections, que incluye el método sort() para ordenar listas alfabéticamente o numéricamente:
 
 Ordenar una ArrayList de cadenas:

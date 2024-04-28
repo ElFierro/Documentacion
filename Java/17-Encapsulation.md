@@ -4,7 +4,7 @@ El significado de Encapsulación es garantizar que los datos "sensibles" estén 
 - declarar variables/atributos de clase como private
 - Proporcionar métodos públicos de obtención y configuración para acceder y actualizar el valor de una variable private .
  
-#### Get y Set
+## Get y Set
 El método get devuelve el valor de la variable y el método set establece el valor.
 La sintaxis de ambos es que comienzan con get o set, seguido del nombre de la variable, con la primera letra en mayúscula:
 
@@ -24,7 +24,7 @@ public class Person {
 }
 ```
 
-#### Acceder y actualizar
+## Acceder y actualizar
 ```java
 public class Main {
   public static void main(String[] args) {
@@ -34,7 +34,7 @@ public class Main {
   }
 }
 ```
-#### ¿Por qué encapsular?
+## ¿Por qué encapsular?
 
 - Mejor control de los atributos y métodos de clase.
 - Los atributos de clase se pueden hacer de solo lectura (si solo usa el getmétodo) o de solo escritura (si solo usa el setmétodo)

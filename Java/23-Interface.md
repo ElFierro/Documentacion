@@ -8,7 +8,7 @@ interface Animal {
 }
 ```
 
-#### Acceder
+## Acceder
 Para acceder a los métodos de la interfaz, la interfaz debe ser "implementada" (algo así como heredada) por otra clase con la palabra clave implements (en lugar de extends)
 
 ```java 
@@ -38,7 +38,7 @@ class Main {
 }
 ```
 
-#### Notas
+## Notas
 - Los métodos de interfaz no tienen cuerpo: el cuerpo lo proporciona la clase "implementar"
 - Al implementar una interfaz, debe anular todos sus métodos.
 - Los métodos de interfaz son por defecto abstracty public
@@ -49,7 +49,7 @@ class Main {
 - Para lograr seguridad: oculte ciertos detalles y muestre solo los detalles importantes de un objeto (interfaz).
 - Java no admite la "herencia múltiple" (una clase sólo puede heredar de una superclase). Sin embargo, se puede lograr con interfaces, porque la clase puede implementar múltiples interfaces. **Nota**: Para implementar varias interfaces, sepárelas con una coma (consulte el ejemplo a continuación).
 
-#### Múltiples interfaces
+## Múltiples interfaces
 Para implementar múltiples interfaces, sepárelas con una coma:
 
 ```java 

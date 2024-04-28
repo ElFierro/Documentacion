@@ -1,6 +1,6 @@
 ## Metodos de clases
 
-#### Estático versus público
+## Estático versus público
 
 A menudo verá programas Java que tienen atributos y métodos staticos o publicos.
 A un método static se puede acceder a él sin crear un objeto de la clase, a diferencia de public, al que solo se puede acceder mediante objetos:
@@ -28,7 +28,7 @@ public class Main {
 }
 ```
 
-#### Usando multiples clases
+## Usando multiples clases
 es una buena práctica crear un objeto de una clase y acceder a él en otra clase.
 ```java
 //principal.java
