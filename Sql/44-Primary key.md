@@ -2,7 +2,7 @@
 
 La restricción PRIMARY KEY identifica de forma única cada registro de una tabla.
 
-Ejemplo:
+#### Ejemplo:
 
 El siguiente SQL crea un PRIMARY KEYen la columna "ID" cuando se crea la tabla "Personas":
 

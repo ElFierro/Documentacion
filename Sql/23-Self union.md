@@ -2,7 +2,7 @@
 
 Una autounión es una unión normal, pero la tabla está unida consigo misma.
 
-Sintaxis:
+#### Sintaxis:
 
 ```ssh
 SELECT column_name(s)
@@ -10,7 +10,7 @@ FROM table1 T1, table1 T2
 WHERE condition;
 ```
 
-Ejemplo:
+#### Ejemplo:
 
 La siguiente sentencia SQL coincide con clientes que son de la misma ciudad:
 

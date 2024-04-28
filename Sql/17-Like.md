@@ -6,7 +6,7 @@
 - El signo de porcentaje % representa cero, uno o varios caracteres.
 - El signo de subrayado _ representa un solo carácter.
 
-Sintaxis:
+#### Sintaxis:
 
 ```ssh
 SELECT column1, column2, ...
@@ -14,7 +14,7 @@ FROM table_name
 WHERE columnN LIKE pattern;
 ```
 
-Ejemplo:
+#### Ejemplo:
 
 Seleccione todos los clientes que comiencen con la letra "a":
 
@@ -27,7 +27,7 @@ WHERE CustomerName LIKE 'a%';
 
 El comodín _ representa un solo carácter.
 
-Ejemplo:
+#### Ejemplo:
 
 Devuelve todos los clientes de una ciudad que comienza con 'L' seguida de un carácter comodín, luego 'nd' y luego dos caracteres comodín:
 
@@ -38,7 +38,7 @@ WHERE city LIKE 'L_nd__';
 
 El comodín % representa cualquier número de caracteres, incluso cero caracteres.
 
-Ejemplo:
+#### Ejemplo:
 
 Devuelve todos los clientes de una ciudad que contiene la letra 'L':
 
@@ -51,7 +51,7 @@ WHERE city LIKE '%L%';
  
 Para devolver registros que comiencen con una letra o frase específica, agregue % al final de la letra o frase.
 
-Ejemplo:
+#### Ejemplo:
 
 Devolver todos los clientes que comiencen con 'La':
 
@@ -64,7 +64,7 @@ WHERE CustomerName LIKE 'La%';
 
 Para devolver registros que terminan con una letra o frase específica, agregue % al principio de la letra o frase.
 
-Ejemplo:
+#### Ejemplo:
 
 Devuelve todos los clientes que terminan en 'a':
 
@@ -86,7 +86,7 @@ WHERE CustomerName LIKE 'b%s';
 
 Para devolver registros que contengan una letra o frase específica, agregue % tanto antes como después de la letra o frase.
 
-Ejemplo:
+#### Ejemplo:
 
 Devolver todos los clientes que contengan la frase 'or'
 
@@ -99,7 +99,7 @@ WHERE CustomerName LIKE '%or%';
 
 Cualquier comodín, como % y _ , se puede utilizar en combinación con otros comodines.
 
-Ejemplo:
+#### Ejemplo:
 
 Devuelve todos los clientes que comienzan con "a" y tienen al menos 3 caracteres de longitud:
 
@@ -112,7 +112,7 @@ WHERE CustomerName LIKE 'a__%';
 
 Si no se especifica ningún comodín, la frase debe tener una coincidencia exacta para devolver un resultado.
 
-Ejemplo:
+#### Ejemplo:
 
 Devolver todos los clientes de España:
 

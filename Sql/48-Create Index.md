@@ -2,7 +2,7 @@
 
 La sentencia CREATE INDEX se utiliza para crear índices en tablas.
 
-Sintaxis:
+#### Sintaxis:
 
 Crea un índice en una tabla. Se permiten valores duplicados:
 
@@ -20,7 +20,7 @@ CREATE UNIQUE INDEX index_name
 ON table_name (column1, column2, ...);
 ```
 
-Ejemplo:
+#### Ejemplo:
 
 La siguiente declaración SQL crea un índice llamado "idx_lastname" en la columna "Apellido" en la tabla "Personas":
 

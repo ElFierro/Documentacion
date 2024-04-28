@@ -6,7 +6,7 @@ El operador UNION se utiliza para combinar el conjunto de resultados de dos o m�
 - Las columnas también deben tener tipos de datos similares.
 - Las columnas de cada SELECTsentencia también deben estar en el mismo orden.
   
-Sintaxis:
+#### Sintaxis:
 
 ```ssh
 SELECT column_name(s) FROM table1
@@ -14,7 +14,7 @@ UNION
 SELECT column_name(s) FROM table2;
 ```
 
-Ejemplo:
+#### Ejemplo:
 
 La siguiente sentencia SQL devuelve las ciudades alemanas (solo valores distintos) de las tablas "Clientes" y "Proveedores":
 
@@ -29,7 +29,7 @@ ORDER BY City;
 
 ## ALL:
 
-Sintaxis:
+#### Sintaxis:
 
 ```ssh
 SELECT column_name(s) FROM table1
@@ -37,7 +37,7 @@ UNION ALL
 SELECT column_name(s) FROM table2;
 ```
 
-Ejemplo:
+#### Ejemplo:
 
 La siguiente sentencia SQL devuelve las ciudades alemanas (también valores duplicados) de las tablas "Clientes" y "Proveedores":
 

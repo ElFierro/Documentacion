@@ -2,14 +2,14 @@
 
 La función MIN() devuelve el valor más pequeño de la columna seleccionada.
 
-Sintaxis:
+#### Sintaxis:
 ```ssh
 SELECT MIN(column_name)
 FROM table_name
 WHERE condition;
 ```
 
-Ejemplos:
+#### Ejemplos:
 
 Encuentra el precio más bajo:
 
@@ -22,7 +22,7 @@ FROM Products;
 
 La función MAX() devuelve el valor más grande de la columna seleccionada.
 
-Sintaxis:
+#### Sintaxis:
 
 ```ssh
 SELECT MAX(column_name)
@@ -30,7 +30,7 @@ FROM table_name
 WHERE condition; 
 ```
 
-Ejemplos:
+#### Ejemplos:
 
 Encuentra el precio más alto:
 
@@ -42,7 +42,7 @@ FROM Products;
 ## Alias
 Cuando usa MIN() o MAX(), la columna devuelta se llamará or de forma predeterminada. Para darle un nuevo nombre a la columna, use la palabra clave AS
 
-Ejemplo:
+#### Ejemplo:
 
 ```sql
 SELECT MIN(Price) AS SmallestPrice

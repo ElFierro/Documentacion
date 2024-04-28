@@ -2,7 +2,7 @@
 
 La función AVG() devuelve el valor promedio de una columna numérica.
 
-Sintaxis:
+#### Sintaxis:
 
 ```ssh
 SELECT AVG(column_name)
@@ -10,7 +10,7 @@ FROM table_name
 WHERE condition;
 ```
 
-Ejemplos:
+#### Ejemplos:
 
 Devuelve el precio medio de los productos de la categoría 1:
 

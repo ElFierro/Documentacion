@@ -2,13 +2,13 @@
 
 La sentencia DROP TABLE se utiliza para eliminar una tabla existente en una base de datos.
 
-Sintaxis:
+#### Sintaxis:
 
 ```ssh
 DROP TABLE table_name;
 ```
 
-Ejemplo:
+#### Ejemplo:
 
 La siguiente sentencia SQL elimina la tabla existente "Shippers":
 
@@ -20,13 +20,13 @@ DROP TABLE Shippers;
 
 La sentencia TRUNCATE TABLE se utiliza para eliminar los datos dentro de una tabla, pero no la tabla en sí.
 
-Sintaxis:
+#### Sintaxis:
 
 ```ssh
 TRUNCATE TABLE table_name;
 ```
 
-Ejemplo:
+#### Ejemplo:
 
 La siguiente sentencia SQL elimina los datos de la tabla existente "Shippers":
 

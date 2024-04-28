@@ -2,7 +2,7 @@
 
 La restricción DEFAULT se utiliza para establecer un valor predeterminado para una columna.
 
-Ejemplo:
+#### Ejemplo:
 
 El siguiente SQL establece un valor DEFAULT para la columna "Ciudad" cuando se crea la tabla "Personas":
 

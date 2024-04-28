@@ -2,7 +2,7 @@
 La cláusula WHERE se utiliza para filtrar registros.
 Se utiliza para extraer sólo aquellos registros que cumplen una condición específica.
 
-Sintaxis:
+#### Sintaxis:
 
 ```sql
 SELECT column1, column2, ...
@@ -10,7 +10,7 @@ FROM table_name
 WHERE condition;
 ```
 
-Ejemplo:
+#### Ejemplo:
 
 Seleccione todos los clientes de México:
 

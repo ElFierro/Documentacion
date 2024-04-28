@@ -7,7 +7,7 @@ La sentencia INSERT INTO SELECT requiere que los tipos de datos en las tablas de
 
 Los registros existentes en la tabla de destino no se ven afectados.
 
-Sintaxis:
+#### Sintaxis:
 
 Copie todas las columnas de una tabla a otra tabla:
 
@@ -26,7 +26,7 @@ FROM table1
 WHERE condition;
 ```
 
-Ejemplos:
+#### Ejemplos:
 
 Copie "Proveedores" en "Clientes" (las columnas que no están llenas de datos contendrán NULL):
 

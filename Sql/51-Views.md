@@ -10,7 +10,7 @@ Sentencia:
 
 Se crea una vista con la setencia CREATE VIEW.
 
-Sintaxis:
+#### Sintaxis:
 
 ```ssh
 CREATE VIEW view_name AS
@@ -19,7 +19,7 @@ FROM table_name
 WHERE condition;
 ```
 
-Ejemplo:
+#### Ejemplo:
 
 El siguiente SQL crea una vista que muestra todos los clientes de Brasil:
 
@@ -55,7 +55,7 @@ SELECT * FROM [Products Above Average Price];
 
 Una vista se puede actualizar con la sentencia  CREATE OR REPLACE VIEW.
 
-Sintaxis:
+#### Sintaxis:
 
 ```sql
 CREATE OR REPLACE VIEW view_name AS
@@ -64,7 +64,7 @@ FROM table_name
 WHERE condition;
 ```
 
-Ejemplo:
+#### Ejemplo:
 
 El siguiente SQL agrega la columna "Ciudad" a la vista "Clientes de Brasil":
 
@@ -79,13 +79,13 @@ WHERE Country = 'Brazil';
 
 Una vista se elimina con la sentencia DROP VIEW.
 
-Sintaxis:
+#### Sintaxis:
 
 ```ssh
 DROP VIEW view_name;
 ```
 
-Ejemplo:
+#### Ejemplo:
 
 ```sql
 DROP VIEW [Brazil Customers];

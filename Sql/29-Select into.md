@@ -1,7 +1,7 @@
 ## Select into
 La sentencia SELECT INTO copia datos de una tabla en una tabla nueva.
 
-Sintaxis:
+#### Sintaxis:
 
 ```ssh
 SELECT *
@@ -17,7 +17,7 @@ FROM oldtable
 WHERE condition;
 ```
 
-Ejemplos:
+#### Ejemplos:
 
 La siguiente sentencia SQL crea una copia de seguridad de los Clientes:
 

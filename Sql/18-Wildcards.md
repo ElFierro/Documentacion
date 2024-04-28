@@ -13,7 +13,7 @@
  
 El comodín % representa cualquier número de caracteres, incluso cero caracteres.
 
-Ejemplo:
+#### Ejemplo:
 
 Devuelve todos los clientes que contienen el patrón 'mer':
 
@@ -26,7 +26,7 @@ WHERE CustomerName LIKE '%mer%';
 
 El comodín _ representa un solo carácter.
 
-Ejemplo:
+#### Ejemplo:
 
 Devuelve todos los clientes que Citycomienzan con "L", seguidos de 3 caracteres cualesquiera y terminan con "on":
 
@@ -37,7 +37,7 @@ WHERE City LIKE 'L___on';
 
 ## []
 
-Ejemplo:
+#### Ejemplo:
 
 El comodín [] devuelve un resultado si alguno de los caracteres incluidos coincide.
 
@@ -50,7 +50,7 @@ WHERE CustomerName LIKE '[bsp]%';
 
 El comodín - le permite especificar una variedad de caracteres dentro del comodín [].
 
-Ejemplo:
+#### Ejemplo:
 
 Devuelve todos los clientes que comienzan con "a", "b", "c", "d", "e" o "f":
 
@@ -63,7 +63,7 @@ WHERE CustomerName LIKE '[a-f]%';
 
 Cualquier comodín, como % y _ , se puede utilizar en combinación con otros comodines.
 
-Ejemplo:
+#### Ejemplo:
 
 Devuelve todos los clientes que comienzan con "a" y tienen al menos 3 caracteres de longitud:
 
@@ -76,7 +76,7 @@ WHERE CustomerName LIKE 'a__%';
 
 Si no se especifica ningún comodín, la frase debe tener una coincidencia exacta para devolver un resultado.
 
-Ejemplo:
+#### Ejemplo:
 
 Devolver todos los clientes de España:
 

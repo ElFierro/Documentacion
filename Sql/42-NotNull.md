@@ -2,7 +2,7 @@
 
 La restricción NOT NULL obliga a una columna a NO aceptar valores NULL.
 
-Ejemplo:
+#### Ejemplo:
 
 El siguiente SQL garantiza que las columnas "ID", "Apellido" y "Nombre" NO aceptarán valores NULL cuando se cree la tabla "Personas":
 

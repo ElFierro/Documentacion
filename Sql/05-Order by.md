@@ -10,7 +10,7 @@ FROM table_name
 ORDER BY column1, column2, ... ASC|DESC;
 ```
 
-Ejemplo:
+#### Ejemplo:
   
 Ordene los productos alfabéticamente por ProductName:
 
@@ -23,7 +23,7 @@ RDER BY ProductName;
 
 La palabra clave ORDER BY ordena los registros en orden ascendente de forma predeterminada. Para ordenar los registros en orden descendente, utilice la palabra clave DESC.
   
-Ejemplos:
+#### Ejemplos:
 
 Ordene los productos por ProductName en orden inverso:
 

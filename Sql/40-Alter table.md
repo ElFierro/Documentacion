@@ -5,14 +5,14 @@ La sentencia ALTER TABLE también se utiliza para agregar y eliminar varias rest
 
 ## Añadir columna:
 
-Sintaxis:
+#### Sintaxis:
 
 ```ssh
 ALTER TABLE table_name
 ADD column_name datatype;
 ```
 
-Ejemplo:
+#### Ejemplo:
 
 ```sql
 ALTER TABLE Customers
@@ -21,14 +21,14 @@ ADD Email varchar(255);
 
 ## Eliminar columna:
 
-Sintaxis:
+#### Sintaxis:
 
 ```ssh
 ALTER TABLE table_name
 DROP COLUMN column_name;
 ```
 
-Ejemplo:
+#### Ejemplo:
 
 ```sql
 ALTER TABLE Customers
@@ -37,7 +37,7 @@ DROP COLUMN Email;
 
 ## Renombrar columna:
 
-Sintaxis:
+#### Sintaxis:
 ```ssh
 ALTER TABLE table_name
 RENAME COLUMN old_name to new_name;
@@ -71,7 +71,7 @@ ALTER TABLE table_name
 MODIFY column_name datatype;
 ```
 
-Ejemplo:
+#### Ejemplo:
 
 ```sql
 ALTER TABLE Persons

@@ -6,7 +6,7 @@ Si ninguna condición es verdadera, devuelve el valor de la ELSEcláusula.
 
 Si no hay ninguna parte ELSE y ninguna condición es verdadera, devuelve NULL.
 
-Sintaxis:
+#### Sintaxis:
 
 ```ssh
 CASE
@@ -17,7 +17,7 @@ CASE
 END;
 ```
 
-Ejemplo:
+#### Ejemplo:
 
 El siguiente SQL pasa por las condiciones y devuelve un valor cuando se cumple la primera condición:
 

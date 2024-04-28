@@ -2,7 +2,7 @@
 
 La restricción UNIQUE garantiza que todos los valores de una columna sean diferentes.
 
-Ejemplo:
+#### Ejemplo:
 
 El siguiente SQL crea una restricción UNIQUE en la columna "ID" cuando se crea la tabla "Personas":
 

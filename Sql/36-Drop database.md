@@ -2,13 +2,13 @@
 
 La sentencia DROP DATABASE se utiliza para descartar una base de datos SQL existente.
 
-Sintaxis:
+#### Sintaxis:
 
 ```ssh
 DROP DATABASE databasename;
 ```
 
-Ejemplo:
+#### Ejemplo:
 
 ```sql
 DROP DATABASE testDB;

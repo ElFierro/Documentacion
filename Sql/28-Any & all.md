@@ -5,7 +5,7 @@ Los operadores ANY y ALL le permiten realizar una comparación entre un valor de
 ## Any
 significa que la condición será verdadera si la operación es verdadera para cualquiera de los valores del rango.
 
-Sintaxis:
+#### Sintaxis:
 
 ```ssh
 SELECT column_name(s)
@@ -16,7 +16,7 @@ FROM table_name
 WHERE condition);
 ```
 
-Ejemplo:
+#### Ejemplo:
 
 La siguiente instrucción SQL enumera el Nombre del producto si encuentra CUALQUIER registro en la tabla Detalles del
 pedido que tenga una Cantidad igual a 10 
@@ -34,7 +34,7 @@ WHERE Quantity = 10);
 
 ALL significa que la condición será verdadera solo si la operación es verdadera para todos los valores del rango. 
 
-Sintaxis:
+#### Sintaxis:
 
 ```ssh
 SELECT column_name(s)
@@ -45,7 +45,7 @@ FROM table_name
 WHERE condition);
 ```
 
-Ejemplo:
+#### Ejemplo:
 
 La siguiente instrucción SQL enumera el Nombre del producto si TODOS los registros en la tabla Detalles del pedido tienen una Cantidad igual a 10.
 

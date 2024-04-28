@@ -2,14 +2,14 @@
 
 La sentencia SELECT se utiliza para seleccionar datos de una base de datos.
 
-Sintaxis:
+#### Sintaxis:
 
 ```ssh
 SELECT column1, column2, ...
 FROM table_name;
 ```
 
-Ejemplos:
+#### Ejemplos:
 
 ```sql
 SELECT CustomerName, City FROM Customers;

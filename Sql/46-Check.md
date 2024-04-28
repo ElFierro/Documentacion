@@ -2,7 +2,7 @@
 
 La restricción CHECK se utiliza para limitar el rango de valores que se puede colocar en una columna.
 
-Ejemplo:
+#### Ejemplo:
 
 El siguiente SQL crea una restricción CHECK en la columna "Edad" cuando se crea la tabla "Personas"
 

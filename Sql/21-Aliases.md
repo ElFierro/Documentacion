@@ -2,7 +2,7 @@
 Los alias SQL se utilizan para dar un nombre temporal a una tabla o columna de una tabla.
 Los alias se utilizan a menudo para hacer que los nombres de las columnas sean más legibles.
 
-Sintaxis:
+#### Sintaxis:
 
 Cuando se utiliza alias en la columna:
 
@@ -18,7 +18,7 @@ SELECT column_name(s)
 FROM table_name AS alias_name;
 ```
 
-Ejemplos:
+#### Ejemplos:
 
 ## Alias para columnas:
 

@@ -2,7 +2,7 @@
 
 El incremento automático permite generar automáticamente un número único cuando se inserta un nuevo registro en una tabla.
 
-Sintaxis:
+#### Sintaxis:
 
 MySQL:
 

@@ -3,7 +3,7 @@
 El extracto GROUP BY agrupa filas que tienen los mismos valores en filas de resumen
 La sentencia GROUP BY se usa a menudo con funciones agregadas (COUNT(), MAX(), MIN(), SUM(), AVG()) para agrupar el conjunto de resultados en una o más columnas.
 
-Sintaxis:
+#### Sintaxis:
 
 ```ssh
 SELECT column_name(s)
@@ -13,7 +13,7 @@ GROUP BY column_name(s)
 ORDER BY column_name(s);
 ```
 
-Ejemplos:
+#### Ejemplos:
 
 La siguiente sentencia SQL enumera la cantidad de clientes en cada país, ordenados de mayor a menor:
 

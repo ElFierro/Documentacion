@@ -2,7 +2,7 @@
   
 La función COUNT() devuelve el número de filas que coinciden con un criterio específico.
 
-Sintaxis:
+#### Sintaxis:
 
 ```ssh
 SELECT COUNT(column_name)
@@ -10,7 +10,7 @@ FROM table_name
 WHERE condition;
 ```
 
-Ejemplos:
+#### Ejemplos:
 
 Encuentre el número total de productos en la Products tabla:
 
@@ -31,7 +31,7 @@ WHERE Price > 20;
  
 Puede ignorar los duplicados utilizando la palabra clave DISTINCT en la función COUNT.
 
-Ejemplo:
+#### Ejemplo:
 
 ```sql
 SELECT COUNT(DISTINCT Price)
@@ -42,7 +42,7 @@ FROM Products;
 
 Asigne un nombre a la columna contada utilizando la palabra clave AS.
  
-Ejemplo:
+#### Ejemplo:
 
 ```sql
 SELECT COUNT(*) AS [number of records]

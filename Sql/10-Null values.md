@@ -6,7 +6,7 @@ No es posible probar valores NULL con operadores de comparación, como =, < o <>
 
 El operador IS NULL se utiliza para probar valores vacíos (valores NULL).
 
-Sintaxis:
+#### Sintaxis:
 
 ```ssh
 SELECT column_names
@@ -14,7 +14,7 @@ FROM table_name
 WHERE column_name IS NULL;
 ```
 
-Ejemplos:
+#### Ejemplos:
 
 El siguiente SQL enumera todos los clientes con un valor NULL en el campo "Dirección":
     
@@ -28,7 +28,7 @@ WHERE Address IS NULL;
 
 El operador IS NOT NULL se utiliza para probar valores que no estén vacíos (NO valores NULOS).
 
-Sintaxis:
+#### Sintaxis:
 
 ```ssh
 SELECT column_names
@@ -36,7 +36,7 @@ FROM table_name
 WHERE column_name IS NOT NULL;
 ```
 
-Ejemplos:
+#### Ejemplos:
 
 El siguiente SQL enumera todos los clientes con un valor en el campo "Dirección":
 

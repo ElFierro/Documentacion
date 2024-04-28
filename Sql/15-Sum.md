@@ -2,7 +2,7 @@
  
 La función SUM() devuelve la suma total de una columna numérica.
 
-Sintaxis:
+#### Sintaxis:
 
 ```ssh
 SELECT SUM(column_name)
@@ -10,7 +10,7 @@ FROM table_name
 WHERE condition;
 ```
 
-Ejemplos:
+#### Ejemplos:
 
 Devuelve el número de pedidos realizados para el producto con ProductID 11:
 

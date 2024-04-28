@@ -2,7 +2,7 @@
 
 La sentencia CREATE TABLE se utiliza para crear una nueva tabla en una base de datos.
 
-Sintaxis:
+#### Sintaxis:
 
 ```ssh
 CREATE TABLE table_name (
@@ -13,7 +13,7 @@ CREATE TABLE table_name (
 );
 ```
 
-Ejemplo:
+#### Ejemplo:
 
 El siguiente ejemplo crea una tabla llamada "Personas" que contiene cinco columnas: ID de persona, Apellido, Nombre, Dirección y Ciudad:
 
@@ -36,7 +36,7 @@ FROM existing_table_name
 WHERE ....;
 ```
 
-Ejemplo:
+#### Ejemplo:
 
 El siguiente SQL crea una nueva tabla llamada "TestTables" (que es una copia de la tabla "Clientes"): 
 

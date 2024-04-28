@@ -3,7 +3,7 @@
 El operador BETWEEN selecciona valores dentro de un rango determinado. Los valores pueden ser números, texto o fechas.
 El operador BETWEEN es inclusivo: se incluyen los valores inicial y final. 
 
-Sintaxis:
+#### Sintaxis:
 
 ```ssh
 SELECT column_name(s)
@@ -43,7 +43,7 @@ WHERE OrderDate BETWEEN '1996-07-01' AND '1996-07-31';
 
 ## Not between
 
-Ejemplo:
+#### Ejemplo:
 
 ## Con numeros:
 
@@ -54,7 +54,7 @@ SELECT * FROM Products
 WHERE Price NOT BETWEEN 10 AND 20;
 ```
 
-Ejemplo:
+#### Ejemplo:
 
 ## Con texto:
 

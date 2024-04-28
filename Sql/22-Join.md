@@ -6,7 +6,7 @@ Una cláusula JOIN se utiliza para combinar filas de dos o más tablas, en funci
 
 La palabra clave INNER JOIN selecciona registros que tienen valores coincidentes en ambas tablas.
 
-Sintaxis:
+#### Sintaxis:
 
 ```ssh
 SELECT column_name(s)
@@ -15,7 +15,7 @@ INNER JOIN table2
 ON table1.column_name = table2.column_name;
 ```
 
-Ejemplos:
+#### Ejemplos:
 
 Únase a Productos y Categorías con la palabra clave INNER JOIN:
 
@@ -29,7 +29,7 @@ INNER JOIN Categories ON Products.CategoryID = Categories.CategoryID;
     
 Es una buena práctica incluir el nombre de la tabla al especificar columnas en la sentencia SQL.
 
-Ejemplo:
+#### Ejemplo:
 
 Especifique los nombres de las tablas:
 
@@ -45,7 +45,7 @@ La palabra clave LEFT JOIN devuelve todos los registros de la tabla de la izquie
 
 la tabla de la derecha (tabla2).
 
-Sintaxis:
+#### Sintaxis:
 
 ```ssh
 SELECT column_name(s)
@@ -54,7 +54,7 @@ LEFT JOIN table2
 ON table1.column_name = table2.column_name;
 ```
 
-Ejemplo:
+#### Ejemplo:
 
 La siguiente sentencia SQL seleccionará todos los clientes y cualquier pedido que puedan tener:
 
@@ -69,7 +69,7 @@ ORDER BY Customers.CustomerName;
 
 La palabra clave RIGHT JOIN devuelve todos los registros de la tabla derecha (tabla2) y los registros coincidentes de la tabla izquierda (tabla1).
 
-Sintaxis:
+#### Sintaxis:
 
 ```ssh
 SELECT column_name(s)
@@ -78,7 +78,7 @@ RIGHT JOIN table2
 ON table1.column_name = table2.column_name;
 ```
 
-Ejemplo:
+#### Ejemplo:
 
 La siguiente sentencia SQL devolverá todos los empleados y cualquier pedido que hayan realizado:
 
@@ -103,7 +103,7 @@ ON table1.column_name = table2.column_name
 WHERE condition;
 ```
 
-Ejemplo:
+#### Ejemplo:
 
 La siguiente sentencia SQL selecciona todos los clientes y todos los pedidos:
 

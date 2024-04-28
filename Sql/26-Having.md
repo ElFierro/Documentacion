@@ -2,7 +2,7 @@
 
 La cláusula HAVING se agregó a SQL porque la palabra clave WHERE no se puede usar con funciones agregadas.
 
-Sintaxis:
+#### Sintaxis:
 
 ```ssh
 SELECT column_name(s)
@@ -13,7 +13,7 @@ HAVING condition
 ORDER BY column_name(s);
 ```
 
-Ejemplo:
+#### Ejemplo:
 
 La siguiente sentencia SQL enumera la cantidad de clientes en cada país. Incluya solo países con más de 5 clientes:
 

@@ -5,7 +5,7 @@
 Un procedimiento almacenado es un código SQL preparado que puede guardar, de modo que el código pueda reutilizarse una y otra vez.
 También puede pasar parámetros a un procedimiento almacenado, de modo que el procedimiento almacenado pueda actuar en función de los valores de parámetro que se pasan.
 
-Sintaxis:
+#### Sintaxis:
 
 ```ssh
 CREATE PROCEDURE procedure_name
@@ -20,7 +20,7 @@ Ejecutar:
 EXEC procedure_name;
 ```
 
-Ejemplo:
+#### Ejemplo:
 
 ```sql
 CREATE PROCEDURE SelectAllCustomers

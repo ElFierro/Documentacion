@@ -2,7 +2,7 @@
 
 La sentencia INSERT INTO se utiliza para insertar nuevos registros en una tabla.
 
-Sintaxis:
+#### Sintaxis:
 
 Especifique tanto los nombres de las columnas como los valores que se insertarán:
 
@@ -17,7 +17,7 @@ Si está agregando valores para todas las columnas de la tabla, no necesita espe
 INSERT INTO table_name
 VALUES (value1, value2, value3, ...);
 ```
-Ejemplo:
+#### Ejemplo:
  
 La siguiente sentencia SQL inserta un nuevo registro en la tabla "Clientes":
 

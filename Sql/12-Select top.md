@@ -2,7 +2,7 @@
  
 La cláusula SELECT TOP se utiliza para especificar el número de registros a devolver.
 
-Sintaxis:
+#### Sintaxis:
 
 ## SQL Server/MS Access:
 
@@ -30,7 +30,7 @@ ORDER BY column_name(s)
 FETCH FIRST number ROWS ONLY;
 ```
 
-Ejemplo:
+#### Ejemplo:
 
 La siguiente instrucción SQL selecciona los primeros tres registros de la tabla "Clientes", donde el país es "Alemania":
 
