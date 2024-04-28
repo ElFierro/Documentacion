@@ -1,4 +1,4 @@
-## Booleanos de Python
+# Booleanos de Python
 Los booleanos representan uno de dos valores: Trueo False.
 
 ## Valores booleanos
@@ -6,7 +6,6 @@ En programación a menudo necesitas saber si una expresión es Trueo False.
 
 Puede evaluar cualquier expresión en Python y obtener una de dos respuestas, Trueo False.
 
-#### Ejemplo
 ```python
 print(10 > 9)
 print(10 == 9)
@@ -16,7 +15,6 @@ print(10 < 9)
 ## Evaluar valores y variables
 La función bool() le permite evaluar cualquier valor y darle Trueo False a cambio,
 
-#### Ejemplo
 Evaluar una cadena y un número:
 ```python
 print(bool("Hello"))

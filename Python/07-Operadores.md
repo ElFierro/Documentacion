@@ -1,11 +1,10 @@
-```python
-x = 5, y = 3
-```
+# Operadores
 
 ## Aritmeticos
 Los operadores aritméticos se utilizan con valores numéricos para realizar operaciones matemáticas comunes:
 
 ```python
+x = 5, y = 3
 Z= x + y 	#8
 Z= x - y 	#2
 Z= x * y 	#15
@@ -29,6 +28,7 @@ x **= 3  #125
 ## Comparacion
 Los operadores de comparación se utilizan para comparar dos valores:
 ```python
+x = 5, y = 3
 x == y 	#False
 x != y 	#True
 x > y 	#True
@@ -39,6 +39,7 @@ x <= y  #False
 ## Logicos
 Los operadores lógicos se utilizan para combinar declaraciones condicionales
 ```python
+
 x > 3 and x < 10	   #True
 x > 3 or x < 4	       #True
 not(x < 5 and x < 10)  #False

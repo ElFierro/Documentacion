@@ -1,4 +1,4 @@
-## String
+# String
 
 ## Asignar cadena a una variable
 La asignación de una cadena a una variable se realiza con el nombre de la variable seguido de un signo igual y la cadena:

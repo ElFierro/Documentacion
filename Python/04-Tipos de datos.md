@@ -1,4 +1,4 @@
-## Tipos de datos integrados
+# Tipos de datos integrados
 
 En programación, el tipo de datos es un concepto importante.
 
@@ -31,17 +31,17 @@ Python tiene los siguientes tipos de datos integrados de forma predeterminada, e
 - Ninguno Tipo:	      
     NoneType
 
-#### Configuración del tipo de datos
+## Configuración del tipo de datos
 
 En Python, el tipo de datos se establece cuando asignas un valor a una variable:
 
-Texto
+#### Texto
 ```python
 #str
 x = "Hello World"								
 ```
 
-Numericos	
+#### Numericos	
 ```python
 #int
 x = 20	
@@ -51,7 +51,7 @@ x = 20.5
 x = 1j										
 ```
 
-Secuencia
+#### Secuencia
 ```python
 #list	
 x = ["apple", "banana", "cherry"]				
@@ -61,13 +61,13 @@ x = ("apple", "banana", "cherry")
 x = range(6)										
 ```
 
-Mapeo
+#### Mapeo
 ```python
 #dict	
 x = {"name" : "John", "age" : 36}				
 ```
 
-Conjutos
+#### Conjutos
 ```python
 #set
 x = {"apple", "banana", "cherry"}	
@@ -75,13 +75,13 @@ x = {"apple", "banana", "cherry"}
 x = frozenset({"apple", "banana", "cherry"})			
 ```
 
-Booleanos
+#### Booleanos
 ```python
 #bool
 x = True											
 ```
 
-Binarios
+#### Binarios
 ```python
 #bytes	
 x = b"Hello"	
@@ -91,7 +91,7 @@ x = bytearray(5)
 x = memoryview(bytes(5))						
 ```
 
-Sin tipo
+#### Sin tipo
 ```python
 #NoneType
 x = None										
