@@ -51,7 +51,7 @@ Secuencia
 ```python
 x = ["apple", "banana", "cherry"]				#list	
 x = ("apple", "banana", "cherry")				#tuple	
-x = range(6)									          #range	
+x = range(6)									#range	
 ```
 
 Mapeo
@@ -61,7 +61,7 @@ x = {"name" : "John", "age" : 36}				#dict
 
 Conjutos
 ```python
-x = {"apple", "banana", "cherry"}				       #set	
+x = {"apple", "banana", "cherry"}				 #set	
 x = frozenset({"apple", "banana", "cherry"})	 #frozenset	
 ```
 
@@ -72,8 +72,8 @@ x = True										#bool
 
 Binarios
 ```python
-x = b"Hello"									      #bytes	
-x = bytearray(5)								    #bytearray	
+x = b"Hello"									#bytes	
+x = bytearray(5)								#bytearray	
 x = memoryview(bytes(5))						#memoryview	
 ```
 
