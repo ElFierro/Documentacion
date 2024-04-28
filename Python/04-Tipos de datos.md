@@ -6,16 +6,24 @@ Las variables pueden almacenar datos de diferentes tipos y diferentes tipos pued
 
 Python tiene los siguientes tipos de datos integrados de forma predeterminada, en estas categorías:
 
-```ssh
-Tipo de texto:	      str
-Tipos numéricos:	    int, float, complex
-Tipos de secuencia:	  list, tuple, range
-Tipo de mapeo:	      dict
-Tipos de conjuntos:	  set,frozenset
-Tipo booleano:	      bool
-Tipos binarios:	      bytes, bytearray, memoryview
-Ninguno Tipo:	        NoneType
-```
+
+- Tipo de texto:	      
+  str
+- Tipos numéricos:	  
+  int, float, complex
+- Tipos de secuencia:	  
+  list, tuple, range
+- Tipo de mapeo:	      
+  dict
+- Tipos de conjuntos:	  
+  set,frozenset
+- Tipo booleano:	      
+  bool
+- Tipos binarios:	      
+  bytes, bytearray, memoryview
+- Ninguno Tipo:	      
+  NoneType
+
 #### Configuración del tipo de datos
 
 En Python, el tipo de datos se establece cuando asignas un valor a una variable:

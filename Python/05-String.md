@@ -197,9 +197,9 @@ txt = f"The price is {20 * 59} dollars"   #The price is 1180 dollars
 #### Scape caracter
 ```python
 'It\'s alright.'		#It\'s alright.
-"one \\ (backslash)."	   #one \ (backslash).
+"one \\ (backslash)."	       #one \ (backslash).
 "Hello\nWorld!"			#Hello
-						#World
+			#World
 "Hello\tWorld!"			#Hello	World!
 "Hello \bWorld!"		#HelloWorld!
 ```
