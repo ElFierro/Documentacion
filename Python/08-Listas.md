@@ -7,13 +7,13 @@ Las listas se utilizan para almacenar varios elementos en una sola variable.
 ```python
 mylist = ["apple", "banana", "cherry"]
 ```
-## Ordenado
-significa que los elementos tienen un orden definido y ese orden no cambiará.
+- ## Ordenada
+Significa que los elementos tienen un orden definido y ese orden no cambiará.
 
-## Cambiable
-podemos cambiar, agregar y eliminar elementos en una lista después de haberla creado.
+- ## Cambiable
+Podemos cambiar, agregar y eliminar elementos en una lista después de haberla creado.
 
-## Permite duplicados
+- ## Permite duplicados
 Dado que las listas están indexadas, las listas pueden tener elementos con el mismo valor:
 ```python
 mylist = ["apple", "cherry","banana", "cherry"]      #["apple", "cherry","banana", "cherry"]
@@ -147,7 +147,7 @@ newlist = [expression for item in iterable if condition == True]
 fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 newlist = [x for x in fruits if x != "apple"]   #['banana', 'cherry', 'kiwi', 'mango']
 ```
-### Expresión
+- ### Expresión
 La expresión es el elemento actual en la iteración, pero también es el resultado, que puede manipular antes de que termine como un elemento de lista en la nueva lista:
 
 Establezca los valores en la nueva lista en mayúsculas:
@@ -155,14 +155,14 @@ Establezca los valores en la nueva lista en mayúsculas:
 fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 newlist = [x.upper() for x in fruits]  #['APPLE', 'BANANA', 'CHERRY', 'KIWI', 'MANGO']
 ```
-### iterable
+- ### iterable
 El iterable puede ser cualquier objeto iterable, como una lista, tupla, conjunto, etc.
 
 Puedes usar la función range() para crear un iterable:
 ```python
 newlist = [x for x in range(10)]
 ```
-### Condición
+- ### Condición
 La condición es como un filtro que solo acepta los elementos que se valoran en True.
 
 Sólo acepte artículos que no sean "apple":
