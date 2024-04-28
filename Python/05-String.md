@@ -6,7 +6,6 @@ La asignación de una cadena a una variable se realiza con el nombre de la varia
 Ejemplo
 ```python
 a = "Hello"
-print(a)
 ```
 
 #### Cadenas multilínea
@@ -21,7 +20,6 @@ a = """Lorem ipsum dolor sit amet,
 consectetur adipiscing elit,
 sed do eiusmod tempor incididunt
 ut labore et dolore magna aliqua."""
-print(a)
 ```
 
 #### Las cadenas son matrices
@@ -34,7 +32,7 @@ Se pueden utilizar corchetes para acceder a los elementos de la cadena.
 Ejemplo
 ```python
 a = "Hello, World!"
-print(a[1])
+print(a[1])    #e
 ```
 
 #### Bucle a través de una cuerda
@@ -45,7 +43,7 @@ Recorra las letras de la palabra "plátano":
 
 ```python
 for x in "banana":
-  print(x)
+  print(x)          #b  a  n  a  n  a
 ```
 
 #### Longitud de la cuerda
@@ -56,7 +54,7 @@ La función len() devuelve la longitud de una cadena:
 
 ```python
 a = "Hello, World!"
-print(len(a))
+print(len(a))    #13
 ```
 
 #### Verificar cadena
@@ -67,7 +65,7 @@ Compruebe si "free" está presente en el siguiente texto:
 
 ```python
 txt = "The best things in life are free!"
-print("free" in txt)
+print("free" in txt)       #True
 ```
 
 #### Verificar si no existe en cadena
@@ -78,7 +76,7 @@ Ejemplo
 Compruebe si "caro" NO está presente en el siguiente texto:
 ```python
 txt = "The best things in life are free!"
-print("expensive" not in txt)
+print("expensive" not in txt)    #True
 ```
 
 #### Cortar string
@@ -90,25 +88,25 @@ Especifique el índice inicial y el índice final, separados por dos puntos, par
 Ejemplo:
 ```python
 b = "Hello, World!"
-print(b[2:5])
+print(b[2:5])   #llo
 ```
 
 Al omitir el índice inicial, el rango comenzará en el primer carácter:
 ```python
 b = "Hello, World!"
-print(b[:5])
+print(b[:5])   #Hello
 ```
 
 Al omitir el índice final , el rango irá hasta el final:
 ```python
 b = "Hello, World!"
-print(b[2:])
+print(b[2:])   #llo, World!
 ```
 
 Utilice índices negativos para comenzar el segmento desde el final de la cadena:
 ```python
 b = "Hello, World!"
-print(b[-5:-2])
+print(b[-5:-2])    #orl
 ```
 
 #### Mayúsculas
@@ -116,7 +114,7 @@ Ejemplo
 El método upper() devuelve la cadena en mayúsculas:
 ```python
 a = "Hello, World!"
-print(a.upper())
+print(a.upper())     #HELLO, WORLD!
 ```
 
 #### Minúscula
@@ -124,7 +122,7 @@ Ejemplo
 El método lower() devuelve la cadena en minúsculas:
 ```python
 a = "Hello, World!"
-print(a.lower())
+print(a.lower())     #hello, world!
 ```
 
 #### Eliminar espacios en blanco
@@ -134,7 +132,7 @@ Ejemplo
 El método strip() elimina cualquier espacio en blanco desde el principio o el final:
 ```python
 a = " Hello, World! "
-print(a.strip()) # returns "Hello, World!"
+print(a.strip())   #"Hello, World!"
 ```
 
 #### Reemplazar cadena
@@ -142,7 +140,7 @@ Ejemplo
 El método replace() reemplaza una cadena con otra cadena:
 ```python
 a = "Hello, World!"
-print(a.replace("H", "J"))
+print(a.replace("H", "J"))  #Jello, World!
 ```
 
 #### Cadena dividida
@@ -164,7 +162,7 @@ Fusionar variable a con variable b en variable c:
 ```python
 a = "Hello"
 b = "World"
-c = a + b
+c = a + " "+ b     #Hello World
 ```
 
 #### Formatear cadenas
@@ -175,7 +173,7 @@ Crea una cadena f:
 
 ```python
 age = 36
-txt = f"My name is John, I am {age}"
+txt = f"My name is John, I am {age}"   #My name is John, I am 36
 ```
 Un marcador de posición puede incluir un modificador para formatear el valor.
 
@@ -185,8 +183,7 @@ Ejemplo
 Muestra el precio con 2 decimales:
 ```python
 price = 59
-txt = f"The price is {price:.2f} dollars"
-print(txt)
+txt = f"The price is {price:.2f} dollars"    #The price is 59.00 dollars
 ```
 
 Un marcador de posición puede contener código Python, como operaciones matemáticas:
@@ -194,14 +191,13 @@ Un marcador de posición puede contener código Python, como operaciones matemá
 Ejemplo
 Realice una operación matemática en el marcador de posición y devuelva el resultado:
 ```python
-txt = f"The price is {20 * 59} dollars"
-print(txt)
+txt = f"The price is {20 * 59} dollars"   #The price is 1180 dollars
 ```
 
 #### Scape caracter
 ```python
 'It\'s alright.'		#It\'s alright.
-"one \\ (backslash)."	#one \ (backslash).
+"one \\ (backslash)."	   #one \ (backslash).
 "Hello\nWorld!"			#Hello
 						#World
 "Hello\tWorld!"			#Hello	World!
