@@ -62,7 +62,7 @@ x = {"name" : "John", "age" : 36}				#dict
 Conjutos
 ```python
 x = {"apple", "banana", "cherry"}				 #set	
-x = frozenset({"apple", "banana", "cherry"})	 #frozenset	
+x = frozenset({"apple", "banana", "cherry"})				 #frozenset	
 ```
 
 Booleanos
