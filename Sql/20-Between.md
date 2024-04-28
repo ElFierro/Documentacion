@@ -17,7 +17,7 @@ Ejempo:
 
 Selecciona todos los productos con un precio entre 10 y 20:
 
-```java
+```sql
 SELECT * FROM Products
 WHERE Price BETWEEN 10 AND 20;
 ```
@@ -26,7 +26,7 @@ WHERE Price BETWEEN 10 AND 20;
 
 La siguiente sentencia SQL selecciona alfabéticamente todos los productos con un ProductName entre Carnarvon Tigers y Mozzarella di Giovanni:
 
-```java
+```sql
 SELECT * FROM Products
 WHERE ProductName BETWEEN 'Carnarvon Tigers' AND 'Mozzarella di Giovanni'
 ORDER BY ProductName;
@@ -36,7 +36,7 @@ ORDER BY ProductName;
 
 La siguiente instrucción SQL selecciona todos los pedidos con una fecha de pedido entre '01-julio-1996' y '31-julio-1996':
 
-```java
+```sql
 SELECT * FROM Orders
 WHERE OrderDate BETWEEN '1996-07-01' AND '1996-07-31';
 ```
@@ -49,7 +49,7 @@ Ejemplo:
 
 Para mostrar los productos fuera del rango del ejemplo anterior, utilice NOT BETWEEN:
 
-```java
+```sql
 SELECT * FROM Products
 WHERE Price NOT BETWEEN 10 AND 20;
 ```
@@ -60,7 +60,7 @@ Ejemplo:
 
 La siguiente sentencia SQL selecciona todos los productos con un ProductName que no esté entre Carnarvon Tigers y Mozzarella di Giovanni:
 
-```java
+```sql
 SELECT * FROM Products
 WHERE ProductName NOT BETWEEN 'Carnarvon Tigers' AND 'Mozzarella di Giovanni'
 ORDER BY ProductName;
