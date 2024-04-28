@@ -30,7 +30,7 @@ DROP COLUMN column_name;
 
 Ejemplo:
 
-```ssh
+```sql
 ALTER TABLE Customers
 DROP COLUMN Email;
 ```
