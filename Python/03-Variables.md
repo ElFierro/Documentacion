@@ -55,6 +55,7 @@ x = 'John'
 Los nombres de las variables distinguen entre mayúsculas y minúsculas.
 
 Ejemplo
+
 Esto creará dos variables:
 
 ```python
@@ -145,6 +146,7 @@ print(z)
 Si tiene una colección de valores en una lista, tupla, etc. Python le permite extraer los valores en variables. A esto se le llama desempacar .
 
 Ejemplo
+
 Descomprimir una lista:
 
 ```python
@@ -174,6 +176,7 @@ myfunc()
 Si crea una variable con el mismo nombre dentro de una función, esta variable será local y solo podrá usarse dentro de la función. La variable global con el mismo nombre quedará como estaba, global y con el valor original.
 
 Ejemplo
+
 Crear una variable dentro de una función, con el mismo nombre que la variable global
 
 ```python
@@ -195,6 +198,7 @@ Normalmente, cuando creas una variable dentro de una función, esa variable es l
 Para crear una variable global dentro de una función, puede usar la globalpalabra clave.
 
 Ejemplo
+
 Si usa la globalpalabra clave, la variable pertenece al alcance global:
 
 ```python
@@ -210,6 +214,7 @@ print("Python is " + x)
 Además, utilice la globalpalabra clave si desea cambiar una variable global dentro de una función.
 
 Ejemplo
+
 Para cambiar el valor de una variable global dentro de una función, consulte la variable usando la globalpalabra clave:
 
 ```python
