@@ -120,7 +120,7 @@ myfunc()
 print("Python is " + x) #Python is awesome
 ```
 
-Para crear una variable global dentro de una función, puede usar la globalpalabra clave.
+Para crear una variable global dentro de una función, puede usar la palabra clave global.
 
 ```python
 def myfunc():
