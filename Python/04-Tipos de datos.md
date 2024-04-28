@@ -37,49 +37,64 @@ En Python, el tipo de datos se establece cuando asignas un valor a una variable:
 
 Texto
 ```python
-x = "Hello World"								#str
+#str
+x = "Hello World"								
 ```
 
 Numericos	
 ```python
-x = 20											#int	
-x = 20.5										#float	
-x = 1j											#complex	
+#int
+x = 20	
+#float												
+x = 20.5			
+#complex								
+x = 1j										
 ```
 
 Secuencia
 ```python
-x = ["apple", "banana", "cherry"]				#list	
-x = ("apple", "banana", "cherry")				#tuple	
-x = range(6)									#range	
+#list	
+x = ["apple", "banana", "cherry"]				
+#tuple	
+x = ("apple", "banana", "cherry")	
+#range			
+x = range(6)										
 ```
 
 Mapeo
 ```python
-x = {"name" : "John", "age" : 36}				#dict	
+#dict	
+x = {"name" : "John", "age" : 36}				
 ```
 
 Conjutos
 ```python
-x = {"apple", "banana", "cherry"}				 #set	
-x = frozenset({"apple", "banana", "cherry"})				 #frozenset	
+#set
+x = {"apple", "banana", "cherry"}	
+#frozenset				 	
+x = frozenset({"apple", "banana", "cherry"})			
 ```
 
 Booleanos
 ```python
-x = True										#bool	
+#bool
+x = True											
 ```
 
 Binarios
 ```python
-x = b"Hello"									#bytes	
-x = bytearray(5)								#bytearray	
-x = memoryview(bytes(5))						#memoryview	
+#bytes	
+x = b"Hello"	
+#bytearray								
+x = bytearray(5)			
+#memoryview							
+x = memoryview(bytes(5))						
 ```
 
 Sin tipo
 ```python
-x = None										#NoneType
+#NoneType
+x = None										
 ```
 
 #### Configuración del tipo de datos específico
