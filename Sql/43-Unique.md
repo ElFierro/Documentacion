@@ -59,7 +59,7 @@ ADD CONSTRAINT UC_Person UNIQUE (ID,LastName);
 
 #### Eliminar unique
 
-Para eliminar una UNIQUErestricción, utilice el siguiente SQL:
+Para eliminar una restricción UNIQUE, utilice el siguiente SQL:
 
 MySQL:
 
