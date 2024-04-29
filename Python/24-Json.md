@@ -8,30 +8,30 @@ import json
 ```
 ## Convertir de JSON a Python
 Si tiene una cadena JSON, puede analizarla utilizando el método json.loads().
-```python	
+```python 
 import json
 
-x =  '{ "name":"John", "age":30, "city":"New York"}'	#Json 
+x =  '{ "name":"John", "age":30, "city":"New York"}' #Json 
 y = json.loads(x)   # parse x:
 
 #the result is a Python dictionary:
-print(y["age"])							#30
+print(y["age"])       #30
 ```
 ## Convertir de Python a JSON
 Si tiene un objeto Python, puede convertirlo en una cadena JSON utilizando el método json.dumps().
 ```python
 import json
 
-x = {					# a Python object (dict):
+x = {     # a Python object (dict):
   "name": "John",
   "age": 30,
   "city": "New York"
 }
 
-y = json.dumps(x)		# convert into JSON:
+y = json.dumps(x)  # convert into JSON:
 
 #the result is a JSON string:
-print(y)				#{"name": "John", "age": 30, "city": "New York"}
+print(y)    #{"name": "John", "age": 30, "city": "New York"}
 ```
 Puede convertir objetos Python de los siguientes tipos en cadenas JSON:
 
@@ -44,7 +44,7 @@ Puede convertir objetos Python de los siguientes tipos en cadenas JSON:
 | int | json.dumps(42)|
 | float | json.dumps(31.76)|
 | True | json.dumps(True)|
-| False | json.dumps(False)	|
+| False | json.dumps(False) |
 | None | json.dumps(None)|
 
 Cuando convierte de Python a JSON, los objetos de Python se convierten al equivalente de JSON (JavaScript):
@@ -66,16 +66,16 @@ Convierta un objeto Python que contenga todos los tipos de datos legales:
 import json
 
 x = {
-	"name": "John",
-	"age": 30,
-	"married": True,
-	"divorced": False,
-	"children": ("Ann","Billy"),
-	"pets": None,
-	"cars": [
-	  {"model": "BMW 230", "mpg": 27.5},
-	  {"model": "Ford Edge", "mpg": 24.1}
-	]
+ "name": "John",
+ "age": 30,
+ "married": True,
+ "divorced": False,
+ "children": ("Ann","Billy"),
+ "pets": None,
+ "cars": [
+   {"model": "BMW 230", "mpg": 27.5},
+   {"model": "Ford Edge", "mpg": 24.1}
+ ]
 }
 
 print(json.dumps(x))
@@ -91,25 +91,25 @@ Utilice el parámetro indent para definir el número de sangrías:
 json.dumps(x, indent=4)
 
 {
-	"name": "John",
-	"age": 30,
-	"married": true,
-	"divorced": false,
-	"children": [
-		"Ann",
-		"Billy"
-	],
-	"pets": null,
-	"cars": [
-		{
-			"model": "BMW 230",
-			"mpg": 27.5
-		},
-		{
-			"model": "Ford Edge",
-			"mpg": 24.1
-		}
-	]
+ "name": "John",
+ "age": 30,
+ "married": true,
+ "divorced": false,
+ "children": [
+  "Ann",
+  "Billy"
+ ],
+ "pets": null,
+ "cars": [
+  {
+   "model": "BMW 230",
+   "mpg": 27.5
+  },
+  {
+   "model": "Ford Edge",
+   "mpg": 24.1
+  }
+ ]
 }
 ```
 Utilice el separatorsparámetro para cambiar el separador predeterminado:
@@ -117,25 +117,25 @@ Utilice el separatorsparámetro para cambiar el separador predeterminado:
 json.dumps(x, indent=4, separators=(". ", " = "))
 
 {
-	"name" = "John".
-	"age" = 30.
-	"married" = true.
-	"divorced" = false.
-	"children" = [
-		"Ann".
-		"Billy"
-	].
-	"pets" = null.
-    "cars" = [
-        {
-            "model" = "BMW 230".
-            "mpg" = 27.5
-        }.
-        {
-            "model" = "Ford Edge".
-            "mpg" = 24.1
-        }
-	]
+ "name" = "John".
+ "age" = 30.
+ "married" = true.
+ "divorced" = false.
+ "children" = [
+   "Ann".
+   "Billy"
+ ].
+ "pets" = null.
+ "cars" = [
+  {
+    "model" = "BMW 230".
+    "mpg" = 27.5
+  }.
+  {
+    "model" = "Ford Edge".
+    "mpg" = 24.1
+  }
+ ]
 }
 ```
 ## Ordenar el resultado
@@ -144,24 +144,24 @@ Utilice el parámetro sort_keys para especificar si el resultado debe ordenarse 
 json.dumps(x, indent=4, sort_keys=True)
 ```python
 {
-	"age": 30,
-	"cars": [
-		{
-		    "model": "BMW 230",
-		    "mpg": 27.5
-		},
-		{
-		    "model": "Ford Edge",
-		    "mpg": 24.1
-		}
-	],
-	"children": [
-		"Ann",
-		"Billy"
-	],
-	"divorced": false,
-	"married": true,
-	"name": "John",
-	"pets": null
+ "age": 30,
+ "cars": [
+  {
+    "model": "BMW 230",
+    "mpg": 27.5
+  },
+  {
+    "model": "Ford Edge",
+    "mpg": 24.1
+  }
+ ],
+ "children": [
+  "Ann",
+  "Billy"
+ ],
+ "divorced": false,
+ "married": true,
+ "name": "John",
+ "pets": null
 }
 ```
