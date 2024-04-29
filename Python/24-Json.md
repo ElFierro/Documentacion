@@ -34,29 +34,19 @@ y = json.dumps(x)		# convert into JSON:
 print(y)				#{"name": "John", "age": 30, "city": "New York"}
 ```
 Puede convertir objetos Python de los siguientes tipos en cadenas JSON:
-```python
-- dict
-json.dumps({"name": "John", "age": 30})		#{"name": "John", "age": 30}
-- list
-json.dumps(["apple", "bananas"])			#["apple", "bananas"]
-- tuple
-json.dumps(("apple", "bananas"))			#["apple", "bananas"]
-- string
-json.dumps("hello")							#"hello"
-- int
-json.dumps(42)								#int - 42
-- float
-json.dumps(31.76)							#float - 31.76
-- True
-json.dumps(True)							#True - true
-- False
-json.dumps(False)							#False - false
-- None
-json.dumps(None)							#None - null
-```
-Cuando convierte de Python a JSON, los objetos de Python se convierten al equivalente de JSON (JavaScript):
 
-## Color Reference
+
+| dict | json.dumps({"name": "John", "age": 30})|
+| list | json.dumps(["apple", "bananas"])|
+| tuple | json.dumps(("apple", "bananas"))|
+| str | json.dumps("hello")|
+| int | json.dumps(42)|
+| float | json.dumps(31.76)|
+| True | json.dumps(True)|
+| False | json.dumps(False)	|
+| None | json.dumps(None)|
+
+Cuando convierte de Python a JSON, los objetos de Python se convierten al equivalente de JSON (JavaScript):
 
 | Python   | Json      |
 | -------- | --------- |
