@@ -20,9 +20,9 @@ El módulo puede contener funciones, como ya se ha descrito, pero también varia
 ```python
 #mymodule.py
 person1 = {
-	"name": "John",
-	"age": 36,
-	"country": "Norway"
+ "name": "John",
+ "age": 36,
+ "country": "Norway"
 }
 ```
 #Importe el módulo llamado mymodule y acceda al diccionario person1:
@@ -55,9 +55,9 @@ def greeting(name):
   print("Hello, " + name)
 
 person1 = {
-  "name": "John",
-  "age": 36,
-  "country": "Norway"
+ "name": "John",
+ "age": 36,
+ "country": "Norway"
 }
 ```
 Importe solo el diccionario person1 del módulo:
