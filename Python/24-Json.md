@@ -55,19 +55,21 @@ json.dumps(False)							#False - false
 json.dumps(None)							#None - null
 ```
 Cuando convierte de Python a JSON, los objetos de Python se convierten al equivalente de JSON (JavaScript):
-```ssh
-Python		Json
 
-dict		Object
-list		Array
-tuple		Array
-str			String
-int			Number
-float		Number
-True		true
-False		false
-None		null
-```
+## Color Reference
+
+| Python   | Json      |
+| -------- | --------- |
+| dict | Object|
+| list | Array|
+| tuple | Array|
+| str | String|
+| int | Number|
+| float | Number|
+| True | true|
+| False | false|
+| None | null|
+
 Convierta un objeto Python que contenga todos los tipos de datos legales:
 ```python
 import json
