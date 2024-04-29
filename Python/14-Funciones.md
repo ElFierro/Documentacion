@@ -32,7 +32,7 @@ Si no sabe cuántos argumentos se pasarán a su función, agregue un * antes del
 ```python
 def my_function(*kids):							
   print("The youngest child is " + kids[2])
-		  						#Argumentos arbitrarios *args
+		  				#Argumentos arbitrarios *args
 my_function("Emil", "Tobias", "Linus")			#The youngest child is Linus
 ```
 ## Argumentos de palabras clave
@@ -49,7 +49,7 @@ Si se desconoce el número de argumentos de palabras clave, agregue un doble **a
 ```python
 def my_function(**kid):								
 print("His last name is " + kid["lname"])
-		  								#Argumentos arbitrarios kwargs
+		  				#Argumentos arbitrarios kwargs
 my_function(fname = "Tobias", lname = "Refsnes")	#His last name is Refsnes
 ```
 ## Valor de parámetro predeterminado
@@ -79,13 +79,13 @@ Para permitir que una función devuelva un valor, use la declaración return:
 def my_function(x):
   return 5 * x 		
 ```
-## recursividad
+## Recursividad
 Python también acepta la recursividad de funciones, lo que significa que una función definida puede llamarse a sí misma.
 ```python
 def tri_recursion(k):
   if(k > 0):
 	result = k + tri_recursion(k - 1)			#5 4 3 2 1 0
-	print(result)			#1+0 2+1 3+3 6+4 10+5 + 15+6
+	print(result)			   #1+0 2+1 3+3 6+4 10+5 + 15+6
   else:						# 1   3   6  10   15     21  
 	result = 0
 	return result
