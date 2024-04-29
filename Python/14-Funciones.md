@@ -9,7 +9,7 @@ Una función puede devolver datos como resultado.
 ## Creando una función
 En Python una función se define usando la palabra clave def:
 ```python		
-ef my_function():
+def my_function():
 print("Hello from a function")
 ```
 ## Llamar a una función
@@ -22,8 +22,8 @@ Los argumentos se especifican después del nombre de la función, dentro del par
 ```python
 def my_function(fname):			#parametros
   print(fname + " Refsnes")
-		  						#Argumentos
-my_function("Emil")				#Emil Refsnes
+		  				#Argumentos
+my_function("Emil")			#Emil Refsnes
 my_function("Tobias")			#Tobias Refsnes
 my_function("Linus")			#Linus Refsnes
 ```
@@ -32,7 +32,7 @@ Si no sabe cuántos argumentos se pasarán a su función, agregue un * antes del
 ```python
 def my_function(*kids):							
   print("The youngest child is " + kids[2])
-		  										#Argumentos arbitrarios *args
+		  						#Argumentos arbitrarios *args
 my_function("Emil", "Tobias", "Linus")			#The youngest child is Linus
 ```
 ## Argumentos de palabras clave
@@ -49,7 +49,7 @@ Si se desconoce el número de argumentos de palabras clave, agregue un doble **a
 ```python
 def my_function(**kid):								
 print("His last name is " + kid["lname"])
-		  													#Argumentos arbitrarios kwargs
+		  								#Argumentos arbitrarios kwargs
 my_function(fname = "Tobias", lname = "Refsnes")	#His last name is Refsnes
 ```
 ## Valor de parámetro predeterminado
@@ -60,9 +60,9 @@ def my_function(country = "Norway"):
 
 my_function("Sweden")	#I am from India
 
-my_function()			#I am from Norway
+my_function()		#I am from Norway
 ```
-## lista como argumento
+## Lista como argumento
 Puede enviar cualquier tipo de argumento de datos a una función (cadena, número, lista, diccionario, etc.)
 ```python
 def my_function(food):
