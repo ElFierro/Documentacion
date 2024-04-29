@@ -31,8 +31,8 @@ len(thisdict)
 ## Elementos del diccionario
 Los valores de los elementos del diccionario pueden ser de cualquier tipo de datos:
 ```python
-thisdict = {					#{'brand': 'Ford', 'electric': False, 'year': 1964, 'colors': ['red', 'white', 'blue']}
-	"brand": "Ford",
+thisdict = {					#{'brand': 'Ford', 'electric': False, 'year': 1964, 
+	"brand": "Ford",    #'colors': ['red', 'white', 'blue']}
 	"electric": False,
 	"year": 1964,
 	"colors": ["red", "white", "blue"]
@@ -55,7 +55,7 @@ thisdict["model"]			#Mustang
 ```
 También hay un método llamado get()que te dará el mismo resultado:
 ```python
-thisdict.get("model")	#Mustang
+thisdict.get("model")   	#Mustang
 ```
 ## Obtener claves
 El método keys() devolverá una lista de todas las claves del diccionario.
