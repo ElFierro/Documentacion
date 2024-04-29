@@ -21,8 +21,8 @@ my_function()			#Hello from a function
 Los argumentos se especifican después del nombre de la función, dentro del paréntesis. Puedes agregar tantos argumentos como quieras, simplemente sepáralos con una coma.
 ```python
 def my_function(fname):			#parametros
-  print(fname + " Refsnes")
-		  				#Argumentos
+ print(fname + " Refsnes")
+		 				#Argumentos
 my_function("Emil")			#Emil Refsnes
 my_function("Tobias")			#Tobias Refsnes
 my_function("Linus")			#Linus Refsnes
@@ -31,8 +31,8 @@ my_function("Linus")			#Linus Refsnes
 Si no sabe cuántos argumentos se pasarán a su función, agregue un * antes del nombre del parámetro en la definición de la función
 ```python
 def my_function(*kids):							
-  print("The youngest child is " + kids[2])
-		  				#Argumentos arbitrarios *args
+ print("The youngest child is " + kids[2])
+		 				#Argumentos arbitrarios *args
 my_function("Emil", "Tobias", "Linus")			#The youngest child is Linus
 ```
 ## Argumentos de palabras clave
@@ -67,7 +67,7 @@ Puede enviar cualquier tipo de argumento de datos a una función (cadena, númer
 ```python
 def my_function(food):
   for x in food:
-    print(x)						#apple banana cherry	
+   print(x)						#apple banana cherry	
 
 fruits = ["apple", "banana", "cherry"]
 
@@ -77,18 +77,18 @@ my_function(fruits)
 Para permitir que una función devuelva un valor, use la declaración return:
 ```python
 def my_function(x):
-  return 5 * x 		
+ return 5 * x 		
 ```
 ## Recursividad
 Python también acepta la recursividad de funciones, lo que significa que una función definida puede llamarse a sí misma.
 ```python
 def tri_recursion(k):
   if(k > 0):
-	result = k + tri_recursion(k - 1)			#5 4 3 2 1 0
-	print(result)			   #1+0 2+1 3+3 6+4 10+5 + 15+6
+	 result = k + tri_recursion(k - 1)			#5 4 3 2 1 0
+	 print(result)			   #1+0 2+1 3+3 6+4 10+5 + 15+6
   else:						# 1   3   6  10   15     21  
-	result = 0
-	return result
+	 result = 0
+	 return result
 
 tri_recursion(6)
 ```

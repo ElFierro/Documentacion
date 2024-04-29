@@ -60,7 +60,7 @@ person1 = {
   "country": "Norway"
 }
 ```
-#Importe solo el diccionario person1 del módulo:
+Importe solo el diccionario person1 del módulo:
 ```python
 from mymodule import person1
 

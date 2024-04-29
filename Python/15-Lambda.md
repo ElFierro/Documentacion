@@ -25,11 +25,11 @@ El poder de lambda se muestra mejor cuando los usa como una función anónima de
 Utilice esa definición de función para crear una función que siempre duplique el número que envía:
 ```python
 def myfunc(n):
-  return lambda a : a * n
+ return lambda a : a * n
 
-	mydoubler = myfunc(2)
-	mytripler = myfunc(3)
+mydoubler = myfunc(2)
+mytripler = myfunc(3)
 
-	print(mydoubler(11))	#22
-	print(mytripler(11))	#33
+print(mydoubler(11))	#22
+print(mytripler(11))	#33
 ```

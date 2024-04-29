@@ -47,8 +47,8 @@ Una referencia de todos los códigos de formato legal:
 | %z	|Desplazamiento UTC#	| +0100|
 | %Z	|Zona horaria	|CST|
 | %j	|Número de día del año 001-366	|  365|
-| %U	|Número de semana del año 00-53	| 52  domingo como primer día de la semana|
-| %W	|Número de semana del año 00-53	| 52  lunes como primer día de la semana|
+| %U	|Número de semana del año 00-53	| 52 - domingo como primer día de la semana|
+| %W	|Número de semana del año 00-53	| 52 - lunes como primer día de la semana|
 | %c	|Versión local de fecha y hora.	| Mon Dec 31 17:41:00 2018|
 | %C	|Siglo	|20|
 | %x	|Versión local de la fecha.	| 12/31/18|

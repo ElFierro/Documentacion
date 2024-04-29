@@ -54,20 +54,20 @@ x = Student("Mike", "Olsen", 2019)
 Agregue un método llamado welcome a la clase Student:
 ```python		
 class Person:
-  def __init__(self, fname, lname):
-    self.firstname = fname
-    self.lastname = lname
+ def __init__(self, fname, lname):
+   self.firstname = fname
+   self.lastname = lname
 
-  def printname(self):
-    print(self.firstname, self.lastname)
+ def printname(self):
+   print(self.firstname, self.lastname)
 
 class Student(Person):
-  def __init__(self, fname, lname, year):
-    super().__init__(fname, lname)
-    self.graduationyear = year
+ def __init__(self, fname, lname, year):
+   super().__init__(fname, lname)
+   self.graduationyear = year
 
-  def welcome(self):
-    print("Welcome", self.firstname, self.lastname, "to the class of", self.graduationyear)
+ def welcome(self):
+   print("Welcome", self.firstname, self.lastname, "to the class of", self.graduationyear)
 
 x = Student("Mike", "Olsen", 2019)   #Welcome Mike Olsen to the class of 2019
 x.welcome()

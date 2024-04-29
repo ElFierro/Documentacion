@@ -34,14 +34,14 @@ También podemos usar un bucle for para iterar a través de un objeto iterable:
 mytuple = ("apple", "banana", "cherry")
 
 for x in mytuple:
-	print(x)
+ print(x)
 ```
 Iterar los caracteres de una cadena:
 ```python
 mystr = "banana"
 
 for x in mystr:
-	print(x)
+ print(x)
 ```
 ## Crear un iterador
 Para crear un objeto/clase como iterador, debe implementar los métodos __iter__()y __next__() su objeto.
@@ -50,14 +50,14 @@ El método __iter__() actúa de manera similar, puede realizar operaciones (inic
 El método __next__() también le permite realizar operaciones y debe devolver el siguiente elemento de la secuencia.
 ```python
 class MyNumbers:
-  def __iter__(self):
-    self.a = 1
-    return self
+ def __iter__(self):
+  self.a = 1
+  return self
 
-  def __next__(self):
-    x = self.a
-    self.a += 1
-    return x
+ def __next__(self):
+  x = self.a
+  self.a += 1
+  return x
 
 myclass = MyNumbers()
 myiter = iter(myclass)
@@ -72,17 +72,17 @@ print(next(myiter))		#5
 Para evitar que la iteración continúe para siempre, podemos usar la declaración StopIteration.
 ```python
 class MyNumbers:
-  def __iter__(self):
-    self.a = 1
-    return self
+ def __iter__(self):
+  self.a = 1
+  return self
 
-  def __next__(self):
-    if self.a <= 20:
-      x = self.a
-      self.a += 1
-      return x
-    else:
-      raise StopIteration
+ def __next__(self):
+  if self.a <= 20:
+   x = self.a
+   self.a += 1
+   return x
+  else:
+   raise StopIteration
 
 myclass = MyNumbers()
 myiter = iter(myclass)

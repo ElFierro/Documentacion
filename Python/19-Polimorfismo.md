@@ -25,28 +25,28 @@ Por ejemplo, digamos que tenemos tres clases: Car, Boaty y Plane, todas tienen u
 ```python
 #Clases
 class Car:
-	def __init__(self, brand, model):
-		self.brand = brand
-		self.model = model
+ def __init__(self, brand, model):
+  self.brand = brand
+  self.model = model
 
-	def move(self):				#Car -> move()
-		print("Drive!")
+ def move(self):    #Car -> move()
+  print("Drive!")
 
 class Boat:
-	def __init__(self, brand, model):
-		self.brand = brand
-		self.model = model
+ def __init__(self, brand, model):
+  self.brand = brand
+  self.model = model
 
-	def move(self):				#Boat -> move()
-		print("Sail!")
+ def move(self):    #Boat -> move()
+  print("Sail!")
 
 class Plane:
-	def __init__(self, brand, model):
-		self.brand = brand
-		self.model = model
+ def __init__(self, brand, model):
+  self.brand = brand
+  self.model = model
 
-	def move(self):				#Plane -> move()
-		print("Fly!")
+ def move(self):    #Plane -> move()
+  print("Fly!")
 
 car1 = Car("Ford", "Mustang")       #Create a Car class
 boat1 = Boat("Ibiza", "Touring 20") #Create a Boat class
@@ -59,32 +59,32 @@ for x in (car1, boat1, plane1):
 ¿Qué pasa con las clases con clases secundarias con el mismo nombre? ¿Podemos usar polimorfismo allí?
 ```python
 class Vehicle:
-	def __init__(self, brand, model):
-		self.brand = brand
-		self.model = model
+ def __init__(self, brand, model):
+  self.brand = brand
+  self.model = model
 
-	def move(self):
-	  print("Move!")		
+ def move(self):
+   print("Move!")  
 
-class Car(Vehicle):			#Ford Mustang Move! 
-	pass
+class Car(Vehicle):   #Ford Mustang Move! 
+ pass
 
-class Boat(Vehicle):		#Ibiza Touring 20 Sail!
-	def move(self):
-		print("Sail!")
+class Boat(Vehicle):  #Ibiza Touring 20 Sail!
+ def move(self):
+  print("Sail!")
 
-class Plane(Vehicle):		#Boeing	747 Fly!
-	def move(self):
-		print("Fly!")
+class Plane(Vehicle):  #Boeing 747 Fly!
+ def move(self):
+  print("Fly!")
 
 car1 = Car("Ford", "Mustang") #Create a Car object
 boat1 = Boat("Ibiza", "Touring 20") #Create a Boat object
 plane1 = Plane("Boeing", "747") #Create a Plane object
 
 for x in (car1, boat1, plane1):
-	print(x.brand)
-	print(x.model)
-	x.move()
+ print(x.brand)
+ print(x.model)
+ x.move()
 ```
 En el ejemplo anterior puedes ver que la clase Car está vacía, pero hereda brand, model y move() de Vehicle.
 
