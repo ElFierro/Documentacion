@@ -69,7 +69,7 @@ a = 200
 b = 33
 c = 500
 if a > b or a > c:
-  print("At least one of the conditions is True")
+  print("At least one of the conditions is True")   #At least one of the conditions is True
 ```
 ## Not
 La palabra clave not es un operador lógico y se utiliza para invertir el resultado de la declaración condicional:
@@ -77,7 +77,7 @@ La palabra clave not es un operador lógico y se utiliza para invertir el result
 a = 33
 b = 200
 if not a > b:
-  print("a is NOT greater than b")
+  print("a is NOT greater than b")     #a is NOT greater than b
 ```
 ## If anidado
 Puede tener declaraciones if dentro de declaraciones if, esto se llama declaraciones anidadas if .
@@ -85,9 +85,9 @@ Puede tener declaraciones if dentro de declaraciones if, esto se llama declaraci
 x = 41
 
 if x > 10:
-  print("Above ten,")
+  print("Above ten,")     #Above ten,
   if x > 20:
-    print("and also above 20!")
+    print("and also above 20!")    #and also above 20!
   else:
     print("but not above 20.")
 ```
