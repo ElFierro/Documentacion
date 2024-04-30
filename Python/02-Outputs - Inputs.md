@@ -1,3 +1,6 @@
-print "hola"
+# Entrada y salida de usuario
 
-input("Ingrese su nombre:")		
+```python
+username = input("Enter username:")
+print("Username is: " + username)
+```

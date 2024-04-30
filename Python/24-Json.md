@@ -35,7 +35,8 @@ print(y)    #{"name": "John", "age": 30, "city": "New York"}
 ```
 Puede convertir objetos Python de los siguientes tipos en cadenas JSON:
 
-        
+| Python   | Conversion a Json      |
+| -------- | ---------------------- |
 | list | json.dumps(["apple", "bananas"])|
 | tuple | json.dumps(("apple", "bananas"))|
 | str | json.dumps("hello")|
