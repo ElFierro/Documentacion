@@ -1,5 +1,5 @@
-## Configuración Básica
 
+## Configuración Básica
 Configurar Nombre que salen en los commits
 ```ssh
 	git config --global user.name "dasdo"

@@ -78,8 +78,8 @@ x = {
 }
 
 print(json.dumps(x))
-#{"name": "John", "age": 30, "married": true, "divorced": false, "children": ["Ann","Billy"], "pets": null, "cars":
-#[{"model": "BMW 230", "mpg": 27.5}, {"model": "Ford Edge", "mpg": 24.1}]}
+#{"name": "John", "age": 30, "married": true, "divorced": false, "children": ["Ann","Billy"], 
+#"pets": null, "cars": [{"model": "BMW 230", "mpg": 27.5}, {"model": "Ford Edge", "mpg": 24.1}]}
 ```
 ## Formatear el resultado
 El ejemplo anterior imprime una cadena JSON, pero no es muy fácil de leer, sin sangrías ni saltos de línea.
