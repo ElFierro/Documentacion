@@ -2,10 +2,6 @@
 
 El atributo `style` se utiliza para agregar estilos a un elemento, como color, fuente, tamaño y más.
 
-<p style="color:red;">I am red</p>
-<p style="color:blue;">I am blue</p>
-<p style="font-size:50px;">I am big</p>
-
 El atributo `style` tiene la siguiente sintaxis:
 ```ssh
 <tagname style="property:value;">
