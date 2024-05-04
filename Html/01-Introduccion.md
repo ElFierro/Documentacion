@@ -13,7 +13,7 @@ HTML es el lenguaje de marcado estándar para crear páginas web.
 
 Un elemento HTML se define mediante una etiqueta de inicio, algo de contenido y una etiqueta de finalización:
 ```ssh
-< nombre de etiqueta > El contenido va aquí... < /nombre de etiqueta >
+<nombre de etiqueta> El contenido va aquí... </nombre de etiqueta>
 ```
 El elemento HTML es todo, desde la etiqueta inicial hasta la etiqueta final:
 ```html
