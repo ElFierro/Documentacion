@@ -57,9 +57,9 @@ La declaración <!DOCTYPE> representa el tipo de documento y ayuda a los navegad
 Sólo debe aparecer una vez, en la parte superior de la página (antes de cualquier etiqueta HTML).
 
 ## Encabezados HTML
-Los encabezados HTML se definen con las etiquetas <h1> a <h6>.
+Los encabezados HTML se definen con las etiquetas **h1** a **h6**.
 
-<h1> Define el título más importante. <h6> define el encabezado menos importante: 
+**h1** Define el título más importante. **h6** define el encabezado menos importante: 
 ```html
 <h1>This is heading 1</h1>
 <h2>This is heading 2</h2>
@@ -67,18 +67,18 @@ Los encabezados HTML se definen con las etiquetas <h1> a <h6>.
 ```
 
 ## Párrafos HTML
-Los párrafos HTML se definen con la etiqueta <p>:
+Los párrafos HTML se definen con la etiqueta **p**:
 ```html
 <p>This is a paragraph.</p>
 <p>This is another paragraph.</p>
 ```
 ## Enlaces HTML
-Los enlaces HTML se definen con la etiqueta <a>:
+Los enlaces HTML se definen con la etiqueta **a**:
 ```html
 <a href="https://www.w3schools.com">This is a link</a>
 ```
 ## Imágenes HTML
-Las imágenes HTML se definen con la etiqueta <img>.:
+Las imágenes HTML se definen con la etiqueta **img**:
 ```html
 <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
 ```
