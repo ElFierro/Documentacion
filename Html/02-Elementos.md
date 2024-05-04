@@ -10,7 +10,7 @@ Ejemplos de algunos elementos HTML:
 <h1>My First Heading</h1>
 <p>My first paragraph.</p>
 ```
-**Nota**: Algunos elementos HTML no tienen contenido (como el elemento **br**). Estos elementos se llaman elementos vacíos. ¡Los elementos vacíos no tienen etiqueta final!
+**Nota**: Algunos elementos HTML no tienen contenido (como el elemento `<br>`). Estos elementos se llaman elementos vacíos. ¡Los elementos vacíos no tienen etiqueta final!
 
 ## Elementos HTML anidados
 Los elementos HTML se pueden anidar (esto significa que los elementos pueden contener otros elementos).
@@ -24,16 +24,16 @@ Todos los documentos HTML constan de elementos HTML anidados.
   </body>
 </html>
 ```
-El elemento **html** es el elemento raíz y define todo el documento HTML.
-El elemento **body** define el cuerpo del documento.
-El elemento **h1** define un encabezado.
-El elemento **p** define un párrafo.
+- El elemento `<html>` es el elemento raíz y define todo el documento HTML.
+- El elemento `<body>` define el cuerpo del documento.
+- El elemento `<h1>` define un encabezado.
+- El elemento `<p>` define un párrafo.
 
 ## Elementos HTML vacíos
 Los elementos HTML sin contenido se denominan elementos vacíos.
-La etiqueta **br** define un salto de línea y es un elemento vacío sin etiqueta de cierre:
+La etiqueta `<br>` define un salto de línea y es un elemento vacío sin etiqueta de cierre:
 ```html
 <p>This is a <br> paragraph with a line break.</p>
 ```
 ## HTML no distingue entre mayúsculas y minúsculas
-Las etiquetas HTML no distinguen entre mayúsculas y minúsculas: **P** significa lo mismo que **p**.
+Las etiquetas HTML no distinguen entre mayúsculas y minúsculas: `<P>` significa lo mismo que `<p>`.
