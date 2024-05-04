@@ -15,7 +15,7 @@ La etiqueta **img** se utiliza para incrustar una imagen en una página HTML. El
 ```html
 <img src="img_girl.jpg">
 ```
-## Los atributos de width y height
+## Los atributos width y height
 La etiqueta **img** también debe contener los atributos **width** y **height**, que especifican el ancho y el alto de la imagen (en píxeles):
 ```html
 <img src="img_girl.jpg" width="500" height="600">
@@ -25,12 +25,12 @@ El atributo **alt** requerido para la etiqueta **img** especifica un texto alter
 ```html
 <img src="img_girl.jpg" alt="Girl with a jacket">
 ```
-## El atributo de style
+## El atributo style
 El atributo **style** se utiliza para agregar estilos a un elemento, como color, fuente, tamaño y más.
 ```html
 <p style="color:red;">This is a red paragraph.</p>
 ```
-## El atributo de lang
+## El atributo lang
 Siempre debes incluir el atributo **lang** dentro de la etiqueta html, para declarar el idioma de la página Web. Esto está destinado a ayudar a los motores de búsqueda y navegadores.
 ```html
 <!DOCTYPE html>
@@ -49,7 +49,7 @@ Los códigos de país también se pueden agregar al código de idioma en el atri
   </body>
 </html>
 ```
-## El atributo del tittle
+## El atributo tittle
 El tributo **title** define información adicional sobre un elemento.
 
 El valor del atributo de título se mostrará como información sobre herramientas cuando pase el mouse sobre el elemento:
