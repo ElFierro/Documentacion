@@ -1,12 +1,13 @@
-## Bucles
+# Bucles
 
 ## While
-//El bucle while recorre un bloque de código siempre que una condición especificada sea true:
+El bucle while recorre un bloque de código siempre que una condición especificada sea true:
 
 #### Sintaxis
 ```ssh
-while (condition) {
-  // code block to be executed
+while (condición) {
+  //código a ejecutar   
+  Declaración de incremento/decremento  
 }
 ```
 
@@ -23,9 +24,9 @@ Este bucle ejecutará el bloque de código una vez, antes de verificar si la con
 #### Sintaxis
 ```ssh
 do {
-  // code block to be executed
+ //código a ejecutar 
 }
-while (condition);
+while (condición);
 ```
 
 #### Ejemplo
@@ -42,10 +43,14 @@ Cuando sepa exactamente cuántas veces desea recorrer un bloque de código, use 
 
 #### Sintaxis
 ```ssh
-for (statement 1; statement 2; statement 3) {
-  // code block to be executed
-}
+for (<inicialización>; <condición>; <incremento/decremento>){    
+//sentencia o código a ejecutar    
+}    
 ```
+- **Inicialización** : es la condición inicial que se ejecuta una vez cuando comienza el ciclo. Aquí podemos inicializar la variable o podemos usar una variable ya inicializada. Es una condición opcional.
+**Condición** : es la segunda condición que se ejecuta cada vez para probar la condición del bucle. Continúa la ejecución hasta que la condición sea falsa. Debe devolver un valor booleano verdadero o falso. Es una condición opcional.
+**Incremento/Decremento** : Incrementa o disminuye el valor de la variable. Es una condición opcional.
+**Declaración** : la declaración del bucle se ejecuta cada vez hasta que la segunda condición sea falsa.
 
 #### Ejemplo
 ```java
@@ -55,6 +60,8 @@ for (int i = 0; i < 5; i++) {
 ```
 
 ## For anidado
+Si tenemos un bucle for dentro de otro bucle, se conoce como bucle for anidado. El bucle interno se ejecuta completamente cada vez que se ejecuta el bucle externo.
+
 ```java
 for (int i = 1; i <= 2; i++) {
   System.out.println("Outer: " + i); // Executes 2 times
@@ -67,13 +74,15 @@ for (int i = 1; i <= 2; i++) {
 ```
  
 ## For each
-También hay un bucle " for-each ", que se utiliza exclusivamente para recorrer los elementos de una matriz :
+El bucle for-each se utiliza para recorrer una matriz o colección en Java.
+
+Funciona en base a elementos y no al índice. Devuelve elementos uno por uno en la variable definida.
 
 #### Sintaxis
 ```shh
-for (type variableName : arrayName) {
-  // code block to be executed
-}
+for (<tipo de datos> <variable> : <nombre_matriz>){    
+//código a ejecutar    
+}    
 ```
 
 #### Ejemplo

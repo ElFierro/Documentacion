@@ -5,7 +5,7 @@
 - Git te ayuda a realizar un seguimiento de los cambios de código.
 - Git se utiliza para colaborar en el código.
 
-![App Screenshot](https://miro.medium.com/v2/resize:fit:686/1*diRLm1S5hkVoh5qeArND0Q.png)
+![App Screenshot](https://mktwebsitedigital.com/wp-content/uploads/2023/08/como-trabajar-con-git.jpg)
 
 
 ## Se utiliza para:
@@ -38,3 +38,8 @@
 - Los desarrolladores pueden trabajar juntos desde cualquier parte del mundo.
 - Los desarrolladores pueden ver la historia completa del proyecto.
 - Los desarrolladores pueden volver a versiones anteriores de un proyecto.
+
+
+## Como trabajar en un equipó con Git
+
+![App Screenshot](https://mktwebsitedigital.com/wp-content/uploads/2023/08/como-trabajar-con-git.jpg)

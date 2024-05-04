@@ -1,7 +1,41 @@
-## Metodos 
+# Metodos 
 Un método es un bloque de código que sólo se ejecuta cuando se llama.
 Puede pasar datos, conocidos como parámetros, a un método.
 Los métodos se utilizan para realizar determinadas acciones y también se conocen como funciones.
+
+- Un método es como una función, es decir, se utiliza para exponer el comportamiento de un objeto.
+- Es un conjunto de códigos que realizan una tarea particular.
+
+Sintaxis:
+```ssh
+<modificador_acceso> <tipo_retorno> <nombre_método>( lista_de_parámetros)
+{
+    //cuerpo
+}
+```
+## Declaración del método
+En general, las declaraciones de métodos tienen 6 componentes:
+
+- **1. Modificador**: Define el tipo de acceso del método, es decir, desde dónde se puede acceder en su aplicación. En Java, existen 4 tipos de especificadores de acceso. 
+
+**públic**: Es accesible en todas las clases de su aplicación.
+**protected**: Es accesible dentro de la clase en la que está definido y en sus subclases.
+**private**: Es accesible sólo dentro de la clase en la que está definido.
+**default**: se declara/define sin utilizar ningún modificador. Es accesible dentro de la misma clase y paquete dentro del cual se define su clase.
+
+- **2. El tipo de retorno**: el tipo de datos del valor devuelto por el método o nulo si no devuelve un valor. Es obligatorio en sintaxis.
+
+- **3. Nombre del método**: las reglas para los nombres de los campos también se aplican a los nombres de los métodos.
+
+- **4. Lista de parámetros**: la lista de parámetros de entrada separados por comas se define, precedida por su tipo de datos, entre paréntesis. Si no hay parámetros, debe utilizar paréntesis vacíos ().
+
+- **5. Lista de excepciones**: se pueden generar las excepciones que espera del método; puede especificar estas excepciones. 
+
+- **6. Cuerpo del método**: está encerrado entre llaves. El código que necesita ejecutar para realizar las operaciones previstas.
+
+#### Ventaja del método
+- Reutilización del código
+- Optimización de código 
 
 ## Crear metodo
 Se debe declarar un método dentro de una clase. 

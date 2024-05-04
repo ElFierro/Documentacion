@@ -1,12 +1,29 @@
 ## Interfaz
-Otra forma de lograr la abstracción en Java es con interfaces.Una interface es completamente una "clase abstracta" que se utiliza para agrupar métodos relacionados con cuerpos vacíos:
+Una interfaz en el lenguaje de programación Java se define como un tipo abstracto utilizado para especificar el comportamiento de una clase. Una interfaz en Java es un modelo de un comportamiento. Una interfaz Java contiene constantes estáticas y métodos abstractos.
 
+Sintaxis:
+```ssh
+interfaz { 
+    // declarar campos constantes 
+    // declarar métodos que abstraen 
+    // de forma predeterminada.    
+}
+```
 ```java 
 interface Animal {
   public void animalSound(); // interface method (does not have a body)
   public void run(); // interface method (does not have a body)
 }
 ```
+
+## Usos de interfaces en Java
+Los usos de las interfaces en Java se mencionan a continuación:
+
+- Se utiliza para lograr la abstracción total.
+- Dado que Java no admite herencias múltiples en el caso de clases, al utilizar una interfaz puede lograr herencias múltiples.
+- Cualquier clase puede extender solo 1 clase, pero cualquier clase puede implementar un número infinito de interfaces.
+- También se utiliza para lograr un acoplamiento flojo.
+- Las interfaces se utilizan para implementar la abstracción. 
 
 ## Acceder
 Para acceder a los métodos de la interfaz, la interfaz debe ser "implementada" (algo así como heredada) por otra clase con la palabra clave implements (en lugar de extends)

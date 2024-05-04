@@ -40,12 +40,27 @@ char a=’v’;
 
 ## Tipos de variables:
 
+Hay tres tipos de variables en Java :
+
+**1) Variables locales**
+Una variable declarada dentro del cuerpo del método se llama variable local. Puede usar esta variable solo dentro de ese método y los otros métodos de la clase ni siquiera saben que la variable existe.
+
+No se puede definir una variable local con la palabra clave "estática".
+
+**2) Variable de instancia**
+Una variable declarada dentro de la clase pero fuera del cuerpo del método se denomina variable de instancia. No se declara estático .
+
+Se denomina variable de instancia porque su valor es específico de la instancia y no se comparte entre instancias.
+
+**3) variable estática**
+Una variable que se declara como estática se llama variable estática. No puede ser local. Puede crear una única copia de la variable estática y compartirla entre todas las instancias de la clase. La asignación de memoria para variables estáticas ocurre solo una vez cuando la clase se carga en la memoria.
+
  ```java
 class Guru99 {
-  static int a = 1; //static variable  
-  int data = 99; //instance variable  
+  static int a = 1; //Variable estatica 
+  int data = 99; //variables de instancia  
   void method() {
-    int b = 90; //local variable  
+    int b = 90; //variables locales
   }
 }
 ```

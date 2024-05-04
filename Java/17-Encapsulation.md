@@ -1,4 +1,6 @@
-## Encapsulamiento
+# Encapsulamiento
+Evita que las clases externas accedan y cambien los campos y métodos de una clase. Esto también ayuda a lograr ocultar datos.
+
 El significado de Encapsulación es garantizar que los datos "sensibles" estén ocultos a los usuarios. Para lograr esto, debes:
 
 - declarar variables/atributos de clase como private
