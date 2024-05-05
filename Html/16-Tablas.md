@@ -8,6 +8,8 @@ Una tabla en HTML consta de celdas de tabla dentro de filas y columnas.
 <table>
   <tr>
     <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
   </tr>
   <tr>
     <td>Alfreds Futterkiste</td>
@@ -19,6 +21,8 @@ Una tabla en HTML consta de celdas de tabla dentro de filas y columnas.
 <table>
   <tr>
     <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
   </tr>
   <tr>
     <td>Alfreds Futterkiste</td>
@@ -113,25 +117,6 @@ Para agregar un borde, use la propiedad CSS `border` en los elementos th, table 
 table, th, td { border: 1px solid black; }
 ```
 
-<style>
-table, th, td {
-  border: 1px solid black;
-}
-</style>
-
-<table style="width:100%">
-  <tr>
-    <th>Firstname</th>
-    <th>Lastname</th> 
-    <th>Age</th>
-  </tr>
-  <tr>
-    <td>Jill</td>
-    <td>Smith</td>
-    <td>50</td>
-  </tr>
-</table>
-
 </head>
 ## Bordes de tabla colapsados
 
@@ -189,6 +174,45 @@ Para establecer la altura de una fila específica, agregue el atributo `style` e
 ```html
 <tr style="height:200px">
 ```
+## Encabezados  verticales
+Para utilizar la primera columna como encabezados de tabla, defina la primera celda de cada fila como elemento `<th>`:
+```html
+<table>
+  <tr>
+    <th>Firstname</th>
+    <td>Jill</td>
+    <td>Eve</td>
+  </tr>
+  <tr>
+    <th>Lastname</th>
+    <td>Smith</td>
+    <td>Jackson</td>
+  </tr>
+  <tr>
+    <th>Age</th>
+    <td>94</td>
+    <td>50</td>
+  </tr>
+</table>
+```
+<table>
+  <tr>
+    <th>Firstname</th>
+    <td>Jill</td>
+    <td>Eve</td>
+  </tr>
+  <tr>
+    <th>Lastname</th>
+    <td>Smith</td>
+    <td>Jackson</td>
+  </tr>
+  <tr>
+    <th>Age</th>
+    <td>94</td>
+    <td>50</td>
+  </tr>
+</table>
+
 ## Encabezado para varias columnas
 
 Puede tener un encabezado que abarque dos o más columnas.
@@ -198,8 +222,24 @@ Puede tener un encabezado que abarque dos o más columnas.
     <th colspan="2">Name</th>
     <th>Age</th>
   </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
 </table>
 ```
+<table>
+  <tr>
+    <th colspan="2">Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+</table>
 ## Título de la tabla
 Puede agregar un título que sirva como encabezado para toda la tabla.
 ```html
