@@ -29,7 +29,6 @@ La propiedad CSS list-style-type se utiliza para definir el estilo del marcador 
 ```
 
 #### Circulo
-**circle**
 ```html
 <ul style="list-style-type:circle;">
   <li>Coffee</li>
