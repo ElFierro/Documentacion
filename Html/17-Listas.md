@@ -18,6 +18,18 @@ Una lista desordenada comienza con la etiqueta `<ul>`. Cada elemento de la lista
   <li>Milk</li>
 </ul>
 
+#### marcador de elemento 
+<ul style="list-style-type:disc;">
+<ul style="list-style-type:circle;">
+<ul style="list-style-type:square;">
+<ul style="list-style-type:none;">
+
+<ul style="list-style-type:square;">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
 ## Lista HTML ordenada
 Una lista ordenada comienza con la etiqueta `<ol>`. Cada elemento de la lista comienza con la etiqueta `<li>`.
 ```html
@@ -54,3 +66,29 @@ La etiqueta `<dl>` define la lista de descripción, la etiqueta `<dt>` define el
   <dt>Milk</dt>
   <dd>- white cold drink</dd>
 </dl>
+
+
+## Listas HTML anidadas
+Las listas se pueden anidar (lista dentro de la lista):
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea
+    <ul>
+      <li>Black tea</li>
+      <li>Green tea</li>
+    </ul>
+  </li>
+  <li>Milk</li>
+</ul>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea
+    <ul>
+      <li>Black tea</li>
+      <li>Green tea</li>
+    </ul>
+  </li>
+  <li>Milk</li>
+</ul>
