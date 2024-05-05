@@ -199,7 +199,7 @@ El elemento `<picture>` contiene uno o más elementos `<source>`, cada uno de lo
   <img src="img_girl.jpg">
 </picture>
 ```
-## Cuándo utilizar el elemento de imagen
+## Cuándo utilizar el elemento `<picture>`
 Hay dos propósitos principales para el elemento <picture>:
 
 #### Ancho de banda
