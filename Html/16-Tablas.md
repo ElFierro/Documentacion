@@ -240,6 +240,7 @@ Puede tener un encabezado que abarque dos o más columnas.
     <td>50</td>
   </tr>
 </table>
+
 ## Título de la tabla
 Puede agregar un título que sirva como encabezado para toda la tabla.
 ```html
@@ -249,8 +250,24 @@ Puede agregar un título que sirva como encabezado para toda la tabla.
     <th>Month</th>
     <th>Savings</th>
   </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
 </table>
 ```
+<table style="width:100%">
+  <caption>Monthly savings</caption>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+</table>
+
 ## Relleno de celdas
 
 Para agregar relleno en las celdas de la tabla, use la propiedad CSS `padding`:
