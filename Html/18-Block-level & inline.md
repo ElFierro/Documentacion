@@ -32,10 +32,10 @@ Cuando se usa junto con CSS, el elemento `<div>` se puede usar para diseñar blo
     with a metropolitan area of over 13 million inhabitants.</p>
 </div>
 ```
-    <div style="background-color:black;color:white;padding:20px;">
-      <h2>London</h2>
-      <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-    </div>
+  <div style="background-color:black;color:white;padding:20px;">
+  <h2>London</h2>
+  <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+  </div>
 
 ## Elementos en línea
 Un elemento en línea no comienza en una nueva línea.
@@ -55,4 +55,4 @@ Cuando se usa junto con CSS, el elemento `<span>` se puede usar para diseñar pa
 <p>My mother has <span style="color:blue;font-weight:bold;">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold;">dark green</span> eyes.</p>
 ```
 
-    <p>My mother has <span style="color:blue;font-weight:bold;">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold;">dark green</span> eyes.</p>
+  <p>My mother has <span style="color:blue;font-weight:bold;">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold;">dark green</span> eyes.</p>
