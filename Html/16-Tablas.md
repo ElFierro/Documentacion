@@ -299,6 +299,13 @@ Para hacer que una celda abarque varias filas, utilice el atributo `rowspan`:
   </tr>
 </table>
 ```
+<table>
+  <tr>
+    <th rowspan="2">Phone</th>
+    <td>555-1234</td>
+  </tr>
+</table>
+
 ## Rayas de cebra
 
 Para aplicar estilo a todos los demás elementos de fila de la tabla, use el selector `:nth-child(even)` de esta manera:
@@ -344,6 +351,24 @@ Si desea diseñar más columnas con diferentes estilos, use más elementos `<col
     <col span="3" style="background-color: pink">
 </colgroup>
 ```
+<table style="width: 100%;">
+<colgroup>
+  <col span="2" style="background-color: #D6EEEE">
+</colgroup>
+<tr>
+<th>MON</th>
+<th>TUE</th>
+<th>WED</th>
+<th>THU</th>
+</tr>
+<tr>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+</tr>
+</table>
+
 ## Grupos de columnas vacíos
 Si desea aplicar estilo a las columnas en medio de una tabla, inserte un elemento `<col>` "vacío" (sin estilos) para las columnas anteriores:
 ```html
