@@ -11,12 +11,22 @@ Una tabla en HTML consta de celdas de tabla dentro de filas y columnas.
   </tr>
   <tr>
     <td>Alfreds Futterkiste</td>
-  </tr>
-  <tr>
-    <td>Centro comercial Moctezuma</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
   </tr>
 </table>
 ```
+<table>
+  <tr>
+    <th>Company</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+</table>
+
 ## Celdas de tabla
 Cada celda de la tabla está definida por una etiqueta `<td>` y una `</td>`.
 
@@ -25,38 +35,104 @@ Todo lo que está entre `<td>` y `</td>` es el contenido de la celda de la tabla
 <table>
   <tr>
     <td>Emil</td>
+    <td>Tobias</td>
+    <td>Linus</td>
   </tr>
 </table>
 ```
+<table>
+  <tr>
+    <td>Emil</td>
+    <td>Tobias</td>
+    <td>Linus</td>
+  </tr>
+</table>
+
 ## Filas de la tabla
 Cada fila de la tabla comienza con una `<tr>` y termina con una etiqueta `</tr>`.
 ```html
 <table>
   <tr>
     <td>Emil</td>
+    <td>Tobias</td>
+    <td>Linus</td>
   </tr>
   <tr>
     <td>16</td>
+    <td>14</td>
+    <td>10</td>
   </tr>
 </table>
 ```
+<table>
+  <tr>
+    <td>Emil</td>
+    <td>Tobias</td>
+    <td>Linus</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>14</td>
+    <td>10</td>
+  </tr>
+</table>
+
 ## Encabezados de tabla
 A veces desea que sus celdas sean celdas de encabezado de tabla. En esos casos utilice la etiqueta `<th>` en lugar de la etiqueta `<td>`:
 ```html
 <table>
   <tr>
     <th>Person 1</th>
+    <th>Person 2</th>
+    <th>Person 3</th>
   </tr>
   <tr>
+    <td>Emil</td>
+    <td>Tobias</td>
     <td>Linus</td>
   </tr>
 </table>
 ```
+
+<table>
+  <tr>
+    <th>Person 1</th>
+    <th>Person 2</th>
+    <th>Person 3</th>
+  </tr>
+  <tr>
+    <td>Emil</td>
+    <td>Tobias</td>
+    <td>Linus</td>
+  </tr>
+</table>
+
 ## Cómo agregar un borde
 Para agregar un borde, use la propiedad CSS `border` en los elementos th, table y td:
 ```css
 table, th, td { border: 1px solid black; }
 ```
+
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+</table>
+
+</head>
 ## Bordes de tabla colapsados
 
 Para evitar tener bordes dobles, establezca la `border-collapse` propiedad CSS en `collapse`.
