@@ -37,7 +37,9 @@ Normalmente, una página web se puede dividir en secciones para introducción, c
 ```html
 <section>
 <h1>WWF</h1>
-<p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+<p>The World Wide Fund for Nature (WWF) is an international organization working on issues 
+  regarding the conservation, research and restoration of the environment, formerly named the 
+  World Wildlife Fund. WWF was founded in 1961.</p>
 </section>
 ```
 ## Elemento HTML `<article>`
@@ -54,7 +56,8 @@ Ejemplos de dónde se puede utilizar el elemento `<article>`:
 ```html
 <article>
 <h2>Google Chrome</h2>
-<p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+<p>Google Chrome is a web browser developed by Google, released in 2008. 
+  Chrome is the world's most popular web browser today!</p>
 </article>
 ```
 
@@ -119,7 +122,8 @@ El contenido `<aside>` debe estar indirectamente relacionado con el contenido ci
 ```html
 <aside>
 <h4>Epcot Center</h4>
-<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, 
+  award-winning fireworks and seasonal special events.</p>
 </aside>
 ```
 ## Elementos HTML `<figure>` y `<figcaption>`
