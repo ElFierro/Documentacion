@@ -90,7 +90,7 @@ El atributo `rows` especifica el número visible de líneas en un área de texto
 
 El atributo `cols` especifica el ancho visible de un área de texto.
 
-## El elemento `<botón>`
+## El elemento `<boton>`
 El elemento `<button>` define un botón en el que se puede hacer clic:
 ```html
 <button type="button" onclick="alert('Hello World!')">Click Me!</button>
