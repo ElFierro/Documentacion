@@ -1,4 +1,4 @@
-## SELF UNION
+# SELF UNION
 
 Una autounión es una unión normal, pero la tabla está unida consigo misma.
 

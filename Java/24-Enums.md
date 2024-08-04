@@ -1,4 +1,4 @@
-## Emumeraciones
+# Emumeraciones
 Una enum es una "clase" especial que representa un grupo de constantes (variables inmutables, como variables finales).
 
 Para crear un enum, use la palabra clave enum (en lugar de clase o interfaz) y separe las constantes con una coma.

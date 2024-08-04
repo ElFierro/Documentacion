@@ -1,0 +1,35 @@
+# Lenguajes de Programación
+
+Los lenguajes de programación se pueden clasificar en dos categorías principales: lenguajes interpretados y lenguajes compilados. Esta clasificación se basa en cómo se ejecuta el código fuente del programa.
+
+## Lenguajes de Programación Interpretados
+
+Los lenguajes de programación interpretados son aquellos en los que el código fuente se ejecuta directamente por un intérprete, sin necesidad de ser compilado previamente en código máquina. El intérprete traduce y ejecuta el código línea por línea, lo que facilita la depuración y la ejecución interactiva.
+
+### Ejemplos de Lenguajes Interpretados:
+- **JavaScript:** Utilizado principalmente en desarrollo web para la creación de contenido dinámico en navegadores.
+- **Python:** Conocido por su simplicidad y legibilidad, es ampliamente utilizado en ciencia de datos, desarrollo web y automatización.
+- **Ruby:** Popular en desarrollo web, especialmente con el framework Ruby on Rails.
+- **PHP:** Comúnmente utilizado para desarrollo web del lado del servidor.
+- **Perl:** Utilizado en administración de sistemas, procesamiento de texto y desarrollo web.
+- **Lua:** Ligero y embebible, utilizado en videojuegos y aplicaciones embebidas.
+- **R:** Utilizado principalmente en estadística y ciencia de datos.
+
+## Lenguajes de Programación Compilados
+
+Los lenguajes de programación compilados son aquellos en los que el código fuente se traduce a código máquina mediante un compilador antes de ser ejecutado. Este proceso de compilación genera un archivo ejecutable que puede ser ejecutado directamente por el sistema operativo.
+
+### Ejemplos de Lenguajes Compilados:
+- **C:** Utilizado para el desarrollo de sistemas operativos, software de sistemas y aplicaciones de alto rendimiento.
+- **C++:** Una extensión de C con características de programación orientada a objetos, utilizado en software de sistemas, videojuegos y aplicaciones de alto rendimiento.
+- **Java:** Aunque se ejecuta en una máquina virtual (JVM), se compila primero a bytecode. Es popular en aplicaciones empresariales, desarrollo web y aplicaciones Android.
+- **Go:** Un lenguaje moderno desarrollado por Google, conocido por su eficiencia y concurrencia, utilizado en desarrollo de sistemas y aplicaciones web.
+- **Rust:** Enfocado en la seguridad y el rendimiento, utilizado en sistemas embebidos y desarrollo de sistemas.
+- **Swift:** Utilizado para el desarrollo de aplicaciones iOS y macOS.
+- **Kotlin:** Utilizado para el desarrollo de aplicaciones Android y aplicaciones del lado del servidor.
+- **Fortran:** Utilizado en computación científica y numérica.
+- **Haskell:** Un lenguaje funcional puro utilizado en investigación y aplicaciones donde la corrección es crítica.
+
+## Conclusión
+
+La elección entre lenguajes interpretados y compilados depende del tipo de aplicación, requisitos de rendimiento, facilidad de desarrollo y otros factores específicos del proyecto. Ambos tipos de lenguajes tienen sus ventajas y desventajas, y la selección adecuada puede variar según el contexto del desarrollo.

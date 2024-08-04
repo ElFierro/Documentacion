@@ -1,4 +1,4 @@
-## MYSQL:
+# MYSQL:
 
 La función MySQL IFNULL( te permite devolver un valor alternativo si una expresión es NULL:
 

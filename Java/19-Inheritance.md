@@ -1,4 +1,4 @@
-## Herencia
+# Herencia
 
 En Java es posible heredar atributos y métodos de una clase a otra. Agrupamos el “concepto de herencia” en dos categorías:
 

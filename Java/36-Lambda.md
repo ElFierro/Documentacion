@@ -1,4 +1,4 @@
-## Lambda
+# Lambda
 Una expresión lambda es un bloque corto de código que toma parámetros y devuelve un valor. Las expresiones lambda son similares a los métodos, pero no necesitan nombre y pueden implementarse directamente en el cuerpo de un método.
 
 La expresión lambda más simple contiene un único parámetro y una expresión:
@@ -38,7 +38,7 @@ public class Main {
 }
 ```
 
-Utilice la interfaz de Java Consumer para almacenar una expresión lambda en una variable:
+Utilice la interfaz de Java `Consumer` para almacenar una expresión lambda en una variable:
 
 ```java
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-## Atributos
+##+ Atributos
 
 ## Atributos de una clase
 se podría decir que los atributos de clase son variables dentro de una clase:

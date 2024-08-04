@@ -39,7 +39,7 @@ En general, las declaraciones de métodos tienen 6 componentes:
 
 ## Crear metodo
 Se debe declarar un método dentro de una clase. 
-Se define con el nombre del método, seguido de paréntesis () 
+Se define con el nombre del método, seguido de paréntesis `()`
 ```java
 static void myMethod() {
   code to be executed
@@ -75,7 +75,7 @@ public class Main {
 ```
 
 ## Valores de retorno
-Si desea que el método devuelva un valor, puede usar un tipo dedatos primitivo (como int, char, etc.) 
+Si desea que el método devuelva un valor, puede usar un tipo de datos primitivo (como int, char, etc.) 
 ```java
 public class Main {
   static int myMethod(int x, int y) {

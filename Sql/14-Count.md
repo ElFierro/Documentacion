@@ -1,4 +1,4 @@
-## Count()
+# Count()
   
 La función COUNT() devuelve el número de filas que coinciden con un criterio específico.
 

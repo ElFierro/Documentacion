@@ -1,4 +1,4 @@
-## Operadores
+# Operadores
 Los operadores se utilizan para realizar operaciones con variables y valores.
 
 int x = 5, y = 3;

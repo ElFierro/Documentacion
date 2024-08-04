@@ -1,4 +1,4 @@
-## HashSet
+# HashSet
 Un HashSet es una colección de elementos donde cada elemento es único y se encuentra en el paquete java.util:
 
 ## Crear
@@ -9,7 +9,7 @@ HashSet<String> cars = new HashSet<String>();
 ```
 
 ## Agregar elementos
-tiene muchos métodos útiles. Por ejemplo, para agregarle elementos, use el método add():
+tiene muchos métodos útiles. Por ejemplo, para agregarle elementos, use el método `add()`:
 
 ```java  
 // Import the HashSet class
@@ -31,34 +31,34 @@ public class Main {
 **Nota**: aunque BMW se agrega dos veces, solo aparece una vez en el conjunto porque cada elemento de un conjunto debe ser único.
 
 ## Coprobar si existe un articulo
-Para comprobar si un elemento existe en un HashSet, utilice el método contains():
+Para comprobar si un elemento existe en un HashSet, utilice el método `contains()`:
 
 ```java  
 cars.contains("Mazda");
 ```
 
 ## Eliminar un articulo
-Para eliminar un elemento, utilice el método remove():
+Para eliminar un elemento, utilice el método `remove()`:
 
 ```java  
 cars.remove("Volvo");
 ```
 
-Para eliminar todos los elementos, utilice el clear()método:
+Para eliminar todos los elementos, utilice el método `clear()`:
 
 ```java  
 cars.clear();
 ```
 
 ## Tamaño
-Para saber cuántos elementos hay, utilice el sizemétodo:
+Para saber cuántos elementos hay, utilice el método `size()`:
 
 ```java  
 cars.size();
 ```
 
 ## Recorrer
-Recorre los elementos de un HashSetcon un bucle for-each :
+Recorre los elementos de un `HashSet` con un bucle `for-each` :
 
 ```java  
 for (String i : cars) {

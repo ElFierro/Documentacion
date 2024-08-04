@@ -1,4 +1,4 @@
-## Select
+# Select
 
 La sentencia SELECT se utiliza para seleccionar datos de una base de datos.
 

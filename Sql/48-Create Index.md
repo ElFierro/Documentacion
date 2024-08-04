@@ -1,4 +1,4 @@
-## Create index
+# Create index
 
 La sentencia CREATE INDEX se utiliza para crear índices en tablas.
 

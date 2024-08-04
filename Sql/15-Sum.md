@@ -1,4 +1,4 @@
-## Sum()
+# Sum()
  
 La función SUM() devuelve la suma total de una columna numérica.
 

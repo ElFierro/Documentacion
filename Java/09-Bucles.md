@@ -1,7 +1,7 @@
 # Bucles
 
 ## While
-El bucle while recorre un bloque de código siempre que una condición especificada sea true:
+El bucle `while` recorre un bloque de código siempre que una condición especificada sea true:
 
 #### Sintaxis
 ```ssh
@@ -48,9 +48,9 @@ for (<inicialización>; <condición>; <incremento/decremento>){
 }    
 ```
 - **Inicialización** : es la condición inicial que se ejecuta una vez cuando comienza el ciclo. Aquí podemos inicializar la variable o podemos usar una variable ya inicializada. Es una condición opcional.
-**Condición** : es la segunda condición que se ejecuta cada vez para probar la condición del bucle. Continúa la ejecución hasta que la condición sea falsa. Debe devolver un valor booleano verdadero o falso. Es una condición opcional.
-**Incremento/Decremento** : Incrementa o disminuye el valor de la variable. Es una condición opcional.
-**Declaración** : la declaración del bucle se ejecuta cada vez hasta que la segunda condición sea falsa.
+- **Condición** : es la segunda condición que se ejecuta cada vez para probar la condición del bucle. Continúa la ejecución hasta que la condición sea falsa. Debe devolver un valor booleano verdadero o falso. Es una condición opcional.
+- **Incremento/Decremento** : Incrementa o disminuye el valor de la variable. Es una condición opcional.
+- **Declaración** : la declaración del bucle se ejecuta cada vez hasta que la segunda condición sea falsa.
 
 #### Ejemplo
 ```java
@@ -74,7 +74,7 @@ for (int i = 1; i <= 2; i++) {
 ```
  
 ## For each
-El bucle for-each se utiliza para recorrer una matriz o colección en Java.
+El bucle `for-each` se utiliza para recorrer una matriz o colección en Java.
 
 Funciona en base a elementos y no al índice. Devuelve elementos uno por uno en la variable definida.
 
@@ -94,7 +94,7 @@ for (String i : cars) {
 ```
 
 ## Break
-La declaración break también se puede utilizar para salir de un bucle.
+La declaración `break` también se puede utilizar para salir de un bucle.
 
 #### Ejemplo
 ```java

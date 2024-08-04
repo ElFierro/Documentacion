@@ -1,4 +1,4 @@
-## Metodos de clases
+# Metodos de clases
 
 ## Estático versus público
 

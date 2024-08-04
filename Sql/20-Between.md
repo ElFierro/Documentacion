@@ -1,4 +1,4 @@
-## Between
+# Between
  
 El operador BETWEEN selecciona valores dentro de un rango determinado. Los valores pueden ser números, texto o fechas.
 El operador BETWEEN es inclusivo: se incluyen los valores inicial y final. 

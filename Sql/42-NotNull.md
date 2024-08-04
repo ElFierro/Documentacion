@@ -1,4 +1,4 @@
-## Not null
+# Not null
 
 La restricción NOT NULL obliga a una columna a NO aceptar valores NULL.
 

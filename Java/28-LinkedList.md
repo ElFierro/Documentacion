@@ -1,4 +1,4 @@
-## Listas enlazadas
+# Listas enlazadas
 
 La clase LinkedList es casi idéntica a ArrayList:
 
@@ -23,7 +23,7 @@ La clase LinkedList es una colección que puede contener muchos objetos del mism
 La clase LinkedList tiene todos los mismos métodos que la clase ArrayList porque ambos implementan la interfaz List. Esto significa que puede agregar elementos, cambiar elementos, eliminar elementos y borrar la lista de la misma manera.
 
 ## Cuándo usar
-Utilice un ArrayList para almacenar y acceder a datos, y LinkedList para manipular datos.
+Utilice un `ArrayList` para almacenar y acceder a datos, y `LinkedList` para manipular datos.
 
 ## Metodos
 

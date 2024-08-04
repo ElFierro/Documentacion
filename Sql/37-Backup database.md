@@ -1,4 +1,4 @@
-## Backup database
+# Backup database
 La sentencia BACKUP DATABASE se utiliza en SQL Server para crear una copia de seguridad completa de una base de datos SQL existente.
 
 #### Sintaxis:

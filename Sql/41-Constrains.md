@@ -1,4 +1,4 @@
-## Restricciones
+# Restricciones
 
 Las restricciones SQL se utilizan para especificar reglas para los datos de una tabla.
 Las restricciones se pueden especificar cuando se crea la tabla con la sentencia CREATE TABLE o después de crear la tabla con la sentencia ALTER TABLE.

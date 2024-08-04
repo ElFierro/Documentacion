@@ -1,4 +1,4 @@
-## Not
+# Not
 El operador NOT se utiliza en combinación con otros operadores para dar el resultado opuesto
 
 #### Sintaxis:

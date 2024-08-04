@@ -1,4 +1,4 @@
-## Any & All
+# Any & All
 
 Los operadores ANY y ALL le permiten realizar una comparación entre un valor de una sola columna y un rango de otros valores.
 

@@ -1,4 +1,4 @@
-## ArrayList
+# ArrayList
 La clase ArrayList es una matriz de tamaño variable, que se puede encontrar en el paquete java.util.
 
 La diferencia entre un array y una ArrayList en Java es que el tamaño de una matriz no se puede modificar (si desea agregar o eliminar elementos a/de un array,debe crear una nueva). Mientras que los elementos se pueden agregar y eliminar ArrayList cuando lo desee. La sintaxis también es ligeramente diferente:

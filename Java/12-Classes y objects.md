@@ -1,4 +1,4 @@
-## Clases y objetos
+# Clases y objetos
 Todo en Java está asociado con clases y objetos, junto con sus atributos y métodos.
 
 ## Crear una clase

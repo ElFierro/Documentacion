@@ -1,4 +1,4 @@
-## Having
+# Having
 
 La cláusula HAVING se agregó a SQL porque la palabra clave WHERE no se puede usar con funciones agregadas.
 

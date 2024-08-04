@@ -1,7 +1,7 @@
-## Like
- El operador LIKE se utiliza en una cláusula WHERE para buscar un patrón específico en una columna.
+# Like
+El operador LIKE se utiliza en una cláusula WHERE para buscar un patrón específico en una columna.
  
- Hay dos comodines que se utilizan a menudo junto con el operador LIKE:
+Hay dos comodines que se utilizan a menudo junto con el operador LIKE:
 
 - El signo de porcentaje % representa cero, uno o varios caracteres.
 - El signo de subrayado _ representa un solo carácter.

@@ -1,4 +1,4 @@
-## Variables:
+# Variables:
 Las variables son contenedores para almacenar valores de datos.
 En Java existen diferentes tipos de variables, por ejemplo:
 
@@ -24,7 +24,7 @@ float pi;
 
 ## Variables finales:
 
-Si no desea que otros (o usted mismo) sobrescriban los valores existentes, use la finalpalabra clave (esto declarará la variable como "final" o "constante", lo que significa que no se puede cambiar y es de solo lectura):
+Si no desea que otros (o usted mismo) sobrescriban los valores existentes, use la finalpalabra clave (esto declarará la variable como `final` o `constante`, lo que significa que no se puede cambiar y es de solo lectura):
 
 ```java
 final int PI = 3,1416;

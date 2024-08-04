@@ -1,4 +1,4 @@
-## GROUP BY
+# GROUP BY
 
 El extracto GROUP BY agrupa filas que tienen los mismos valores en filas de resumen
 La sentencia GROUP BY se usa a menudo con funciones agregadas (COUNT(), MAX(), MIN(), SUM(), AVG()) para agrupar el conjunto de resultados en una o más columnas.

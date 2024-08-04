@@ -1,4 +1,4 @@
-## Null
+# Null
  
 No es posible probar valores NULL con operadores de comparación, como =, < o <>.
    

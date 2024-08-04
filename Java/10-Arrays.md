@@ -1,4 +1,4 @@
-## Matrices
+# Matrices
 
 ## Declarar
 Las matrices se utilizan para almacenar múltiples valores en una sola variable, en lugar de declarar variables separadas para cada valor.
@@ -39,7 +39,7 @@ for (int i = 0; i < cars.length; i++) {
 }
 ```
 
-También hay un bucle "for-each", que se utiliza exclusivamente para recorrer elementos en matrices:
+También hay un bucle `for-each`, que se utiliza exclusivamente para recorrer elementos en matrices:
 ```java
 for (String i : cars) {
   System.out.println(i);

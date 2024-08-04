@@ -1,4 +1,4 @@
-## Select into
+# Select into
 La sentencia SELECT INTO copia datos de una tabla en una tabla nueva.
 
 #### Sintaxis:

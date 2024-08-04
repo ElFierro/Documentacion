@@ -1,4 +1,4 @@
-## Paquetes
+# Paquetes
 Un paquete en Java se utiliza para agrupar clases relacionadas. 
 Piense en ello como una carpeta en un directorio de archivos.
 Usamos paquetes para evitar conflictos de nombres y escribir un código mejor mantenible.

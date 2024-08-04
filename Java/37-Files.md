@@ -1,6 +1,6 @@
-## Manejo de archivos
+# Manejo de archivos
 
-La clase File del paquete java.io nos permite trabajar con archivos.Para usar la clase File, cree un objeto de la clase y especifique el nombre del archivo o del directorio
+La clase File del paquete `java.io` nos permite trabajar con archivos.Para usar la clase File, cree un objeto de la clase y especifique el nombre del archivo o del directorio
 
 ```java
 import java.io.File;  // Import the File class
@@ -24,7 +24,7 @@ mkdir()           Boolean  //Crea un directorio
 
 ## Crear archivos
 
-Para crear un archivo, puede utilizar el método createNewFile(). Este método devuelve un valor booleano: 
+Para crear un archivo, puede utilizar el método `createNewFile()`. Este método devuelve un valor booleano: 
 true si el archivo se creó correctamente y false si el archivo ya existe.
 ```java
 import java.io.File;  // Import the File class
@@ -55,7 +55,7 @@ File myObj = new File("C:\\Users\\MyName\\filename.txt");
 
 ## Escribir un archivo
 
-usamos la clase FileWriter junto con su método write(). Tenga en cuenta que cuando haya terminado de escribir en el archivo, debe cerrarlo con el método close():
+usamos la clase FileWriter junto con su método `write()`. Tenga en cuenta que cuando haya terminado de escribir en el archivo, debe cerrarlo con el método `close()`:
 
 ```java
 import java.io.FileWriter;   // Import the FileWriter class
@@ -77,7 +77,7 @@ public class WriteToFile {
 ```
 ## Leer un archivo
 
-usamos la clase Scanner para leer el contenido del archivo de texto
+usamos la clase `Scanner` para leer el contenido del archivo de texto
 
 ```java
 Import java.io.File;  // Import the File class
@@ -127,8 +127,9 @@ public class GetFileInfo {
 
 ## Eliminar un archivo
 
+
+Para eliminar un archivo en Java, utilice el método `delete()`:
 ```java
-Para eliminar un archivo en Java, utilice el método delete():
 import java.io.File;  // Import the File class
 
 public class DeleteFile {

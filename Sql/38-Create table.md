@@ -1,4 +1,4 @@
-## Create Database
+# Create Database
 
 La sentencia CREATE TABLE se utiliza para crear una nueva tabla en una base de datos.
 

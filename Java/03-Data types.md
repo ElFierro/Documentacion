@@ -1,9 +1,9 @@
-## Tipo de datos:
+# Tipo de datos:
 
 Los tipos de datos se dividen en dos grupos:
 
-- Tipos de datos primitivos : incluye byte, short, int, long, float, double, boolean, y char
-- Tipos de datos no primitivos como String, matrices y clases
+- Tipos de datos primitivos : incluye `byte`, `short`, `int`, `long`, `float`, `double`, `boolean`, y `char`
+- Tipos de datos no primitivos como `String`, `matrices` y `clases`
 
 ## Numericos:
 Los tipos de números primitivos se dividen en dos grupos:
@@ -24,7 +24,7 @@ double myNum = 19.99d;
 ## Decimales:
 Debe utilizar un tipo de coma flotante siempre que necesite un número con un decimal, como 9,99 o 3,14515.
 
-Los tipos de datos floa ty double pueden almacenar números fraccionarios. Tenga en cuenta que debe finalizar el valor con una "f" para flotantes y una "d" para dobles:
+Los tipos de datos `float` y `double` pueden almacenar números fraccionarios. Tenga en cuenta que debe finalizar el valor con una "f" para flotantes y una "d" para dobles:
 
 ```java
 float f1 = 35e3f;		//35000.0

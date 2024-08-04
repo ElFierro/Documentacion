@@ -1,4 +1,4 @@
-## Entrada de usuario de Java (escáner)
+# Entrada de usuario de Java (escáner)
 La clase Scanner se utiliza para obtener información del usuario y se encuentra en el paquete java.util.
 
 import java.util.Scanner;  // Import the Scanner class

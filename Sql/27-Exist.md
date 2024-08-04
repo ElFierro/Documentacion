@@ -1,4 +1,4 @@
-## Exist
+# Exist
 El operador EXISTS se utiliza para probar la existencia de cualquier registro en una subconsulta.
 El operador EXIST devuelve VERDADERO si la subconsulta devuelve uno o más registros.
 

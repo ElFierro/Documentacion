@@ -1,4 +1,4 @@
-## Interfaz
+# Interfaz
 Una interfaz en el lenguaje de programación Java se define como un tipo abstracto utilizado para especificar el comportamiento de una clase. Una interfaz en Java es un modelo de un comportamiento. Una interfaz Java contiene constantes estáticas y métodos abstractos.
 
 Sintaxis:

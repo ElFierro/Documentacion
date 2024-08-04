@@ -1,4 +1,4 @@
-## Modificadores de acceso
+# Modificadores de acceso
 Dividimos los modificadores en dos grupos:
 
 - **Modificadores de acceso**: controla el nivel de acceso

@@ -1,4 +1,4 @@
-## Fecha y hora
+# Fecha y hora
 Java no tiene una clase de fecha incorporada, pero podemos importar el java.time paquete para que funcione con la API de fecha y hora
 
 - LocalDate            

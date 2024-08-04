@@ -1,4 +1,4 @@
-## Select distinct
+# Select distinct
 La sentencia SELECT DISTINCT se utiliza para devolver sólo valores distintos (diferentes).
 
 #### Sintaxis:

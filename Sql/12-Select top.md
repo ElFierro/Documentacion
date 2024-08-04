@@ -1,4 +1,4 @@
-## Select top
+# Select top
  
 La cláusula SELECT TOP se utiliza para especificar el número de registros a devolver.
 

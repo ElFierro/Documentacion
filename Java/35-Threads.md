@@ -1,4 +1,4 @@
-## Hilos
+# Hilos
 Threads permite que un programa funcione de manera más eficiente al hacer varias cosas al mismo tiempo.
 Los subprocesos se pueden utilizar para realizar tareas complicadas en segundo plano sin interrumpir el programa principal.
 
@@ -15,7 +15,7 @@ public class Main extends Thread {
 }
 ```
 
-- Otra forma de crear un hilo es implementar la interfaz Runnable:
+- Otra forma de crear un hilo es implementar la interfaz `Runnable`:
 
 ```java
 public class Main implements Runnable {
@@ -27,7 +27,7 @@ public class Main implements Runnable {
 
 ## Hilos de ejecucion
 
-Si la clase extiende la clase Thread, el hilo se puede ejecutar creando una instancia de la clase y llamando a su método start():
+Si la clase extiende la clase Thread, el hilo se puede ejecutar creando una instancia de la clase y llamando a su método `start()`:
 
 ```java
 public class Main extends Thread {
@@ -42,7 +42,7 @@ public class Main extends Thread {
   }
 }
 ```
-Si la clase implementa la interfaz Runnable, el hilo se puede ejecutar pasando una instancia de la clase al constructor de un objeto Thread y luego llamando al método start() del hilo.
+Si la clase implementa la interfaz `Runnable`, el hilo se puede ejecutar pasando una instancia de la clase al constructor de un objeto Thread y luego llamando al método `start()` del hilo.
 
 ```java
 public class Main implements Runnable {
@@ -61,8 +61,10 @@ public class Main implements Runnable {
 
 ## Diferencias entre "extender" e "implementar" hilos
 
-La principal diferencia es que cuando una clase extiende la clase Thread, no puede extender ninguna otra clase, pero al implementar la interfaz Runnable, también es posible extender desde otra clase, como: clase MyClass extends OtherClass implements Runnable.
-  
+La principal diferencia es que cuando una clase extiende la clase Thread, no puede extender ninguna otra clase, pero al implementar la interfaz Runnable, también es posible extender desde otra clase, como: 
+```java
+clase MyClass extends OtherClass implements Runnable.
+```
 ## Problemas de concurrencia
 
 Debido a que los subprocesos se ejecutan al mismo tiempo que otras partes del programa, no hay forma de saber en qué orden se ejecutará el código. Cuando los subprocesos y el programa principal leen y escriben las mismas variables, los valores son impredecibles. Los problemas que resultan de esto se denominan problemas de concurrencia.
@@ -85,7 +87,7 @@ public class Main extends Thread {
 } 
 ```
 
-Para evitar problemas de concurrencia, es mejor compartir la menor cantidad posible de atributos entre subprocesos. Si es necesario compartir atributos, una posible solución es utilizar el método isAlive() del subproceso para comprobar si el subproceso ha terminado de ejecutarse antes de utilizar cualquier atributo que el subproceso pueda cambiar.
+Para evitar problemas de concurrencia, es mejor compartir la menor cantidad posible de atributos entre subprocesos. Si es necesario compartir atributos, una posible solución es utilizar el método `isAlive()` del subproceso para comprobar si el subproceso ha terminado de ejecutarse antes de utilizar cualquier atributo que el subproceso pueda cambiar.
 
 ```java
 public class Main extends Thread {

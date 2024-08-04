@@ -1,4 +1,4 @@
-## Alter table
+# Alter table
 
 La sentencia ALTER TABLE se utiliza para agregar, eliminar o modificar columnas en una tabla existente.
 La sentencia ALTER TABLE también se utiliza para agregar y eliminar varias restricciones en una tabla existente.

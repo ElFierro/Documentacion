@@ -1,4 +1,4 @@
-## Union
+# Union
 
 El operador UNION se utiliza para combinar el conjunto de resultados de dos o más sentencias SELECT.
 

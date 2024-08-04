@@ -1,4 +1,4 @@
-## Drop table
+# Drop table
 
 La sentencia DROP TABLE se utiliza para eliminar una tabla existente en una base de datos.
 

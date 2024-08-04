@@ -1,4 +1,4 @@
-## Polimorfismo
+# Polimorfismo
 Polimorfismo significa "muchas formas" y ocurre cuando tenemos muchas clases que están relacionadas entre sí por herencia.
 
 La herencia nos permite heredar atributos y métodos de otra clase. El polimorfismo utiliza esos métodos para realizar diferentes tareas. Esto nos permite realizar una misma acción de diferentes maneras.

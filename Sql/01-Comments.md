@@ -1,4 +1,4 @@
-## Comentarios
+# Comentarios
 
 ## Comentarios de una sola línea
 

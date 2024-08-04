@@ -1,6 +1,6 @@
-## Iterador
+# Iterador
  
-Un Iterator es un objeto que se puede utilizar para recorrer colecciones, como ArrayList y HashSet. Se llama "iterador" porque "iterar" es el término técnico para bucles.
+Un Iterator es un objeto que se puede utilizar para recorrer colecciones, como `ArrayList` y `HashSet`. Se llama `iterador` porque "iterar" es el término técnico para bucles.
 
 ## Obtener un iterador
 
@@ -29,7 +29,7 @@ public class Main {
 ```
 
 ## Recorrer una coleccion
-Para recorrer una colección, utilice los métodos hasNext()y next()de Iterator:
+Para recorrer una colección, utilice los métodos `hasNext()` y `next()` de Iterator:
 
 ```java
 while(it.hasNext()) {
@@ -39,7 +39,7 @@ while(it.hasNext()) {
 
 ## Eliminar elementos de una colección
 
-Los iteradores están diseñados para cambiar fácilmente las colecciones que recorren. El método remove() puede eliminar elementos de una colección mientras se realiza un bucle.
+Los iteradores están diseñados para cambiar fácilmente las colecciones que recorren. El método `remove()` puede eliminar elementos de una colección mientras se realiza un bucle.
 
 ```java
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-## Drop database
+# Drop database
 
 La sentencia DROP DATABASE se utiliza para descartar una base de datos SQL existente.
 

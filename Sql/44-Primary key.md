@@ -1,4 +1,4 @@
-## Primary key
+# Primary key
 
 La restricción PRIMARY KEY identifica de forma única cada registro de una tabla.
 

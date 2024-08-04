@@ -1,4 +1,4 @@
-## Check 
+# Check 
 
 La restricción CHECK se utiliza para limitar el rango de valores que se puede colocar en una columna.
 

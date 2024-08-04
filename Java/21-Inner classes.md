@@ -1,4 +1,4 @@
-## Clases internas
+# Clases internas
 En Java, también es posible anidar clases (una clase dentro de una clase). El propósito de las clases anidadas es agrupar clases que van juntas, lo que hace que su código sea más legible y fácil de mantener.
 
 ```java

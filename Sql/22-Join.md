@@ -1,4 +1,4 @@
-## Join
+# Join
  
 Una cláusula JOIN se utiliza para combinar filas de dos o más tablas, en función de una columna relacionada entre ellas.
 

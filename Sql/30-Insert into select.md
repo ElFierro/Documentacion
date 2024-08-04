@@ -1,4 +1,4 @@
-## Insert into select
+# Insert into select
 
 La sentencia INSERT INTO SELECT copia datos de una tabla y los inserta en otra tabla.
 La sentencia INSERT INTO SELECT requiere que los tipos de datos en las tablas de origen y de destino coincidan.

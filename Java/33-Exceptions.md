@@ -27,8 +27,8 @@ Las excepciones integradas son las excepciones que están disponibles en las bib
 A veces, las excepciones integradas en Java no pueden describir una situación determinada. En tales casos, los usuarios también pueden crear excepciones, que se denominan "Excepciones definidas por el usuario". 
 
 ## Try catch
-La declaración try le permite definir un bloque de código que se probará en busca de errores mientras se ejecuta.
-La declaración catch le permite definir un bloque de código que se ejecutará si ocurre un error en el bloque de prueba.
+La declaración `try` le permite definir un bloque de código que se probará en busca de errores mientras se ejecuta.
+La declaración `catch` le permite definir un bloque de código que se ejecutará si ocurre un error en el bloque de prueba.
 
 ```java
 public class Main {
@@ -44,7 +44,7 @@ public class Main {
 ```
 
 ## Finally
-La declaración finally le permite ejecutar código, después de try...catch, independientemente del resultado:
+La declaración `finally` le permite ejecutar código, después de `try...catch`, independientemente del resultado:
 ```java
 public class Main {
   public static void main(String[] args) {
@@ -64,7 +64,7 @@ public class Main {
 La declaración throw le permite crear un error personalizado.
 La declaración throw se utiliza junto con un tipo de excepción. 
 Hay muchos tipos de excepciones disponibles en Java:
-ArithmeticException, FileNotFoundException,ArrayIndexOutOfBoundsException, SecurityExceptionetc:
+`ArithmeticException`, `FileNotFoundException`,`ArrayIndexOutOfBoundsException`, `SecurityExceptionetc`:
 
 ```java
 public class Main {

@@ -1,4 +1,4 @@
-## Case
+# Case
 
 La expresión CASE pasa por condiciones y devuelve un valor cuando se cumple la primera condición (como una sentencia si-entonces-si no). 
 Entonces, una vez que una condición es verdadera, dejará de leer y devolverá el resultado. 

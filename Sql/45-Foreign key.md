@@ -1,4 +1,4 @@
-## Foreign key
+# Foreign key
 La restricción FOREIGN KEY se utiliza para evitar acciones que destruirían vínculos entre tablas.
 Una FOREIGN KEY es un campo (o colección de campos) en una tabla, que hace referencia a PRIMARY KEY otra tabla.
 

@@ -1,4 +1,4 @@
-## Condicionales
+# Condicionales
 
 Ya sabes que Java soporta las condiciones lógicas habituales de las matemáticas:
 
@@ -19,7 +19,7 @@ Java tiene las siguientes declaraciones condicionales:
 - Se utiliza switchpara especificar muchos bloques alternativos de código que se ejecutarán.
 
 ## If
-Utilice la declaración if para especificar un bloque de código Java que se ejecutará si una condición es true.
+Utilice la declaración `if` para especificar un bloque de código Java que se ejecutará si una condición es true.
 
 #### Sintaxis
 
@@ -39,7 +39,7 @@ if (day == " Monday") // Condition
 }
 ```
 ## Else if
-Utilice la declaración else if para especificar una nueva condición si la primera condición es false.
+Utilice la declaración `else if` para especificar una nueva condición si la primera condición es false.
 
 #### Sintaxis
 ```ssh
@@ -64,7 +64,7 @@ if (myDay == " Sunny"){
 ```
 
 ## Else
-Utilice la declaración else para especificar un bloque de código que se ejecutará si la condición es false.
+Utilice la declaración `else` para especificar un bloque de código que se ejecutará si la condición es false.
 
 ```shh
 #### Sintaxis
@@ -85,7 +85,7 @@ if (myDay == " Sunny")//condition{
 ```
 
 ## Switch
-En lugar de escribir muchas declaraciones if..else , puede utilizar la switchdeclaración.
+En lugar de escribir muchas declaraciones if..else , puede utilizar la declaración `switch`.
 
 #### Sintaxis
 ```shh

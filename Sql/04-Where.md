@@ -1,4 +1,4 @@
-## Where
+# Where
 La cláusula WHERE se utiliza para filtrar registros.
 Se utiliza para extraer sólo aquellos registros que cumplen una condición específica.
 

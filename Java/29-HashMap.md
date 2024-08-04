@@ -1,5 +1,5 @@
-## HasMap
-almacena elementos en pares "clave/valor" y podrá acceder a ellos mediante un índice de otro tipo
+# HasMap
+almacena elementos en pares `clave/valor` y podrá acceder a ellos mediante un índice de otro tipo
 
 ## Crear
 
@@ -11,7 +11,7 @@ HashMap<String, String> capitalCities = new HashMap<String, String>();
 ## Agregar elementos
 
 ```java
-use el método put():
+use el método `put()`:
 
 // Import the HashMap class
 import java.util.HashMap;
@@ -32,26 +32,26 @@ public class Main {
 ```
 
 ## Acceder a un articulo
-Para acceder a un valor en HashMap, utilice el método get() y consulte su clave:
+Para acceder a un valor en `HashMap`, utilice el método `get()` y consulte su clave:
 
 ```java
 capitalCities.get("England");
 ```
 
 ## Eliminar un elemento
-Para eliminar un elemento, utilice el método remove() y consulte la clave:
+Para eliminar un elemento, utilice el método `remove()` y consulte la clave:
 
 ```java
 capitalCities.remove("England");
 ```
 
-Para eliminar todos los elementos, utilice el método clear():
+Para eliminar todos los elementos, utilice el método `clear()`:
 ```java
 capitalCities.clear();
 ```
 
 ## Tamaño
-Para saber cuántos elementos hay, utilice el método size():
+Para saber cuántos elementos hay, utilice el método `size()`:
 
 ```java  
 capitalCities.size();
@@ -60,7 +60,7 @@ capitalCities.size();
 ## Recorrer
 Recorra los elementos de con un bucle HashMap para cada uno .
 
-Nota: Utilice el método keySet() si solo desea las claves y utilice el método values() si solo desea los valores:
+**Nota**: Utilice el método `keySet()` si solo desea las claves y utilice el método `values()` si solo desea los valores:
 
 ```java  
 // Print keys

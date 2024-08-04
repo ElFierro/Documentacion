@@ -1,4 +1,4 @@
-## Unique 
+# Unique 
 
 La restricción UNIQUE garantiza que todos los valores de una columna sean diferentes.
 

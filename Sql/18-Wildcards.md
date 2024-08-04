@@ -1,4 +1,4 @@
-## Comodin
+# Comodin
  
  Se utiliza un carácter comodín para sustituir uno o más caracteres en una cadena.
 

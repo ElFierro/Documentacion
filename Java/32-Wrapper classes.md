@@ -1,4 +1,4 @@
-## Clases contenedoras
+# Clases contenedoras
 
 Las clases contenedoras proporcionan una forma de utilizar tipos de datos primitivos ( int, boolean, etc.) como objetos.
 ```ssh
@@ -12,7 +12,7 @@ boolean Boolean
 char    Character
 ```
 
-A veces debes usar clases contenedoras, por ejemplo cuando trabajas con objetos de Colección, como ArrayList, donde no se pueden usar tipos primitivos
+A veces debes usar clases contenedoras, por ejemplo cuando trabajas con objetos de Colección, como `ArrayList`, donde no se pueden usar tipos primitivos
 
 ```java
 ArrayList<Integer> myNumbers = new ArrayList<Integer>(); // Valid
@@ -34,7 +34,7 @@ public class Main {
 
 Como ahora está trabajando con objetos, puede utilizar ciertos métodos para obtener información sobre el objeto específico.
 Por ejemplo, los siguientes métodos se utilizan para obtener el valor asociado con el objeto contenedor correspondiente:
-intValue(), byteValue(), shortValue(), longValue(), floatValue(), doubleValue(), charValue(), booleanValue().
+`intValue()`, `byteValue()`, `shortValue()`, `longValue()`, `floatValue()`, `doubleValue()`, `charValue()`, `booleanValue()`.
 
 ```java
 public class Main {
@@ -49,7 +49,7 @@ public class Main {
 }
 ```
 
-Otro método útil es el método toString() que se utiliza para convertir objetos contenedores en cadenas.
+Otro método útil es el método `toString()` que se utiliza para convertir objetos contenedores en cadenas.
 
 ```java
 public class Main {

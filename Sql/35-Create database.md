@@ -1,4 +1,4 @@
-## Create database
+# Create database
 
 La sentencia CREATE DATABASE se utiliza para crear una nueva base de datos SQL.
 

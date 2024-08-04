@@ -1,4 +1,4 @@
-## And 
+# And 
   
 El operador AND se utiliza para filtrar registros en función de más de una condición
 

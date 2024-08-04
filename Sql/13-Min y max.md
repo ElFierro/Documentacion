@@ -1,4 +1,4 @@
-## Min()
+# Min()
 
 La función MIN() devuelve el valor más pequeño de la columna seleccionada.
 

@@ -1,4 +1,4 @@
-## Avg()
+# Avg()
 
 La función AVG() devuelve el valor promedio de una columna numérica.
 

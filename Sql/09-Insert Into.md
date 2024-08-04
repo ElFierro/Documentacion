@@ -1,4 +1,4 @@
-## Insert into
+# Insert into
 
 La sentencia INSERT INTO se utiliza para insertar nuevos registros en una tabla.
 
